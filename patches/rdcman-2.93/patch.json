@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "0.1.5",
+  "targetVersion": "2.93.1431.0",
+  "sourceSHA256": "D11CF847DF9DAC6EDA1891022986729EFE690B3DB8E6F876BEF4E7A6AFFFC759",
+  "fixedTextOccurrences": 604,
+  "uniqueEnglishTexts": 496,
+  "productName": "RDCMan 2.93 中文学习版（非官方）",
+  "dependency": {
+    "id": "Mono.Cecil",
+    "version": "0.11.6",
+    "url": "https://api.nuget.org/v3-flatcontainer/mono.cecil/0.11.6/mono.cecil.0.11.6.nupkg",
+    "packageSHA256": "D2A23832AAA948BA9A01ACC42B5726E34C5F995958F1B30D45C0E7C70B3A72D5",
+    "net40SHA256": "C41BDB9FFD3C5F6E17D2382C1012D73703E035E3F1100245FDD4E08C8DC6EB5B",
+    "netstandard20SHA256": "831DCA77470D85CB6FFBEA3072DAA7A3DF5B7C9FCFD9C3F43674A9BE99D4BFCF"
+  }
+}

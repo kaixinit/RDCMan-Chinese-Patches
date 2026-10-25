@@ -1,0 +1,2 @@
+# Preserve exact source bytes/BOM so source-manifest.json survives Git checkout.
+* -text

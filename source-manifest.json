@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "collectionVersion": "2026.10.25",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "69FE5D628D93445F90590CA9C3E2536E4ADD25F1D8349C2D00F0156B78A3DC46",
+      "bytes": 79
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "2F3FD32F1A89B32BCC7427C9B6DCD95A81DE2BFA93C836D9A290AABE7CB1DB13",
+      "bytes": 894
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "A331FA07EAB74A171342DF4BED46E7EAE716C2E45115F19F1678AFD26A2A21BB",
+      "bytes": 477
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "BADC20797A8BD758A00D1228DEBDA61EBD0004504AF9B1401F0B768DFDC493CF",
+      "bytes": 767
+    },
+    {
+      "path": "docs/GITHUB.md",
+      "sha256": "A9FC4244E8C514A704797DA3B43D0D6C8C9FE2B477847D2FF3E9EA93E27F14F3",
+      "bytes": 2960
+    },
+    {
+      "path": "docs/USAGE.md",
+      "sha256": "77744A6FBE82473507549F18426686E0BA2E6CEB45E08B68E210E86C7A47B75E",
+      "bytes": 5895
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "D7E3AF8B65F6A036DF5D81053A3998651A1DC2A7B6AA39B3DB3C6D78203B0C39",
+      "bytes": 3039
+    },
+    {
+      "path": "docs/VERSIONS.md",
+      "sha256": "E7C9CC6462C44BBEAFB49AE7EEAB5D8C74E54D83235DAC83CAA3E0C72628D0F7",
+      "bytes": 1592
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "D111154141D53CCCEF748A930CCE65C75AAE533217387DCEAAFCA576BFABF3EA",
+      "bytes": 1237
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "183CD041564E40BEF07019B0608A735DEE47008E2E92057C15F96DD7C3036184",
+      "bytes": 2225
+    },
+    {
+      "path": "Package-Source.ps1",
+      "sha256": "04780E46E6251FF2C9CA8AF243BFD7E77B9942EC9E1E95F5C38FD0A0B11A69B9",
+      "bytes": 1706
+    },
+    {
+      "path": "patches/rdcman-2.93/.gitattributes",
+      "sha256": "9CC1D40EAB858CD63A5219783AB2DBD5770008F618FC0E9F00D04AB220AF350E",
+      "bytes": 89
+    },
+    {
+      "path": "patches/rdcman-2.93/.gitignore",
+      "sha256": "F9DFF9968BA335AC2CF08463C2F861CAFCAC6DF296A0B24317A52B547EE762AE",
+      "bytes": 258
+    },
+    {
+      "path": "patches/rdcman-2.93/Apply-RdcManPatch.ps1",
+      "sha256": "3B33CFA54A226CBFADE076A0BDBCEA2BA0FD9A32EFC9B7DC626229C956CED4A4",
+      "bytes": 6613
+    },
+    {
+      "path": "patches/rdcman-2.93/CHANGELOG.md",
+      "sha256": "9884949C6CBB03B7118D9AAD93AE4E30C8826BE9ACB507761D963317A786B58E",
+      "bytes": 2782
+    },
+    {
+      "path": "patches/rdcman-2.93/docs/维护说明.md",
+      "sha256": "98802FC5DF7FE4C95B38C951CAD4B58371AE4C11E81FFCF4EF687BE10DD98A62",
+      "bytes": 5265
+    },
+    {
+      "path": "patches/rdcman-2.93/docs/验证记录.md",
+      "sha256": "C37354C5D82981CD6A4D5F2B2D87FC34B7EC2A3E9A1DD0993A7B7152A673DC7C",
+      "bytes": 9414
+    },
+    {
+      "path": "patches/rdcman-2.93/docs/依赖说明.md",
+      "sha256": "DB6D5C94AE7EC9C63F44A0BED9809AB67AF489E5EF149C483F54F7FCAE349145",
+      "bytes": 1265
+    },
+    {
+      "path": "patches/rdcman-2.93/docs/中英对照.tsv",
+      "sha256": "6BD6CB52AB14579B75302032D0012A25591AD4976927114589BA31519C8704A9",
+      "bytes": 42342
+    },
+    {
+      "path": "patches/rdcman-2.93/NOTICE.md",
+      "sha256": "5ED0DEBBA2480CB482BFC471B8EF0FC08D20E7BDC5B681CB17BD1622CF446713",
+      "bytes": 1483
+    },
+    {
+      "path": "patches/rdcman-2.93/Package-Source.ps1",
+      "sha256": "4A6A8D97ED3E24883176F2B4457B36011CAB5254C826E0742872B335BED4816A",
+      "bytes": 2075
+    },
+    {
+      "path": "patches/rdcman-2.93/patch.json",
+      "sha256": "42CBD40CD5D28B664BFF600A834AC2134D8121209373290064F1472B3BAD7982",
+      "bytes": 751
+    },
+    {
+      "path": "patches/rdcman-2.93/patches/translations.json",
+      "sha256": "02ABD54E8892417710F07FD856CF26C035ABEEDE7DE7861CA8EFF94DB4983C62",
+      "bytes": 157795
+    },
+    {
+      "path": "patches/rdcman-2.93/Prepare-Dependency.ps1",
+      "sha256": "ECD9B914944CF2C8031AE092D7BA827384215B585DDE7B80D5A55A9E1DE116B7",
+      "bytes": 2895
+    },
+    {
+      "path": "patches/rdcman-2.93/README.md",
+      "sha256": "9FEB22D45FDC7D7FE0C916971A480C22348887FF6A7FA3D2F9133DB25E1BD03F",
+      "bytes": 3267
+    },
+    {
+      "path": "patches/rdcman-2.93/Restore-RdcManPatch.ps1",
+      "sha256": "7211A0171A10B7479FC2FE0F3E6A848AC30773E151EAA1329F244E12018D4A7C",
+      "bytes": 2473
+    },
+    {
+      "path": "patches/rdcman-2.93/scripts/Apply-Strings.ps1",
+      "sha256": "61830D15E01D9AB967566E397B9679D242CFA832173640E80498B4E803BE144C",
+      "bytes": 5954
+    },
+    {
+      "path": "patches/rdcman-2.93/scripts/Apply-Ui.ps1",
+      "sha256": "FBE025BC0224F179B501EEE7B1B15B0EF1FB2387E68580CB22C3640FF579A57B",
+      "bytes": 23426
+    },
+    {
+      "path": "patches/rdcman-2.93/scripts/Common.ps1",
+      "sha256": "59107937C54EB6516A2FB074430A6051D5A96045D8534EC2A83035598CE3D3B6",
+      "bytes": 4708
+    },
+    {
+      "path": "patches/rdcman-2.93/scripts/Verify-Pe.ps1",
+      "sha256": "D811761F814AD1EE8F8ADFF5949B73DC7EF4CE355A81A3302B2059B85DE980CE",
+      "bytes": 3941
+    },
+    {
+      "path": "patches/rdcman-2.93/source-manifest.json",
+      "sha256": "E059FE1CCBAD908331B810FF766F0B11B7EDC2C6FF57A9EF1E5DF132C008DE47",
+      "bytes": 3693
+    },
+    {
+      "path": "patches/rdcman-2.93/Test-RdcManPatch.ps1",
+      "sha256": "081F156A2D44368D4166A68249EDAF46504A7FC310E2A136FBBA52DD31E232D2",
+      "bytes": 1728
+    },
+    {
+      "path": "patches/rdcman-2.93/tests/RuntimeChecks.cs",
+      "sha256": "ADA58A82266AE3D4296D401C8E312294591487E032CDBF2FDD00AFF7E75E83C8",
+      "bytes": 7946
+    },
+    {
+      "path": "patches/rdcman-2.93/tests/Test-Workflow.ps1",
+      "sha256": "9F995DEB437BB2D15AFABFFB608529FF10731C87AD7397358C950C7301EB38AB",
+      "bytes": 4603
+    },
+    {
+      "path": "patches/rdcman-2.93/Update-SourceManifest.ps1",
+      "sha256": "F950A1F0EA965A0407F01ABEDB7EEDAB73E3B11AF81975E9C7B9B9EE70713BC3",
+      "bytes": 1344
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/.gitattributes",
+      "sha256": "B4A2F9C26F5AA5002C6B7B02E570B9438FCC0B169C2A5F137C755E6556F55B60",
+      "bytes": 91
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/.gitignore",
+      "sha256": "C8338712BC67029424ABF48BF33237DE7D359527F2D8A5010184ADC9286DA807",
+      "bytes": 277
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/Apply-RdcManPatch.ps1",
+      "sha256": "F7A630D84F66CA94BDC26086E2B444151724BBA73F60A8D16A5F4F0D03886F45",
+      "bytes": 6927
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/CHANGELOG.md",
+      "sha256": "49E9F0ED421A4780F84AD715E5FAC0252CD2306AAA22C9FD0A47A33C68A259B1",
+      "bytes": 1526
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/docs/维护说明.md",
+      "sha256": "F72D9AAAE15634349BECDF405C78CAA76ED9A2FA74CEAAA8DCE8BEFA1B3D89E8",
+      "bytes": 3250
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/docs/验证记录.md",
+      "sha256": "DE114DC0AADC372437FC1D74317E0EC6605F71A89717E348DBE152B49609EF9B",
+      "bytes": 5083
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/docs/依赖说明.md",
+      "sha256": "CE9A48BEC2ADFC1D153EAFD6333482921C158F1073CC2067C6B9251A202E5CAD",
+      "bytes": 1804
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/docs/中英对照.tsv",
+      "sha256": "92533C9803457EE4B979EB90162DC67607EB34726F98CCA35B793AB80CA95654",
+      "bytes": 58476
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/NOTICE.md",
+      "sha256": "F029901307C8A056FB9713306A5CB3B004A3273B6C59CCE37655787A94FE1E4D",
+      "bytes": 1498
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/Package-Source.ps1",
+      "sha256": "EA825BD41E46ED9126425FB614BD0AA4BF06C573DD4446FCD7731A0296468151",
+      "bytes": 2081
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/patch.json",
+      "sha256": "1BA8552507105409843C7C23BA0038305E6B20AD3A40AF84F3777D948C9F9BFC",
+      "bytes": 905
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/patches/translations.json",
+      "sha256": "DADE026E1C8692145FE76251ECD3742955990952E7EEEAABA7FE7ECC1A070B31",
+      "bytes": 204935
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/Prepare-Dependency.ps1",
+      "sha256": "4DCF52ABCD27D8D95A0403C411F8DF1D9E3F9EFABC6AFF33878921E1D0CF5BE3",
+      "bytes": 2940
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/README.md",
+      "sha256": "DCE57342548D0A9EDCF6E2844AA42AFA4C1613F263FC06C84F52FA9DD33D87E9",
+      "bytes": 3343
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/Restore-RdcManPatch.ps1",
+      "sha256": "EE968946E8B92B7EC0CA92A4AAE6FCE58417CDDB229E6195EE26B8B964473B85",
+      "bytes": 2509
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/scripts/Apply-Strings.ps1",
+      "sha256": "8AE57FA9859C847BE1F804CD44AEC184689A6F34327B445E383EAC50EA699E01",
+      "bytes": 6226
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/scripts/Apply-Ui.ps1",
+      "sha256": "717AB05C5B889558F27FB2FDAA228ADF6F4FD666C0A22804A01AB729516D02A5",
+      "bytes": 24656
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/scripts/Bundle.py",
+      "sha256": "48FD748FD5E7E23E879BC573A54D9ACFDE161211AA83E42A0C9F860C75AE44AC",
+      "bytes": 10166
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/scripts/Common.ps1",
+      "sha256": "105B7F80FC2F1B817D6224B2F515FEF7F5F93B5587EED97B3E2F1CC9E8122616",
+      "bytes": 4506
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/source-manifest.json",
+      "sha256": "B8DBB4882FC7D5F96576413F1BDBD92803C3E6D699145435490423F86A54104F",
+      "bytes": 3528
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/Test-RdcManPatch.ps1",
+      "sha256": "ACC335A8677471755ED6A32B79EC8854A72B58110017F07D9E12F5CC8D5312E9",
+      "bytes": 1988
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/tests/Test-Workflow.ps1",
+      "sha256": "05A66232DD6BCBE05EAE2B25AACB9EDA9F883691FAAA5E2674D7BA06D8E60A28",
+      "bytes": 4762
+    },
+    {
+      "path": "patches/rdcman-3.22-x64/Update-SourceManifest.ps1",
+      "sha256": "2CBD2D3D8191274E1F0CCFAFF3EA4383608ADC2D917251544E74AD6355E4B5AA",
+      "bytes": 1196
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/.gitattributes",
+      "sha256": "B4A2F9C26F5AA5002C6B7B02E570B9438FCC0B169C2A5F137C755E6556F55B60",
+      "bytes": 91
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/.gitignore",
+      "sha256": "C8338712BC67029424ABF48BF33237DE7D359527F2D8A5010184ADC9286DA807",
+      "bytes": 277
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Apply-RdcManPatch.ps1",
+      "sha256": "6484EF9FDAC7A6729BA26BCBD650099CEF3D242F20657E9BD2EDF96381A33AF4",
+      "bytes": 8444
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/CHANGELOG.md",
+      "sha256": "F7ABF682464B77E053BE58B8204BE7A22D8898A551360C03DDDD29C3D5E51582",
+      "bytes": 2586
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/docs/维护说明.md",
+      "sha256": "7A76270FF62F91F9EAB077E9F9549CB787A29F902D66051DCF0EF626588826E6",
+      "bytes": 4093
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/docs/验证记录.md",
+      "sha256": "8B1235617227709A1A4D3BEC76C1083EDFD94181921E6A660D5B390503F7521B",
+      "bytes": 5992
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/docs/依赖说明.md",
+      "sha256": "B60070DD40C30C135BAA56C9E3F8B4EDA974A8AE68338B7F4FBF6B7EE4C681E6",
+      "bytes": 2981
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/docs/中英对照.tsv",
+      "sha256": "92533C9803457EE4B979EB90162DC67607EB34726F98CCA35B793AB80CA95654",
+      "bytes": 58476
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/NOTICE.md",
+      "sha256": "60664D91AC2F4267FC4107E2DA7D251570C510B24D37C5C60971EDAECFE6D7CB",
+      "bytes": 1772
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Package-Source.ps1",
+      "sha256": "9E2549CAAF298BDE823FFAC2AF34AC6E9CC4FE8C2F389C946D08A416E5F88508",
+      "bytes": 2085
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/patch.json",
+      "sha256": "2CEE1439638587B69775A6072AADA9BEB8E513D74E8CE802126E4682E764AD1F",
+      "bytes": 2379
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/patches/translations.json",
+      "sha256": "DADE026E1C8692145FE76251ECD3742955990952E7EEEAABA7FE7ECC1A070B31",
+      "bytes": 204935
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Prepare-Dependency.ps1",
+      "sha256": "4DCF52ABCD27D8D95A0403C411F8DF1D9E3F9EFABC6AFF33878921E1D0CF5BE3",
+      "bytes": 2940
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Prepare-Runtime.ps1",
+      "sha256": "5AB028E695F974C7E28E72536DEBA6796A5BCCCDDCB6A74AAF08B963CC887036",
+      "bytes": 2929
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/README.md",
+      "sha256": "989D1A9A75AEC3193188174DB27429B44DD1A100F692174897F733E32ADE6498",
+      "bytes": 3699
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Restore-RdcManPatch.ps1",
+      "sha256": "49243F902AB859450595956EF8BFB4D899A6B7E458BC1571FFCC18E25993885F",
+      "bytes": 2513
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/scripts/Apply-Strings.ps1",
+      "sha256": "0D7FD889E518263ABF2EF143C68B1127B0C2E47DF42CF73BF26E0B6267540712",
+      "bytes": 6244
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/scripts/Apply-Ui.ps1",
+      "sha256": "717AB05C5B889558F27FB2FDAA228ADF6F4FD666C0A22804A01AB729516D02A5",
+      "bytes": 24656
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/scripts/Bundle.py",
+      "sha256": "51C2753E049D9A82D48C78971F891BC6F402E777C7BADB49E88B8260AE9A9777",
+      "bytes": 12301
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/scripts/Common.ps1",
+      "sha256": "97A9C6BC2128F6837F5409C6D66285C934B3CD4E7116FF7DB0E1D4FF2EE08754",
+      "bytes": 5489
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/scripts/Runtime.py",
+      "sha256": "AE977B6D38DAA95D7927EF7A6CED0460ECE60EDBB50711E8D546B7D877398CEA",
+      "bytes": 4545
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/source-manifest.json",
+      "sha256": "1D1C4EB20D8D5978483DE3E962A44BE9DB9A48E13320449779E7F651AA33E0EE",
+      "bytes": 3846
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Test-RdcManPatch.ps1",
+      "sha256": "BE69DF7E61ABF156614663E3A0DDB065442638CD6C49A246ED31EDC601F0BC7D",
+      "bytes": 2191
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/tests/Test-Workflow.ps1",
+      "sha256": "78C5D06CBE04A67038BAF234B0162480608CC3FE08EEF4813E892486E28B5414",
+      "bytes": 5358
+    },
+    {
+      "path": "patches/rdcman-3.22-x86/Update-SourceManifest.ps1",
+      "sha256": "FE9ADEA337C43BC7C0D2525780EF2C0A94E46DAA39DC0BA5E7EC8519DB8ACA50",
+      "bytes": 1258
+    },
+    {
+      "path": "README.md",
+      "sha256": "D1A01BF2888DCD3D7C780E592E68997E1DA74529F71D5031132F71B06ED63100",
+      "bytes": 4848
+    },
+    {
+      "path": "repository.json",
+      "sha256": "A62002AC761CD15D7BC68A61ACA938C8F9E4227414725CFF2F87F89FDFAA97D2",
+      "bytes": 1005
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "6C46275EB4A9946E6C578A607BF869FD177DF900DD274A810C4C0A27172C36F9",
+      "bytes": 1741
+    },
+    {
+      "path": "tools/Test-Source.ps1",
+      "sha256": "AA071BA0FE1A776C1B55EA3064CF7A1F24E5C02420679AC76589C7373755D653",
+      "bytes": 4129
+    },
+    {
+      "path": "tools/Update-SourceManifest.ps1",
+      "sha256": "9E2081A0095543656FA00F45F34ACA0589F2EB492B0A58BCE68EC847AE1DA640",
+      "bytes": 1807
+    }
+  ]
+}

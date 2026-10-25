@@ -1,0 +1,19 @@
+# Original/generated application files and private connection data must stay local.
+.local/
+build/
+dist/
+backup/
+.rdcman-patch-*/
+*.exe
+*.dll
+*.pdb
+*.nupkg
+*.zip
+*.bak
+*.rdg
+*.settings
+*.settings.*
+patch-report.json
+*-recheck.json
+workflow-report.json
+*.log

@@ -1,0 +1,4834 @@
+[
+  {
+    "Id": 1,
+    "Type": "RdcMan.About",
+    "Method": "System.Void RdcMan.About::InitializeComponent(System.Boolean)",
+    "Index": 21,
+    "English": "{0} v{1}",
+    "Chinese": "{0}  版本 {1}"
+  },
+  {
+    "Id": 2,
+    "Type": "RdcMan.About",
+    "Method": "System.Void RdcMan.About::InitializeComponent(System.Boolean)",
+    "Index": 53,
+    "English": "Copyright © 2023 Microsoft. By Julian Burger",
+    "Chinese": "版权所有 © 2023 Microsoft · 作者 Julian Burger"
+  },
+  {
+    "Id": 4,
+    "Type": "RdcMan.About",
+    "Method": "System.Void RdcMan.About::InitializeComponent(System.Boolean)",
+    "Index": 85,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 5,
+    "Type": "RdcMan.About",
+    "Method": "System.Void RdcMan.About::InitializeComponent(System.Boolean)",
+    "Index": 162,
+    "English": "About Remote Desktop Connection Manager",
+    "Chinese": "关于远程桌面连接管理器 2.93"
+  },
+  {
+    "Id": 7,
+    "Type": "RdcMan.AddNodeDialogHelper",
+    "Method": "System.Void RdcMan.AddNodeDialogHelper::AddServersDialog(System.Windows.Forms.TreeNode)",
+    "Index": 12,
+    "English": "RDCMan does not allow mixing of servers and groups. If you add a server to a top-level file group you will not be able to add any groups to that file. Continue?",
+    "Chinese": "RDCMan 不允许在同一分组中混放服务器和子分组。向顶层文件分组添加服务器后，该文件中将不能再添加子分组。是否继续？"
+  },
+  {
+    "Id": 8,
+    "Type": "RdcMan.AddNodeDialogHelper",
+    "Method": "System.Void RdcMan.AddNodeDialogHelper::AddServersDialog(System.Windows.Forms.TreeNode)",
+    "Index": 27,
+    "English": "RDCMan does not allow mixing of servers and groups. In order to add a group to this file you must first remove the servers.",
+    "Chinese": "RDCMan 不允许混放服务器和子分组。请先移除此文件中的服务器，再添加子分组。"
+  },
+  {
+    "Id": 9,
+    "Type": "RdcMan.AddNodeDialogHelper",
+    "Method": "System.Void RdcMan.AddNodeDialogHelper::AddGroupDialog(System.Windows.Forms.TreeNode)",
+    "Index": 13,
+    "English": "RDCMan does not allow mixing of servers and groups. In order to add a group to this file you must first remove the servers.",
+    "Chinese": "RDCMan 不允许混放服务器和子分组。请先移除此文件中的服务器，再添加子分组。"
+  },
+  {
+    "Id": 10,
+    "Type": "RdcMan.AddNodeDialogHelper",
+    "Method": "System.Void RdcMan.AddNodeDialogHelper::AddSmartGroupDialog(System.Windows.Forms.TreeNode)",
+    "Index": 13,
+    "English": "RDCMan does not allow mixing of servers and groups. In order to add a group to this file you must first remove the servers.",
+    "Chinese": "RDCMan 不允许混放服务器和子分组。请先移除此文件中的服务器，再添加子分组。"
+  },
+  {
+    "Id": 11,
+    "Type": "RdcMan.AddNodeDialogHelper",
+    "Method": "System.Void RdcMan.AddNodeDialogHelper::NotifyUserFileNeeded()",
+    "Index": 0,
+    "English": "Please open an existing non-read-only file (File.Open) or create a new one (File.New) before adding servers/groups",
+    "Chinese": "添加服务器或分组前，请先打开可写文件（文件→打开），或创建新文件（文件→新建）。"
+  },
+  {
+    "Id": 12,
+    "Type": "RdcMan.ArgumentParser",
+    "Method": "System.Void RdcMan.ArgumentParser::Parse()",
+    "Index": 23,
+    "English": "Unexpected switch: ",
+    "Chinese": "未知的命令行参数："
+  },
+  {
+    "Id": 13,
+    "Type": "RdcMan.ArgumentParser",
+    "Method": "System.Void RdcMan.ArgumentParser::Parse()",
+    "Index": 50,
+    "English": "Switch ",
+    "Chinese": "参数 "
+  },
+  {
+    "Id": 14,
+    "Type": "RdcMan.ArgumentParser",
+    "Method": "System.Void RdcMan.ArgumentParser::Parse()",
+    "Index": 54,
+    "English": " requires an argument",
+    "Chinese": " 需要指定值"
+  },
+  {
+    "Id": 21,
+    "Type": "RdcMan.InheritanceControl",
+    "Method": "System.Void RdcMan.InheritanceControl::Create(System.Windows.Forms.Control,System.Int32&,System.Int32&)",
+    "Index": 29,
+    "English": "In&herit from parent",
+    "Chinese": "继承父级设置(&H)"
+  },
+  {
+    "Id": 22,
+    "Type": "RdcMan.InheritanceControl",
+    "Method": "System.Void RdcMan.InheritanceControl::SourceButton_TextChanged(System.Object,System.EventArgs)",
+    "Index": 42,
+    "English": "Source: ...",
+    "Chinese": "来源：…"
+  },
+  {
+    "Id": 23,
+    "Type": "RdcMan.InheritanceControl",
+    "Method": "System.Void RdcMan.InheritanceControl::SourceButton_TextChanged(System.Object,System.EventArgs)",
+    "Index": 45,
+    "English": "Source: ",
+    "Chinese": "来源："
+  },
+  {
+    "Id": 24,
+    "Type": "RdcMan.InheritanceControl",
+    "Method": "System.Void RdcMan.InheritanceControl::Enable(System.Boolean,System.String)",
+    "Index": 5,
+    "English": "These settings are unavailable {0}",
+    "Chinese": "这些设置不可用：{0}"
+  },
+  {
+    "Id": 25,
+    "Type": "RdcMan.InheritanceControl",
+    "Method": "System.Void RdcMan.InheritanceControl::OnSettingChanged()",
+    "Index": 53,
+    "English": "Source: ",
+    "Chinese": "来源："
+  },
+  {
+    "Id": 26,
+    "Type": "RdcMan.InheritanceControl",
+    "Method": "System.Void RdcMan.InheritanceControl::OnSettingChanged()",
+    "Index": 62,
+    "English": "Source: Default settings group",
+    "Chinese": "来源：默认分组"
+  },
+  {
+    "Id": 33,
+    "Type": "RdcMan.HotKeyBox",
+    "Method": "System.Void RdcMan.HotKeyBox::set_HotKey(System.Windows.Forms.Keys)",
+    "Index": 49,
+    "English": " (num pad)",
+    "Chinese": "（数字小键盘）"
+  },
+  {
+    "Id": 34,
+    "Type": "RdcMan.SizeHelper",
+    "Method": "System.Drawing.Size RdcMan.SizeHelper::Parse(System.String)",
+    "Index": 19,
+    "English": "Bad Size string '{0}'",
+    "Chinese": "尺寸格式无效：“{0}”"
+  },
+  {
+    "Id": 38,
+    "Type": "RdcMan.PointHelper",
+    "Method": "System.Drawing.Point RdcMan.PointHelper::Parse(System.String)",
+    "Index": 15,
+    "English": "Bad Point string '{0}'",
+    "Chinese": "坐标格式无效：“{0}”"
+  },
+  {
+    "Id": 51,
+    "Type": "RdcMan.CredentialsUI",
+    "Method": "System.Void RdcMan.CredentialsUI::AddControlsToParent(System.Windows.Forms.Control,RdcMan.LogonCredentialsDialogOptions,System.Int32&,System.Int32&)",
+    "Index": 6,
+    "English": "Profile",
+    "Chinese": "凭据配置"
+  },
+  {
+    "Id": 52,
+    "Type": "RdcMan.CredentialsUI",
+    "Method": "System.Void RdcMan.CredentialsUI::AddControlsToParent(System.Windows.Forms.Control,RdcMan.LogonCredentialsDialogOptions,System.Int32&,System.Int32&)",
+    "Index": 39,
+    "English": "Save",
+    "Chinese": "保存"
+  },
+  {
+    "Id": 53,
+    "Type": "RdcMan.CredentialsUI",
+    "Method": "System.Void RdcMan.CredentialsUI::AddControlsToParent(System.Windows.Forms.Control,RdcMan.LogonCredentialsDialogOptions,System.Int32&,System.Int32&)",
+    "Index": 83,
+    "English": "&User name:",
+    "Chinese": "用户名(&U)："
+  },
+  {
+    "Id": 54,
+    "Type": "RdcMan.CredentialsUI",
+    "Method": "System.Void RdcMan.CredentialsUI::AddControlsToParent(System.Windows.Forms.Control,RdcMan.LogonCredentialsDialogOptions,System.Int32&,System.Int32&)",
+    "Index": 96,
+    "English": "&Password:",
+    "Chinese": "密码(&P)："
+  },
+  {
+    "Id": 55,
+    "Type": "RdcMan.CredentialsUI",
+    "Method": "System.Void RdcMan.CredentialsUI::AddControlsToParent(System.Windows.Forms.Control,RdcMan.LogonCredentialsDialogOptions,System.Int32&,System.Int32&)",
+    "Index": 113,
+    "English": "&Domain:",
+    "Chinese": "域(&D)："
+  },
+  {
+    "Id": 59,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.Void RdcMan.Encryption::DecryptPasswords()",
+    "Index": 3,
+    "English": "There were problems decrypting some credentials.",
+    "Chinese": "部分凭据解密失败。"
+  },
+  {
+    "Id": 60,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.Void RdcMan.Encryption::DecryptPasswords()",
+    "Index": 6,
+    "English": "Click OK to copy the details to the clipboard.",
+    "Chinese": "点击“确定”将详细信息复制到剪贴板。"
+  },
+  {
+    "Id": 61,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.Boolean RdcMan.Encryption::DecryptPassword(RdcMan.DeferDecryptionItem,System.Text.StringBuilder,System.String,System.Boolean&)",
+    "Index": 37,
+    "English": "Default settings group",
+    "Chinese": "默认分组"
+  },
+  {
+    "Id": 65,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::EncryptionMethodToString(RdcMan.EncryptionMethod)",
+    "Index": 5,
+    "English": "Certificate",
+    "Chinese": "证书"
+  },
+  {
+    "Id": 66,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::EncryptionMethodToString(RdcMan.EncryptionMethod)",
+    "Index": 7,
+    "English": "Logged on user's credentials",
+    "Chinese": "当前登录用户的凭据"
+  },
+  {
+    "Id": 69,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.Security.Cryptography.X509Certificates.X509Certificate2 RdcMan.Encryption::SelectCertificate()",
+    "Index": 33,
+    "English": "Select Certificate",
+    "Chinese": "选择证书"
+  },
+  {
+    "Id": 70,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.Security.Cryptography.X509Certificates.X509Certificate2 RdcMan.Encryption::SelectCertificate()",
+    "Index": 34,
+    "English": "Select a certificate for secure password storage",
+    "Chinese": "选择用于安全保存密码的证书"
+  },
+  {
+    "Id": 71,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::EncryptString(System.String,RdcMan.EncryptionSettings)",
+    "Index": 22,
+    "English": "Unexpected encryption method '{0}'",
+    "Chinese": "未知的加密方式：'{0}'"
+  },
+  {
+    "Id": 72,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::EncryptStringUsingLocalUser(System.String)",
+    "Index": 57,
+    "English": "Unable to encrypt password",
+    "Chinese": "无法加密密码"
+  },
+  {
+    "Id": 73,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::DecryptString(System.String,RdcMan.EncryptionSettings)",
+    "Index": 26,
+    "English": "Certificate '{0}' with thumbprint '{1}' not found",
+    "Chinese": "未找到证书“{0}”（指纹：{1}）"
+  },
+  {
+    "Id": 74,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::DecryptString(System.String,RdcMan.EncryptionSettings)",
+    "Index": 49,
+    "English": "Unexpected encryption method '{0}'",
+    "Chinese": "未知的加密方式：'{0}'"
+  },
+  {
+    "Id": 75,
+    "Type": "RdcMan.Encryption",
+    "Method": "System.String RdcMan.Encryption::DecryptStringUsingLocalUser(System.String)",
+    "Index": 55,
+    "English": "Failed to decrypt using {0} credential",
+    "Chinese": "无法使用 {0} 凭据解密"
+  },
+  {
+    "Id": 76,
+    "Type": "RdcMan.Encryption/<>c__DisplayClass2_0",
+    "Method": "System.Void RdcMan.Encryption/<>c__DisplayClass2_0::<DecryptPasswords>b__1(RdcMan.DeferDecryptionItem)",
+    "Index": 3,
+    "English": "Credentials profiles:",
+    "Chinese": "凭据配置："
+  },
+  {
+    "Id": 77,
+    "Type": "RdcMan.Encryption/<>c__DisplayClass2_0",
+    "Method": "System.Void RdcMan.Encryption/<>c__DisplayClass2_0::<DecryptPasswords>b__3(RdcMan.DeferDecryptionItem)",
+    "Index": 3,
+    "English": "Custom passwords:",
+    "Chinese": "自定义密码："
+  },
+  {
+    "Id": 80,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.Void RdcMan.AddCredentialsDialog::.ctor(RdcMan.RdcTreeNode)",
+    "Index": 1,
+    "English": "Add Credentials",
+    "Chinese": "添加凭据"
+  },
+  {
+    "Id": 81,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.Void RdcMan.AddCredentialsDialog::.ctor(RdcMan.RdcTreeNode)",
+    "Index": 2,
+    "English": "Save",
+    "Chinese": "保存"
+  },
+  {
+    "Id": 82,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.Void RdcMan.AddCredentialsDialog::.ctor(RdcMan.RdcTreeNode)",
+    "Index": 14,
+    "English": "Profile &name:",
+    "Chinese": "配置名称(&N)："
+  },
+  {
+    "Id": 83,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.String RdcMan.AddCredentialsDialog::ValidateProfileName()",
+    "Index": 12,
+    "English": "Please enter a profile name",
+    "Chinese": "请输入配置名称"
+  },
+  {
+    "Id": 84,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.String RdcMan.AddCredentialsDialog::ValidateProfileName()",
+    "Index": 18,
+    "English": "'{0}' is a reserved profile name",
+    "Chinese": "“{0}”是保留的配置名称"
+  },
+  {
+    "Id": 86,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.String RdcMan.AddCredentialsDialog::ValidateProfileName()",
+    "Index": 29,
+    "English": "Global",
+    "Chinese": "全局凭据库"
+  },
+  {
+    "Id": 87,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.String RdcMan.AddCredentialsDialog::ValidateProfileName()",
+    "Index": 57,
+    "English": " already exists in ",
+    "Chinese": " 已存在于 "
+  },
+  {
+    "Id": 88,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.String RdcMan.AddCredentialsDialog::ValidateProfileName()",
+    "Index": 69,
+    "English": "Update?",
+    "Chinese": "是否更新？"
+  },
+  {
+    "Id": 89,
+    "Type": "RdcMan.AddCredentialsDialog",
+    "Method": "System.String RdcMan.AddCredentialsDialog::ValidateProfileName()",
+    "Index": 78,
+    "English": "Profile exists",
+    "Chinese": "配置已存在"
+  },
+  {
+    "Id": 90,
+    "Type": "RdcMan.ConnectToDialog",
+    "Method": "RdcMan.ConnectToDialog RdcMan.ConnectToDialog::NewConnectToDialog(System.Windows.Forms.Form)",
+    "Index": 0,
+    "English": "Connect To",
+    "Chinese": "连接到"
+  },
+  {
+    "Id": 91,
+    "Type": "RdcMan.ConnectToDialog",
+    "Method": "RdcMan.ConnectToDialog RdcMan.ConnectToDialog::NewConnectToDialog(System.Windows.Forms.Form)",
+    "Index": 1,
+    "English": "Connect",
+    "Chinese": "连接"
+  },
+  {
+    "Id": 92,
+    "Type": "RdcMan.ConnectAsDialog",
+    "Method": "RdcMan.ConnectAsDialog RdcMan.ConnectAsDialog::NewConnectAsDialog(RdcMan.RdcTreeNode,System.Windows.Forms.Form)",
+    "Index": 0,
+    "English": "Connect ",
+    "Chinese": "连接 "
+  },
+  {
+    "Id": 93,
+    "Type": "RdcMan.ConnectAsDialog",
+    "Method": "RdcMan.ConnectAsDialog RdcMan.ConnectAsDialog::NewConnectAsDialog(RdcMan.RdcTreeNode,System.Windows.Forms.Form)",
+    "Index": 3,
+    "English": " As",
+    "Chinese": "（指定凭据）"
+  },
+  {
+    "Id": 94,
+    "Type": "RdcMan.ConnectAsDialog",
+    "Method": "RdcMan.ConnectAsDialog RdcMan.ConnectAsDialog::NewConnectAsDialog(RdcMan.RdcTreeNode,System.Windows.Forms.Form)",
+    "Index": 5,
+    "English": "Connect",
+    "Chinese": "连接"
+  },
+  {
+    "Id": 95,
+    "Type": "RdcMan.CustomSizeDialog",
+    "Method": "System.Void RdcMan.CustomSizeDialog::.ctor(System.Drawing.Size)",
+    "Index": 1,
+    "English": "Custom Size",
+    "Chinese": "自定义尺寸"
+  },
+  {
+    "Id": 96,
+    "Type": "RdcMan.CustomSizeDialog",
+    "Method": "System.Void RdcMan.CustomSizeDialog::.ctor(System.Drawing.Size)",
+    "Index": 2,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 97,
+    "Type": "RdcMan.CustomSizeDialog",
+    "Method": "System.Void RdcMan.CustomSizeDialog::InitComp()",
+    "Index": 26,
+    "English": "&Width:",
+    "Chinese": "宽度(&W)："
+  },
+  {
+    "Id": 98,
+    "Type": "RdcMan.CustomSizeDialog",
+    "Method": "System.Void RdcMan.CustomSizeDialog::InitComp()",
+    "Index": 42,
+    "English": "&Height:",
+    "Chinese": "高度(&H)："
+  },
+  {
+    "Id": 99,
+    "Type": "RdcMan.CustomSizeDialog",
+    "Method": "System.Void RdcMan.CustomSizeDialog::InitComp()",
+    "Index": 50,
+    "English": "Width must be at least 1 pixel",
+    "Chinese": "宽度至少为 1 像素"
+  },
+  {
+    "Id": 100,
+    "Type": "RdcMan.CustomSizeDialog",
+    "Method": "System.Void RdcMan.CustomSizeDialog::InitComp()",
+    "Index": 76,
+    "English": "Height must be at least 1 pixel",
+    "Chinese": "高度至少为 1 像素"
+  },
+  {
+    "Id": 104,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 1,
+    "English": "Options",
+    "Chinese": "选项"
+  },
+  {
+    "Id": 105,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 2,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 106,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 10,
+    "English": "Modem (28.8 Kbps)",
+    "Chinese": "调制解调器（28.8 Kbps）"
+  },
+  {
+    "Id": 107,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 16,
+    "English": "Modem (56 Kbps)",
+    "Chinese": "调制解调器（56 Kbps）"
+  },
+  {
+    "Id": 108,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 22,
+    "English": "Broadband (128 Kpbs - 1.5 Mbps)",
+    "Chinese": "宽带（128 Kbps - 1.5 Mbps）"
+  },
+  {
+    "Id": 109,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 28,
+    "English": "LAN (10 Mbps or higher)",
+    "Chinese": "局域网（10 Mbps 或更高）"
+  },
+  {
+    "Id": 110,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Void RdcMan.GlobalOptionsDialog::.ctor(System.Windows.Forms.Form)",
+    "Index": 34,
+    "English": "Custom",
+    "Chinese": "自定义"
+  },
+  {
+    "Id": 111,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 5,
+    "English": "Full Screen",
+    "Chinese": "全屏"
+  },
+  {
+    "Id": 112,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 9,
+    "English": "Show full screen connection bar",
+    "Chinese": "显示全屏连接栏"
+  },
+  {
+    "Id": 113,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 30,
+    "English": "Auto-hide connection bar",
+    "Chinese": "自动隐藏连接栏"
+  },
+  {
+    "Id": 114,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 57,
+    "English": "Full screen window is always on top",
+    "Chinese": "全屏窗口始终置顶"
+  },
+  {
+    "Id": 115,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 69,
+    "English": "Use multiple monitors when necessary",
+    "Chinese": "需要时使用多个显示器"
+  },
+  {
+    "Id": 116,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 81,
+    "English": "Use panning instead of scroll bars",
+    "Chinese": "使用平移代替滚动条"
+  },
+  {
+    "Id": 117,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateFullScreenPage()",
+    "Index": 107,
+    "English": "Panning speed",
+    "Chinese": "平移速度"
+  },
+  {
+    "Id": 118,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 1,
+    "English": "Experience",
+    "Chinese": "连接体验"
+  },
+  {
+    "Id": 119,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 10,
+    "English": "Connection &speed",
+    "Chinese": "连接速度(&S)"
+  },
+  {
+    "Id": 120,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 32,
+    "English": "Allow the following:",
+    "Chinese": "启用下列效果："
+  },
+  {
+    "Id": 121,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 38,
+    "English": "Desktop background",
+    "Chinese": "桌面背景"
+  },
+  {
+    "Id": 122,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 59,
+    "English": "Font smoothing",
+    "Chinese": "字体平滑"
+  },
+  {
+    "Id": 123,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 80,
+    "English": "Desktop composition",
+    "Chinese": "桌面合成"
+  },
+  {
+    "Id": 124,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 101,
+    "English": "Show contents of window while dragging",
+    "Chinese": "拖动时显示窗口内容"
+  },
+  {
+    "Id": 125,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 122,
+    "English": "Menu and window animation",
+    "Chinese": "菜单和窗口动画"
+  },
+  {
+    "Id": 126,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 143,
+    "English": "Themes",
+    "Chinese": "主题"
+  },
+  {
+    "Id": 127,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateExperiencePage()",
+    "Index": 168,
+    "English": "Persistent Bitmap Caching",
+    "Chinese": "持久位图缓存"
+  },
+  {
+    "Id": 128,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateHotKeysPage()",
+    "Index": 4,
+    "English": "Hot Keys",
+    "Chinese": "快捷键"
+  },
+  {
+    "Id": 129,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateHotKeysPage()",
+    "Index": 9,
+    "English": "ALT hot keys (only effective when Windows key combos are not redirected)",
+    "Chinese": "ALT 快捷键（仅未重定向 Windows 组合键时有效）"
+  },
+  {
+    "Id": 140,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateHotKeysPage()",
+    "Index": 66,
+    "English": "CTRL+ALT hot keys (always effective)",
+    "Chinese": "CTRL+ALT 快捷键（始终有效）"
+  },
+  {
+    "Id": 143,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateHotKeysPage()",
+    "Index": 84,
+    "English": "Full screen",
+    "Chinese": "全屏"
+  },
+  {
+    "Id": 145,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateHotKeysPage()",
+    "Index": 93,
+    "English": "Previous session",
+    "Chinese": "上一个会话"
+  },
+  {
+    "Id": 147,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateHotKeysPage()",
+    "Index": 102,
+    "English": "Select session",
+    "Chinese": "选择会话"
+  },
+  {
+    "Id": 149,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 16,
+    "English": "Client Area",
+    "Chinese": "显示区域"
+  },
+  {
+    "Id": 150,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 22,
+    "English": "Client Area Size",
+    "Chinese": "显示区域大小"
+  },
+  {
+    "Id": 151,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 38,
+    "English": "&Custom",
+    "Chinese": "自定义(&C)"
+  },
+  {
+    "Id": 152,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 60,
+    "English": "&Lock window size",
+    "Chinese": "锁定窗口大小(&L)"
+  },
+  {
+    "Id": 153,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 126,
+    "English": "Thumbnail Unit Size",
+    "Chinese": "缩略图单元大小"
+  },
+  {
+    "Id": 154,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 152,
+    "English": "Pi&xels",
+    "Chinese": "像素(&X)"
+  },
+  {
+    "Id": 155,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 162,
+    "English": "Pe&rcentage",
+    "Chinese": "百分比(&R)"
+  },
+  {
+    "Id": 156,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateClientAreaPage()",
+    "Index": 213,
+    "English": "Percentage must be between 1 and 100 inclusive",
+    "Chinese": "百分比必须在 1 到 100 之间"
+  },
+  {
+    "Id": 157,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 10,
+    "English": "Tree",
+    "Chinese": "服务器树"
+  },
+  {
+    "Id": 158,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 15,
+    "English": "Server Tree",
+    "Chinese": "服务器树"
+  },
+  {
+    "Id": 159,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 19,
+    "English": "Click to select gives focus to remote client",
+    "Chinese": "单击选择时将焦点交给远程客户端"
+  },
+  {
+    "Id": 160,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 29,
+    "English": "Dim nodes when tree control is inactive",
+    "Chinese": "服务器树未激活时淡化节点"
+  },
+  {
+    "Id": 161,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 40,
+    "English": "Location",
+    "Chinese": "位置"
+  },
+  {
+    "Id": 162,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 66,
+    "English": "Visibility",
+    "Chinese": "显示方式"
+  },
+  {
+    "Id": 163,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 90,
+    "English": "Pop up delay:",
+    "Chinese": "弹出延迟："
+  },
+  {
+    "Id": 164,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 114,
+    "English": "Auto hide pop-up delay must be 0 to 1000 milliseconds",
+    "Chinese": "自动隐藏弹出延迟必须在 0 到 1000 毫秒之间"
+  },
+  {
+    "Id": 165,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 178,
+    "English": "millisecond(s)",
+    "Chinese": "毫秒"
+  },
+  {
+    "Id": 166,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 201,
+    "English": "Virtual Groups",
+    "Chinese": "内置分组"
+  },
+  {
+    "Id": 167,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 259,
+    "English": "Group sort order",
+    "Chinese": "分组排序"
+  },
+  {
+    "Id": 168,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 281,
+    "English": "Server sort order",
+    "Chinese": "服务器排序"
+  },
+  {
+    "Id": 169,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateServerTreePage()",
+    "Index": 293,
+    "English": "Sort Order",
+    "Chinese": "排序方式"
+  },
+  {
+    "Id": 170,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 7,
+    "English": "General",
+    "Chinese": "常规"
+  },
+  {
+    "Id": 171,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 11,
+    "English": "Hide main menu until ALT pressed",
+    "Chinese": "按 ALT 后再显示主菜单"
+  },
+  {
+    "Id": 172,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 22,
+    "English": "Auto save interval:",
+    "Chinese": "自动保存间隔："
+  },
+  {
+    "Id": 173,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 40,
+    "English": "Auto save interval must 0 to 60 minutes inclusive",
+    "Chinese": "自动保存间隔必须在 0 到 60 分钟之间"
+  },
+  {
+    "Id": 174,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 106,
+    "English": "minute(s)",
+    "Chinese": "分钟"
+  },
+  {
+    "Id": 175,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 110,
+    "English": "Prompt to reconnect connected servers on startup",
+    "Chinese": "启动时询问是否恢复上次连接"
+  },
+  {
+    "Id": 176,
+    "Type": "RdcMan.GlobalOptionsDialog",
+    "Method": "System.Windows.Forms.TabPage RdcMan.GlobalOptionsDialog::CreateGeneralPage()",
+    "Index": 136,
+    "English": "Default group settings...",
+    "Chinese": "默认分组设置…"
+  },
+  {
+    "Id": 177,
+    "Type": "RdcMan.GlobalOptionsDialog/<>c",
+    "Method": "System.Boolean RdcMan.GlobalOptionsDialog/<>c::<PerfCheckBox_CheckedChanged>b__45_1(RdcMan.GlobalOptionsDialog/BandwidthItem)",
+    "Index": 2,
+    "English": "Custom",
+    "Chinese": "自定义"
+  },
+  {
+    "Id": 178,
+    "Type": "RdcMan.GroupBasePropertiesTabPage`1",
+    "Method": "System.Void RdcMan.GroupBasePropertiesTabPage`1::AddGroupName(System.Int32&,System.Int32&)",
+    "Index": 2,
+    "English": "&Group name:",
+    "Chinese": "分组名称(&G)："
+  },
+  {
+    "Id": 179,
+    "Type": "RdcMan.GroupBasePropertiesTabPage`1",
+    "Method": "System.String RdcMan.GroupBasePropertiesTabPage`1::<AddGroupName>b__1_0()",
+    "Index": 14,
+    "English": "Please enter a group name",
+    "Chinese": "请输入分组名称"
+  },
+  {
+    "Id": 180,
+    "Type": "RdcMan.GroupBasePropertiesTabPage`1",
+    "Method": "System.String RdcMan.GroupBasePropertiesTabPage`1::<AddGroupName>b__1_0()",
+    "Index": 24,
+    "English": "Group name may not contain the path separator \"",
+    "Chinese": "分组名称不能包含路径分隔符“"
+  },
+  {
+    "Id": 182,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Int32 RdcMan.GroupBasePropertiesDialog::CreateProfileManagementTabPage()",
+    "Index": 2,
+    "English": "Profile Management",
+    "Chinese": "凭据配置管理"
+  },
+  {
+    "Id": 183,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Int32 RdcMan.GroupBasePropertiesDialog::CreateProfileManagementTabPage()",
+    "Index": 5,
+    "English": "Profiles",
+    "Chinese": "凭据配置"
+  },
+  {
+    "Id": 184,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Int32 RdcMan.GroupBasePropertiesDialog::CreateProfileManagementTabPage()",
+    "Index": 51,
+    "English": "&Add",
+    "Chinese": "添加(&A)"
+  },
+  {
+    "Id": 185,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Int32 RdcMan.GroupBasePropertiesDialog::CreateProfileManagementTabPage()",
+    "Index": 72,
+    "English": "&Edit",
+    "Chinese": "编辑(&E)"
+  },
+  {
+    "Id": 186,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Int32 RdcMan.GroupBasePropertiesDialog::CreateProfileManagementTabPage()",
+    "Index": 94,
+    "English": "&Delete",
+    "Chinese": "删除(&D)"
+  },
+  {
+    "Id": 187,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Void RdcMan.GroupBasePropertiesDialog::DeleteCredentials()",
+    "Index": 28,
+    "English": " is in use in these nodes:",
+    "Chinese": " 正被以下节点使用："
+  },
+  {
+    "Id": 188,
+    "Type": "RdcMan.GroupBasePropertiesDialog",
+    "Method": "System.Void RdcMan.GroupBasePropertiesDialog::DeleteCredentials()",
+    "Index": 55,
+    "English": "Are you sure you want to delete it?",
+    "Chinese": "是否确定删除？"
+  },
+  {
+    "Id": 191,
+    "Type": "RdcMan.GroupBasePropertiesDialog/<>c__DisplayClass14_0",
+    "Method": "RdcMan.NodeVisitorResult RdcMan.GroupBasePropertiesDialog/<>c__DisplayClass14_0::<GetCredentialsInUseLocations>b__0(RdcMan.RdcTreeNode)",
+    "Index": 23,
+    "English": "Logon Credentials",
+    "Chinese": "登录凭据"
+  },
+  {
+    "Id": 193,
+    "Type": "RdcMan.GroupBasePropertiesDialog/<>c__DisplayClass14_0",
+    "Method": "RdcMan.NodeVisitorResult RdcMan.GroupBasePropertiesDialog/<>c__DisplayClass14_0::<GetCredentialsInUseLocations>b__0(RdcMan.RdcTreeNode)",
+    "Index": 46,
+    "English": "Gateway Settings",
+    "Chinese": "网关设置"
+  },
+  {
+    "Id": 194,
+    "Type": "RdcMan.DefaultGroupPropertiesDialog",
+    "Method": "System.Void RdcMan.DefaultGroupPropertiesDialog::.ctor(RdcMan.GroupBase,System.Windows.Forms.Form)",
+    "Index": 2,
+    "English": "Default Settings Group Properties",
+    "Chinese": "默认分组属性"
+  },
+  {
+    "Id": 195,
+    "Type": "RdcMan.DefaultGroupPropertiesDialog",
+    "Method": "System.Void RdcMan.DefaultGroupPropertiesDialog::.ctor(RdcMan.GroupBase,System.Windows.Forms.Form)",
+    "Index": 3,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 196,
+    "Type": "RdcMan.GroupPropertiesDialog",
+    "Method": "RdcMan.GroupPropertiesDialog RdcMan.GroupPropertiesDialog::NewAddDialog(RdcMan.GroupBase)",
+    "Index": 3,
+    "English": "Add Group",
+    "Chinese": "添加分组"
+  },
+  {
+    "Id": 197,
+    "Type": "RdcMan.GroupPropertiesDialog",
+    "Method": "RdcMan.GroupPropertiesDialog RdcMan.GroupPropertiesDialog::NewAddDialog(RdcMan.GroupBase)",
+    "Index": 4,
+    "English": "Add",
+    "Chinese": "添加"
+  },
+  {
+    "Id": 198,
+    "Type": "RdcMan.GroupPropertiesDialog",
+    "Method": "RdcMan.GroupPropertiesDialog RdcMan.GroupPropertiesDialog::NewPropertiesDialog(RdcMan.Group,System.Windows.Forms.Form)",
+    "Index": 3,
+    "English": " Group Properties",
+    "Chinese": " 分组属性"
+  },
+  {
+    "Id": 199,
+    "Type": "RdcMan.GroupPropertiesDialog",
+    "Method": "RdcMan.GroupPropertiesDialog RdcMan.GroupPropertiesDialog::NewPropertiesDialog(RdcMan.Group,System.Windows.Forms.Form)",
+    "Index": 5,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 200,
+    "Type": "RdcMan.FileGroupPropertiesTabPage",
+    "Method": "System.Void RdcMan.FileGroupPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.FileGroupSettings)",
+    "Index": 16,
+    "English": "Path name:",
+    "Chinese": "文件路径："
+  },
+  {
+    "Id": 201,
+    "Type": "RdcMan.FileGroupPropertiesDialog",
+    "Method": "RdcMan.FileGroupPropertiesDialog RdcMan.FileGroupPropertiesDialog::NewPropertiesDialog(RdcMan.FileGroup,System.Windows.Forms.Form)",
+    "Index": 3,
+    "English": " File Properties",
+    "Chinese": " 文件属性"
+  },
+  {
+    "Id": 202,
+    "Type": "RdcMan.FileGroupPropertiesDialog",
+    "Method": "RdcMan.FileGroupPropertiesDialog RdcMan.FileGroupPropertiesDialog::NewPropertiesDialog(RdcMan.FileGroup,System.Windows.Forms.Form)",
+    "Index": 5,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 203,
+    "Type": "RdcMan.LogonSettingsDialog",
+    "Method": "RdcMan.LogonSettingsDialog RdcMan.LogonSettingsDialog::NewEditCredentialsDialog(RdcMan.CredentialsProfile)",
+    "Index": 0,
+    "English": "Edit Credentials",
+    "Chinese": "编辑凭据"
+  },
+  {
+    "Id": 204,
+    "Type": "RdcMan.LogonSettingsDialog",
+    "Method": "RdcMan.LogonSettingsDialog RdcMan.LogonSettingsDialog::NewEditCredentialsDialog(RdcMan.CredentialsProfile)",
+    "Index": 1,
+    "English": "Save",
+    "Chinese": "保存"
+  },
+  {
+    "Id": 205,
+    "Type": "RdcMan.RdcDialog",
+    "Method": "System.Void RdcMan.RdcDialog::InitButtons()",
+    "Index": 6,
+    "English": "Cancel",
+    "Chinese": "取消"
+  },
+  {
+    "Id": 206,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.Void RdcMan.SaveCredentialsDialog::.ctor(RdcMan.FileGroup,System.String)",
+    "Index": 1,
+    "English": "Save profile for ",
+    "Chinese": "保存凭据配置："
+  },
+  {
+    "Id": 207,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.Void RdcMan.SaveCredentialsDialog::.ctor(RdcMan.FileGroup,System.String)",
+    "Index": 4,
+    "English": "Save",
+    "Chinese": "保存"
+  },
+  {
+    "Id": 208,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.Void RdcMan.SaveCredentialsDialog::InitializeComponent(System.String)",
+    "Index": 11,
+    "English": "Profile &name",
+    "Chinese": "配置名称(&N)"
+  },
+  {
+    "Id": 209,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.Void RdcMan.SaveCredentialsDialog::InitializeComponent(System.String)",
+    "Index": 32,
+    "English": "&Location",
+    "Chinese": "保存位置(&L)"
+  },
+  {
+    "Id": 210,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.Void RdcMan.SaveCredentialsDialog::InitializeComponent(System.String)",
+    "Index": 41,
+    "English": "Global",
+    "Chinese": "全局"
+  },
+  {
+    "Id": 211,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.String RdcMan.SaveCredentialsDialog::ValidateProfileName()",
+    "Index": 12,
+    "English": "Please enter a profile name",
+    "Chinese": "请输入配置名称"
+  },
+  {
+    "Id": 212,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.String RdcMan.SaveCredentialsDialog::ValidateProfileName()",
+    "Index": 18,
+    "English": "'{0}' is a reserved profile name",
+    "Chinese": "“{0}”是保留的配置名称"
+  },
+  {
+    "Id": 214,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.String RdcMan.SaveCredentialsDialog::ValidateProfileName()",
+    "Index": 29,
+    "English": "Global",
+    "Chinese": "全局"
+  },
+  {
+    "Id": 215,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.String RdcMan.SaveCredentialsDialog::ValidateProfileName()",
+    "Index": 57,
+    "English": " already exists in ",
+    "Chinese": " 已存在于 "
+  },
+  {
+    "Id": 216,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.String RdcMan.SaveCredentialsDialog::ValidateProfileName()",
+    "Index": 69,
+    "English": "Update?",
+    "Chinese": "是否更新？"
+  },
+  {
+    "Id": 217,
+    "Type": "RdcMan.SaveCredentialsDialog",
+    "Method": "System.String RdcMan.SaveCredentialsDialog::ValidateProfileName()",
+    "Index": 78,
+    "English": "Profile exists",
+    "Chinese": "配置已存在"
+  },
+  {
+    "Id": 218,
+    "Type": "RdcMan.SelectServersDialogBase",
+    "Method": "System.Void RdcMan.SelectServersDialogBase::AddListView(System.Int32&,System.Int32&)",
+    "Index": 81,
+    "English": "Server",
+    "Chinese": "服务器"
+  },
+  {
+    "Id": 219,
+    "Type": "RdcMan.SelectServersDialogBase",
+    "Method": "System.Void RdcMan.SelectServersDialogBase::AddListView(System.Int32&,System.Int32&)",
+    "Index": 91,
+    "English": "Group",
+    "Chinese": "分组"
+  },
+  {
+    "Id": 221,
+    "Type": "RdcMan.SelectServersDialogBase",
+    "Method": "System.Void RdcMan.SelectServersDialogBase::InitButtons()",
+    "Index": 6,
+    "English": "Select &all",
+    "Chinese": "全选(&A)"
+  },
+  {
+    "Id": 222,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::.ctor()",
+    "Index": 1,
+    "English": "Find Servers",
+    "Chinese": "查找服务器"
+  },
+  {
+    "Id": 223,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::.ctor()",
+    "Index": 2,
+    "English": "Select",
+    "Chinese": "选择"
+  },
+  {
+    "Id": 224,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::.ctor()",
+    "Index": 9,
+    "English": "Type to filter servers",
+    "Chinese": "输入文字以筛选服务器"
+  },
+  {
+    "Id": 225,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::ContextMenuPopup(System.Object,System.EventArgs)",
+    "Index": 40,
+    "English": "&Connect",
+    "Chinese": "连接(&C)"
+  },
+  {
+    "Id": 226,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::ContextMenuPopup(System.Object,System.EventArgs)",
+    "Index": 57,
+    "English": "R&econnect",
+    "Chinese": "重新连接(&E)"
+  },
+  {
+    "Id": 227,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::ContextMenuPopup(System.Object,System.EventArgs)",
+    "Index": 73,
+    "English": "&Disconnect",
+    "Chinese": "断开连接(&D)"
+  },
+  {
+    "Id": 229,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::ContextMenuPopup(System.Object,System.EventArgs)",
+    "Index": 94,
+    "English": "Log off",
+    "Chinese": "注销"
+  },
+  {
+    "Id": 231,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::ContextMenuPopup(System.Object,System.EventArgs)",
+    "Index": 119,
+    "English": "Remo&ve",
+    "Chinese": "移除(&V)"
+  },
+  {
+    "Id": 233,
+    "Type": "RdcMan.FindServersDialog",
+    "Method": "System.Void RdcMan.FindServersDialog::ContextMenuPopup(System.Object,System.EventArgs)",
+    "Index": 138,
+    "English": "Add to favorites",
+    "Chinese": "添加到收藏夹"
+  },
+  {
+    "Id": 234,
+    "Type": "RdcMan.FindServersDialog/<>c__DisplayClass5_0",
+    "Method": "System.Void RdcMan.FindServersDialog/<>c__DisplayClass5_0::<ContextMenuPopup>b__4()",
+    "Index": 3,
+    "English": "There are active sessions. Are you sure?",
+    "Chinese": "仍有活动会话。是否继续？"
+  },
+  {
+    "Id": 235,
+    "Type": "RdcMan.ConnectServersDialog",
+    "Method": "System.Void RdcMan.ConnectServersDialog::.ctor(System.Collections.Generic.IEnumerable`1<RdcMan.ServerBase>)",
+    "Index": 1,
+    "English": "Connect Servers",
+    "Chinese": "连接服务器"
+  },
+  {
+    "Id": 236,
+    "Type": "RdcMan.ConnectServersDialog",
+    "Method": "System.Void RdcMan.ConnectServersDialog::.ctor(System.Collections.Generic.IEnumerable`1<RdcMan.ServerBase>)",
+    "Index": 2,
+    "English": "&Connect",
+    "Chinese": "连接(&C)"
+  },
+  {
+    "Id": 237,
+    "Type": "RdcMan.ConnectServersDialog",
+    "Method": "System.Void RdcMan.ConnectServersDialog::.ctor(System.Collections.Generic.IEnumerable`1<RdcMan.ServerBase>)",
+    "Index": 9,
+    "English": "Select servers to be connected",
+    "Chinese": "请选择要连接的服务器"
+  },
+  {
+    "Id": 238,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ServerSettings)",
+    "Index": 3,
+    "English": "Server Settings",
+    "Chinese": "服务器设置"
+  },
+  {
+    "Id": 239,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ServerSettings)",
+    "Index": 11,
+    "English": "&Server name:",
+    "Chinese": "服务器名称(&S)："
+  },
+  {
+    "Id": 240,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ServerSettings)",
+    "Index": 36,
+    "English": "&VM console connect",
+    "Chinese": "虚拟机控制台(&V)"
+  },
+  {
+    "Id": 241,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ServerSettings)",
+    "Index": 70,
+    "English": "&id:",
+    "Chinese": "ID(&I)："
+  },
+  {
+    "Id": 242,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ServerSettings)",
+    "Index": 117,
+    "English": "&Display name:",
+    "Chinese": "显示名称(&D)："
+  },
+  {
+    "Id": 243,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateServerName()",
+    "Index": 14,
+    "English": "Please enter a server name",
+    "Chinese": "请输入服务器名称"
+  },
+  {
+    "Id": 244,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateServerName()",
+    "Index": 21,
+    "English": "Spaces are not permitted in a server name",
+    "Chinese": "服务器名称不能包含空格"
+  },
+  {
+    "Id": 245,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateServerName()",
+    "Index": 33,
+    "English": "Slashes are not permitted in a server name",
+    "Chinese": "服务器名称不能包含斜杠"
+  },
+  {
+    "Id": 246,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateServerName()",
+    "Index": 48,
+    "English": "Expansion results in ",
+    "Chinese": "展开后将得到 "
+  },
+  {
+    "Id": 247,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateServerName()",
+    "Index": 54,
+    "English": " servers. Are you sure?",
+    "Chinese": " 台服务器。是否继续？"
+  },
+  {
+    "Id": 248,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateServerName()",
+    "Index": 59,
+    "English": "Expansion too large",
+    "Chinese": "展开数量过多"
+  },
+  {
+    "Id": 249,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.String RdcMan.ServerPropertiesTabPage::ValidateDisplayName()",
+    "Index": 14,
+    "English": "Please enter a display name",
+    "Chinese": "请输入显示名称"
+  },
+  {
+    "Id": 250,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::VMConsoleConnectCheckBox_CheckedChanged(System.Object,System.EventArgs)",
+    "Index": 24,
+    "English": "for virtual machine console connect",
+    "Chinese": "（用于连接虚拟机控制台）"
+  },
+  {
+    "Id": 251,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::VMConsoleConnectCheckBox_CheckedChanged(System.Object,System.EventArgs)",
+    "Index": 31,
+    "English": "Local Resources",
+    "Chinese": "本地资源"
+  },
+  {
+    "Id": 252,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::VMConsoleConnectCheckBox_CheckedChanged(System.Object,System.EventArgs)",
+    "Index": 35,
+    "English": "Remote Desktop Settings",
+    "Chinese": "远程桌面设置"
+  },
+  {
+    "Id": 253,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::VMConsoleConnectCheckBox_CheckedChanged(System.Object,System.EventArgs)",
+    "Index": 39,
+    "English": "Security Settings",
+    "Chinese": "安全设置"
+  },
+  {
+    "Id": 254,
+    "Type": "RdcMan.ServerPropertiesTabPage",
+    "Method": "System.Void RdcMan.ServerPropertiesTabPage::VMConsoleConnectCheckBox_CheckedChanged(System.Object,System.EventArgs)",
+    "Index": 43,
+    "English": "Connection Settings",
+    "Chinese": "连接设置"
+  },
+  {
+    "Id": 255,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Void RdcMan.ImportServersPropertiesPage::.ctor(RdcMan.TabbedSettingsDialog)",
+    "Index": 3,
+    "English": "Server Settings",
+    "Chinese": "服务器设置"
+  },
+  {
+    "Id": 256,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Void RdcMan.ImportServersPropertiesPage::.ctor(RdcMan.TabbedSettingsDialog)",
+    "Index": 26,
+    "English": "Select a file with server info or enter info in the textbox below. Server names are delimited by commas and newlines. Expansions are permitted.",
+    "Chinese": "选择文件，或在下方输入服务器名称；用逗号或换行分隔，支持范围展开。"
+  },
+  {
+    "Id": 257,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Void RdcMan.ImportServersPropertiesPage::.ctor(RdcMan.TabbedSettingsDialog)",
+    "Index": 47,
+    "English": "&Browse",
+    "Chinese": "浏览(&B)"
+  },
+  {
+    "Id": 258,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Void RdcMan.ImportServersPropertiesPage::.ctor(RdcMan.TabbedSettingsDialog)",
+    "Index": 58,
+    "English": "&File name:",
+    "Chinese": "文件名(&F)："
+  },
+  {
+    "Id": 259,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Boolean RdcMan.ImportServersPropertiesPage::IsValid()",
+    "Index": 54,
+    "English": "Please enter a file name",
+    "Chinese": "请输入文件名"
+  },
+  {
+    "Id": 262,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Void RdcMan.ImportServersPropertiesPage::OnBrowseClick(System.Object,System.EventArgs)",
+    "Index": 3,
+    "English": "Import",
+    "Chinese": "导入"
+  },
+  {
+    "Id": 264,
+    "Type": "RdcMan.ImportServersPropertiesPage",
+    "Method": "System.Void RdcMan.ImportServersPropertiesPage::OnBrowseClick(System.Object,System.EventArgs)",
+    "Index": 18,
+    "English": "Text files (*.txt)|*.txt|All files (*.*)|*.*",
+    "Chinese": "文本文件 (*.txt)|*.txt|所有文件 (*.*)|*.*"
+  },
+  {
+    "Id": 265,
+    "Type": "RdcMan.ServerPropertiesDialog",
+    "Method": "RdcMan.ServerPropertiesDialog RdcMan.ServerPropertiesDialog::NewAddDialog(RdcMan.GroupBase)",
+    "Index": 3,
+    "English": "Add Server",
+    "Chinese": "添加服务器"
+  },
+  {
+    "Id": 266,
+    "Type": "RdcMan.ServerPropertiesDialog",
+    "Method": "RdcMan.ServerPropertiesDialog RdcMan.ServerPropertiesDialog::NewAddDialog(RdcMan.GroupBase)",
+    "Index": 4,
+    "English": "Add",
+    "Chinese": "添加"
+  },
+  {
+    "Id": 267,
+    "Type": "RdcMan.ServerPropertiesDialog",
+    "Method": "RdcMan.ServerPropertiesDialog RdcMan.ServerPropertiesDialog::NewImportDialog(RdcMan.GroupBase)",
+    "Index": 3,
+    "English": "Import Servers",
+    "Chinese": "导入服务器"
+  },
+  {
+    "Id": 268,
+    "Type": "RdcMan.ServerPropertiesDialog",
+    "Method": "RdcMan.ServerPropertiesDialog RdcMan.ServerPropertiesDialog::NewImportDialog(RdcMan.GroupBase)",
+    "Index": 4,
+    "English": "Import",
+    "Chinese": "导入"
+  },
+  {
+    "Id": 269,
+    "Type": "RdcMan.ServerPropertiesDialog",
+    "Method": "RdcMan.ServerPropertiesDialog RdcMan.ServerPropertiesDialog::NewPropertiesDialog(RdcMan.Server,System.Windows.Forms.Form)",
+    "Index": 3,
+    "English": " Server Properties",
+    "Chinese": " 服务器属性"
+  },
+  {
+    "Id": 270,
+    "Type": "RdcMan.ServerPropertiesDialog",
+    "Method": "RdcMan.ServerPropertiesDialog RdcMan.ServerPropertiesDialog::NewPropertiesDialog(RdcMan.Server,System.Windows.Forms.Form)",
+    "Index": 5,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 271,
+    "Type": "RdcMan.SmartGroupPropertiesTabPage",
+    "Method": "System.Void RdcMan.SmartGroupPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.SmartGroupSettings)",
+    "Index": 40,
+    "English": "Servers which match",
+    "Chinese": "筛选满足"
+  },
+  {
+    "Id": 272,
+    "Type": "RdcMan.SmartGroupPropertiesTabPage",
+    "Method": "System.Void RdcMan.SmartGroupPropertiesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.SmartGroupSettings)",
+    "Index": 98,
+    "English": "of the following rules",
+    "Chinese": "规则的服务器"
+  },
+  {
+    "Id": 273,
+    "Type": "RdcMan.SmartGroupPropertiesTabPage",
+    "Method": "System.Boolean RdcMan.SmartGroupPropertiesTabPage::IsValid()",
+    "Index": 23,
+    "English": "Please enter a pattern",
+    "Chinese": "请输入匹配规则"
+  },
+  {
+    "Id": 276,
+    "Type": "RdcMan.SmartGroupPropertiesDialog",
+    "Method": "RdcMan.SmartGroupPropertiesDialog RdcMan.SmartGroupPropertiesDialog::NewAddDialog(RdcMan.GroupBase)",
+    "Index": 3,
+    "English": "Add Smart Group",
+    "Chinese": "添加智能分组"
+  },
+  {
+    "Id": 277,
+    "Type": "RdcMan.SmartGroupPropertiesDialog",
+    "Method": "RdcMan.SmartGroupPropertiesDialog RdcMan.SmartGroupPropertiesDialog::NewAddDialog(RdcMan.GroupBase)",
+    "Index": 4,
+    "English": "Add",
+    "Chinese": "添加"
+  },
+  {
+    "Id": 278,
+    "Type": "RdcMan.SmartGroupPropertiesDialog",
+    "Method": "RdcMan.SmartGroupPropertiesDialog RdcMan.SmartGroupPropertiesDialog::NewPropertiesDialog(RdcMan.SmartGroup,System.Windows.Forms.Form)",
+    "Index": 3,
+    "English": " Smart Group Properties",
+    "Chinese": " 智能分组属性"
+  },
+  {
+    "Id": 279,
+    "Type": "RdcMan.SmartGroupPropertiesDialog",
+    "Method": "RdcMan.SmartGroupPropertiesDialog RdcMan.SmartGroupPropertiesDialog::NewPropertiesDialog(RdcMan.SmartGroup,System.Windows.Forms.Form)",
+    "Index": 5,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 280,
+    "Type": "RdcMan.ConnectionSettingsTabPage",
+    "Method": "System.Void RdcMan.ConnectionSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ConnectionSettings)",
+    "Index": 13,
+    "English": "&Connect to console",
+    "Chinese": "连接到控制台(&C)"
+  },
+  {
+    "Id": 281,
+    "Type": "RdcMan.ConnectionSettingsTabPage",
+    "Method": "System.Void RdcMan.ConnectionSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ConnectionSettings)",
+    "Index": 22,
+    "English": "&Start program:",
+    "Chinese": "启动程序(&S)："
+  },
+  {
+    "Id": 282,
+    "Type": "RdcMan.ConnectionSettingsTabPage",
+    "Method": "System.Void RdcMan.ConnectionSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ConnectionSettings)",
+    "Index": 30,
+    "English": "&Working dir:",
+    "Chinese": "工作目录(&W)："
+  },
+  {
+    "Id": 283,
+    "Type": "RdcMan.ConnectionSettingsTabPage",
+    "Method": "System.Void RdcMan.ConnectionSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ConnectionSettings)",
+    "Index": 37,
+    "English": "Por&t:",
+    "Chinese": "端口(&T)："
+  },
+  {
+    "Id": 284,
+    "Type": "RdcMan.ConnectionSettingsTabPage",
+    "Method": "System.Void RdcMan.ConnectionSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.ConnectionSettings)",
+    "Index": 132,
+    "English": "&Load balance config:",
+    "Chinese": "负载均衡配置(&L)："
+  },
+  {
+    "Id": 285,
+    "Type": "RdcMan.ConnectionSettingsTabPage",
+    "Method": "System.Void RdcMan.ConnectionSettingsTabPage::UpdatePortDefaultLabel()",
+    "Index": 11,
+    "English": "(default)",
+    "Chinese": "（默认）"
+  },
+  {
+    "Id": 286,
+    "Type": "RdcMan.QuickConnectTabPage",
+    "Method": "System.Void RdcMan.QuickConnectTabPage::CreateControls(System.Boolean,RdcMan.FileGroup)",
+    "Index": 8,
+    "English": "&Server name:",
+    "Chinese": "服务器名称(&S)："
+  },
+  {
+    "Id": 287,
+    "Type": "RdcMan.DisplaySettingsTabPage`1",
+    "Method": "System.Void RdcMan.DisplaySettingsTabPage`1::Create(System.Int32&,System.Int32&)",
+    "Index": 10,
+    "English": "&Thumbnail scale:",
+    "Chinese": "缩略图比例(&T)："
+  },
+  {
+    "Id": 288,
+    "Type": "RdcMan.DisplaySettingsTabPage`1",
+    "Method": "System.Void RdcMan.DisplaySettingsTabPage`1::Create(System.Int32&,System.Int32&)",
+    "Index": 81,
+    "English": "&Docked RD scaling",
+    "Chinese": "停靠时调整大小(&D)"
+  },
+  {
+    "Id": 289,
+    "Type": "RdcMan.DisplaySettingsTabPage`1",
+    "Method": "System.Void RdcMan.DisplaySettingsTabPage`1::Create(System.Int32&,System.Int32&)",
+    "Index": 94,
+    "English": "&Undocked RD scaling",
+    "Chinese": "独立窗口调整大小(&U)"
+  },
+  {
+    "Id": 290,
+    "Type": "RdcMan.GroupDisplaySettingsTabPage",
+    "Method": "System.Void RdcMan.GroupDisplaySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.GroupDisplaySettings)",
+    "Index": 10,
+    "English": "&Preview session in thumbnail",
+    "Chinese": "缩略图预览会话(&P)"
+  },
+  {
+    "Id": 291,
+    "Type": "RdcMan.GroupDisplaySettingsTabPage",
+    "Method": "System.Void RdcMan.GroupDisplaySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.GroupDisplaySettings)",
+    "Index": 20,
+    "English": "&Allow thumbnail session interaction",
+    "Chinese": "允许操作缩略图中的会话(&A)"
+  },
+  {
+    "Id": 292,
+    "Type": "RdcMan.GroupDisplaySettingsTabPage",
+    "Method": "System.Void RdcMan.GroupDisplaySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.GroupDisplaySettings)",
+    "Index": 56,
+    "English": "Show &disconnected thumbnails",
+    "Chinese": "显示已断开连接的缩略图(&D)"
+  },
+  {
+    "Id": 293,
+    "Type": "RdcMan.EncryptionSettingsTabPage",
+    "Method": "System.Void RdcMan.EncryptionSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.EncryptionSettings)",
+    "Index": 23,
+    "English": "Password encryption:",
+    "Chinese": "密码加密方式："
+  },
+  {
+    "Id": 294,
+    "Type": "RdcMan.EncryptionSettingsTabPage",
+    "Method": "System.Void RdcMan.EncryptionSettingsTabPage::PasswordEncryptionMethodCombo_Changed(System.Object,System.EventArgs)",
+    "Index": 12,
+    "English": "User name:",
+    "Chinese": "用户名："
+  },
+  {
+    "Id": 295,
+    "Type": "RdcMan.EncryptionSettingsTabPage",
+    "Method": "System.Void RdcMan.EncryptionSettingsTabPage::PasswordEncryptionMethodCombo_Changed(System.Object,System.EventArgs)",
+    "Index": 60,
+    "English": "Unexpected encryption method '{0}'",
+    "Chinese": "未知的加密方式“{0}”"
+  },
+  {
+    "Id": 296,
+    "Type": "RdcMan.EncryptionSettingsTabPage",
+    "Method": "System.Void RdcMan.EncryptionSettingsTabPage::SetSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)",
+    "Index": 19,
+    "English": "Certificate:",
+    "Chinese": "证书："
+  },
+  {
+    "Id": 297,
+    "Type": "RdcMan.EncryptionSettingsTabPage",
+    "Method": "System.Void RdcMan.EncryptionSettingsTabPage::SetSelectedCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2)",
+    "Index": 23,
+    "English": "Valid from {0} to {1}",
+    "Chinese": "有效期：{0} 至 {1}"
+  },
+  {
+    "Id": 298,
+    "Type": "RdcMan.GatewaySettingsTabPage",
+    "Method": "System.Void RdcMan.GatewaySettingsTabPage::CreateControls(RdcMan.LogonCredentialsDialogOptions)",
+    "Index": 19,
+    "English": "&Use a TS Gateway server",
+    "Chinese": "使用 TS 网关服务器(&U)"
+  },
+  {
+    "Id": 299,
+    "Type": "RdcMan.GatewaySettingsTabPage",
+    "Method": "System.Void RdcMan.GatewaySettingsTabPage::CreateControls(RdcMan.LogonCredentialsDialogOptions)",
+    "Index": 36,
+    "English": "&Server name:",
+    "Chinese": "服务器名称(&S)："
+  },
+  {
+    "Id": 300,
+    "Type": "RdcMan.GatewaySettingsTabPage",
+    "Method": "System.Void RdcMan.GatewaySettingsTabPage::CreateControls(RdcMan.LogonCredentialsDialogOptions)",
+    "Index": 52,
+    "English": "&Bypass for local addresses",
+    "Chinese": "本地地址绕过网关(&B)"
+  },
+  {
+    "Id": 301,
+    "Type": "RdcMan.GatewaySettingsTabPage",
+    "Method": "System.Void RdcMan.GatewaySettingsTabPage::CreateControls(RdcMan.LogonCredentialsDialogOptions)",
+    "Index": 63,
+    "English": "&Logon method",
+    "Chinese": "登录方式(&L)"
+  },
+  {
+    "Id": 302,
+    "Type": "RdcMan.GatewaySettingsTabPage",
+    "Method": "System.Void RdcMan.GatewaySettingsTabPage::CreateControls(RdcMan.LogonCredentialsDialogOptions)",
+    "Index": 84,
+    "English": "Share Gateway &credentials with remote computer",
+    "Chinese": "与远程计算机共用网关凭据(&C)"
+  },
+  {
+    "Id": 303,
+    "Type": "RdcMan.GatewaySettingsTabPage",
+    "Method": "System.String RdcMan.GatewaySettingsTabPage::<CreateControls>b__1_1()",
+    "Index": 18,
+    "English": "Please enter a server name",
+    "Chinese": "请输入服务器名称"
+  },
+  {
+    "Id": 306,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 13,
+    "English": "Remote &sound",
+    "Chinese": "远程声音(&S)"
+  },
+  {
+    "Id": 307,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 27,
+    "English": "Sound &quality",
+    "Chinese": "声音质量(&Q)"
+  },
+  {
+    "Id": 308,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 39,
+    "English": "Remote &recording",
+    "Chinese": "录音(&R)"
+  },
+  {
+    "Id": 309,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 51,
+    "English": "&Windows key combos",
+    "Chinese": "Windows 组合键(&W)"
+  },
+  {
+    "Id": 310,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 62,
+    "English": "Redirect options",
+    "Chinese": "重定向选项"
+  },
+  {
+    "Id": 311,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 96,
+    "English": "Clipboard",
+    "Chinese": "剪贴板"
+  },
+  {
+    "Id": 312,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 102,
+    "English": "Printers",
+    "Chinese": "打印机"
+  },
+  {
+    "Id": 313,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 108,
+    "English": "Smart cards",
+    "Chinese": "智能卡"
+  },
+  {
+    "Id": 314,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 114,
+    "English": "Ports",
+    "Chinese": "端口"
+  },
+  {
+    "Id": 315,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 120,
+    "English": "Drives",
+    "Chinese": "磁盘驱动器"
+  },
+  {
+    "Id": 316,
+    "Type": "RdcMan.LocalResourcesTabPage",
+    "Method": "System.Void RdcMan.LocalResourcesTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.LocalResourcesSettings)",
+    "Index": 126,
+    "English": "PnP devices",
+    "Chinese": "即插即用设备"
+  },
+  {
+    "Id": 317,
+    "Type": "RdcMan.NodePropertiesPage`1",
+    "Method": "System.Void RdcMan.NodePropertiesPage`1::AddParentCombo(System.Int32&,System.Int32&)",
+    "Index": 2,
+    "English": "&Parent:",
+    "Chinese": "父级分组(&P)："
+  },
+  {
+    "Id": 318,
+    "Type": "RdcMan.NodePropertiesPage`1",
+    "Method": "RdcMan.RdcTextBox RdcMan.NodePropertiesPage`1::AddComment(System.Int32&,System.Int32&)",
+    "Index": 0,
+    "English": "&Comment:",
+    "Chinese": "备注(&C)："
+  },
+  {
+    "Id": 319,
+    "Type": "RdcMan.RemoteDesktopTabPage",
+    "Method": "System.Void RdcMan.RemoteDesktopTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RemoteDesktopSettings)",
+    "Index": 13,
+    "English": "Color Depth",
+    "Chinese": "颜色深度"
+  },
+  {
+    "Id": 320,
+    "Type": "RdcMan.RemoteDesktopTabPage",
+    "Method": "System.Void RdcMan.RemoteDesktopTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RemoteDesktopSettings)",
+    "Index": 45,
+    "English": "&Same as client area",
+    "Chinese": "与显示区域相同(&S)"
+  },
+  {
+    "Id": 321,
+    "Type": "RdcMan.RemoteDesktopTabPage",
+    "Method": "System.Void RdcMan.RemoteDesktopTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RemoteDesktopSettings)",
+    "Index": 59,
+    "English": "&Full screen",
+    "Chinese": "全屏(&F)"
+  },
+  {
+    "Id": 322,
+    "Type": "RdcMan.RemoteDesktopTabPage",
+    "Method": "System.Void RdcMan.RemoteDesktopTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RemoteDesktopSettings)",
+    "Index": 76,
+    "English": "&Custom",
+    "Chinese": "自定义(&C)"
+  },
+  {
+    "Id": 323,
+    "Type": "RdcMan.RemoteDesktopTabPage",
+    "Method": "System.Void RdcMan.RemoteDesktopTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RemoteDesktopSettings)",
+    "Index": 104,
+    "English": "Remote Desktop Size",
+    "Chinese": "远程桌面尺寸"
+  },
+  {
+    "Id": 324,
+    "Type": "RdcMan.SecuritySettingsTabPage",
+    "Method": "System.Void RdcMan.SecuritySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.SecuritySettings)",
+    "Index": 15,
+    "English": "&Authentication",
+    "Chinese": "身份验证(&A)"
+  },
+  {
+    "Id": 325,
+    "Type": "RdcMan.SecuritySettingsTabPage",
+    "Method": "System.Void RdcMan.SecuritySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.SecuritySettings)",
+    "Index": 27,
+    "English": "Redirect protection",
+    "Chinese": "重定向保护"
+  },
+  {
+    "Id": 326,
+    "Type": "RdcMan.SecuritySettingsTabPage",
+    "Method": "System.Void RdcMan.SecuritySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.SecuritySettings)",
+    "Index": 34,
+    "English": "&Restricted Admin",
+    "Chinese": "受限管理模式(&R)"
+  },
+  {
+    "Id": 327,
+    "Type": "RdcMan.SecuritySettingsTabPage",
+    "Method": "System.Void RdcMan.SecuritySettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.SecuritySettings)",
+    "Index": 44,
+    "English": "Remote Credential &Guard",
+    "Chinese": "远程凭据保护(&G)"
+  },
+  {
+    "Id": 328,
+    "Type": "RdcMan.FormTools",
+    "Method": "System.Void RdcMan.FormTools::ErrorDialog(System.String)",
+    "Index": 2,
+    "English": "RDCMan Error",
+    "Chinese": "RDCMan 错误"
+  },
+  {
+    "Id": 329,
+    "Type": "RdcMan.FormTools",
+    "Method": "System.Void RdcMan.FormTools::InformationDialog(System.String)",
+    "Index": 2,
+    "English": "RDCMan",
+    "Chinese": "RDCMan 提示"
+  },
+  {
+    "Id": 330,
+    "Type": "RdcMan.FormTools",
+    "Method": "System.Windows.Forms.DialogResult RdcMan.FormTools::ExclamationDialog(System.String,System.Windows.Forms.MessageBoxButtons)",
+    "Index": 2,
+    "English": "RDCMan",
+    "Chinese": "RDCMan 提示"
+  },
+  {
+    "Id": 331,
+    "Type": "RdcMan.FormTools",
+    "Method": "System.Windows.Forms.DialogResult RdcMan.FormTools::YesNoDialog(System.Windows.Forms.Form,System.String,System.Windows.Forms.MessageBoxDefaultButton)",
+    "Index": 2,
+    "English": "RDCMan",
+    "Chinese": "RDCMan 提示"
+  },
+  {
+    "Id": 332,
+    "Type": "RdcMan.FormTools",
+    "Method": "System.Windows.Forms.DialogResult RdcMan.FormTools::YesNoCancelDialog(System.String,System.Windows.Forms.MessageBoxDefaultButton)",
+    "Index": 2,
+    "English": "RDCMan",
+    "Chinese": "RDCMan 提示"
+  },
+  {
+    "Id": 335,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.String RdcMan.Helpers::SortOrderToString(RdcMan.SortOrder)",
+    "Index": 3,
+    "English": "Name",
+    "Chinese": "名称"
+  },
+  {
+    "Id": 336,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.String RdcMan.Helpers::SortOrderToString(RdcMan.SortOrder)",
+    "Index": 5,
+    "English": "Status.Name",
+    "Chinese": "状态、名称"
+  },
+  {
+    "Id": 337,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.String RdcMan.Helpers::SortOrderToString(RdcMan.SortOrder)",
+    "Index": 7,
+    "English": "No sorting",
+    "Chinese": "不排序"
+  },
+  {
+    "Id": 340,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.String RdcMan.Helpers::FormatTime(System.Int32)",
+    "Index": 23,
+    "English": "hour",
+    "Chinese": "小时"
+  },
+  {
+    "Id": 341,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.String RdcMan.Helpers::FormatTime(System.Int32)",
+    "Index": 33,
+    "English": "minute",
+    "Chinese": "分钟"
+  },
+  {
+    "Id": 342,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.String RdcMan.Helpers::FormatTime(System.Int32)",
+    "Index": 37,
+    "English": "second",
+    "Chinese": "秒"
+  },
+  {
+    "Id": 344,
+    "Type": "RdcMan.Helpers",
+    "Method": "System.Void RdcMan.Helpers::AppendUnitValue(System.Text.StringBuilder,System.Int32,System.String)",
+    "Index": 10,
+    "English": "s",
+    "Chinese": ""
+  },
+  {
+    "Id": 348,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::InitializeComponent()",
+    "Index": 45,
+    "English": "Querying sessions...",
+    "Chinese": "正在查询会话…"
+  },
+  {
+    "Id": 350,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::InitializeComponent()",
+    "Index": 117,
+    "English": "Id",
+    "Chinese": "ID"
+  },
+  {
+    "Id": 351,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::InitializeComponent()",
+    "Index": 125,
+    "English": "State",
+    "Chinese": "状态"
+  },
+  {
+    "Id": 352,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::InitializeComponent()",
+    "Index": 133,
+    "English": "User",
+    "Chinese": "用户"
+  },
+  {
+    "Id": 353,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::InitializeComponent()",
+    "Index": 141,
+    "English": "Client",
+    "Chinese": "客户端"
+  },
+  {
+    "Id": 355,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::InitializeComponent()",
+    "Index": 173,
+    "English": "Refresh",
+    "Chinese": "刷新"
+  },
+  {
+    "Id": 357,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::.ctor(RdcMan.ServerBase)",
+    "Index": 21,
+    "English": " Sessions",
+    "Chinese": " 会话"
+  },
+  {
+    "Id": 359,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::RefreshSessions()",
+    "Index": 23,
+    "English": "Refreshing...",
+    "Chinese": "正在刷新…"
+  },
+  {
+    "Id": 360,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::OnContextMenu(System.Object,System.EventArgs)",
+    "Index": 19,
+    "English": "Active",
+    "Chinese": "活动"
+  },
+  {
+    "Id": 361,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::OnContextMenu(System.Object,System.EventArgs)",
+    "Index": 23,
+    "English": "Connected",
+    "Chinese": "已连接"
+  },
+  {
+    "Id": 362,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::OnContextMenu(System.Object,System.EventArgs)",
+    "Index": 27,
+    "English": "Disconnected",
+    "Chinese": "已断开"
+  },
+  {
+    "Id": 363,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::OnContextMenu(System.Object,System.EventArgs)",
+    "Index": 39,
+    "English": "&Disconnect",
+    "Chinese": "断开连接(&D)"
+  },
+  {
+    "Id": 365,
+    "Type": "RdcMan.ListSessionsForm",
+    "Method": "System.Void RdcMan.ListSessionsForm::OnContextMenu(System.Object,System.EventArgs)",
+    "Index": 60,
+    "English": "&Log off",
+    "Chinese": "注销(&L)"
+  },
+  {
+    "Id": 366,
+    "Type": "RdcMan.ListSessionsForm/<>c__DisplayClass17_0",
+    "Method": "System.Void RdcMan.ListSessionsForm/<>c__DisplayClass17_0::<OpenThreadProc>b__0()",
+    "Index": 3,
+    "English": "Unable to access remote sessions",
+    "Chinese": "无法访问远程会话"
+  },
+  {
+    "Id": 367,
+    "Type": "RdcMan.ListSessionsForm/<>c__DisplayClass18_0",
+    "Method": "System.Void RdcMan.ListSessionsForm/<>c__DisplayClass18_0::<QuerySessions>b__1()",
+    "Index": 3,
+    "English": "Unable to enumerate remote sessions",
+    "Chinese": "无法枚举远程会话"
+  },
+  {
+    "Id": 368,
+    "Type": "RdcMan.ListSessionsForm/<>c__DisplayClass18_0",
+    "Method": "System.Void RdcMan.ListSessionsForm/<>c__DisplayClass18_0::<QuerySessions>b__2()",
+    "Index": 8,
+    "English": " session",
+    "Chinese": " 个会话"
+  },
+  {
+    "Id": 369,
+    "Type": "RdcMan.ListSessionsForm/<>c__DisplayClass18_0",
+    "Method": "System.Void RdcMan.ListSessionsForm/<>c__DisplayClass18_0::<QuerySessions>b__2()",
+    "Index": 15,
+    "English": "s",
+    "Chinese": ""
+  },
+  {
+    "Id": 388,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Boolean RdcMan.MainForm::Initialize()",
+    "Index": 11,
+    "English": "RDCMan encountered an error during initialization. There are two likely causes for this: an incompatible version of mstscax.dll is registered or it is not registered at all. Please see the help file for details.",
+    "Chinese": "RDCMan 初始化失败。可能是 mstscax.dll 版本不兼容，或该组件尚未注册。详情请参阅帮助。"
+  },
+  {
+    "Id": 389,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::SetTitle()",
+    "Index": 5,
+    "English": " - Sysinternals: www.sysinternals.com",
+    "Chinese": " - 基于 Sysinternals RDCMan 2.93"
+  },
+  {
+    "Id": 396,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 2,
+    "English": "&File",
+    "Chinese": "文件(&F)"
+  },
+  {
+    "Id": 397,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 8,
+    "English": "&New...",
+    "Chinese": "新建(&N)…"
+  },
+  {
+    "Id": 399,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 19,
+    "English": "&Open...",
+    "Chinese": "打开(&O)…"
+  },
+  {
+    "Id": 405,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 64,
+    "English": "Save A&ll",
+    "Chinese": "全部保存(&L)"
+  },
+  {
+    "Id": 409,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 104,
+    "English": "E&xit",
+    "Chinese": "退出(&X)"
+  },
+  {
+    "Id": 411,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 121,
+    "English": "&Edit",
+    "Chinese": "编辑(&E)"
+  },
+  {
+    "Id": 412,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 127,
+    "English": "&Add server...",
+    "Chinese": "添加服务器(&A)…"
+  },
+  {
+    "Id": 414,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 144,
+    "English": "&Import servers...",
+    "Chinese": "导入服务器(&I)…"
+  },
+  {
+    "Id": 415,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 160,
+    "English": "Add &group...",
+    "Chinese": "添加分组(&G)…"
+  },
+  {
+    "Id": 417,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 177,
+    "English": "Add s&mart group...",
+    "Chinese": "添加智能分组(&M)…"
+  },
+  {
+    "Id": 419,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 198,
+    "English": "Remo&ve server/group...",
+    "Chinese": "移除服务器/分组(&V)…"
+  },
+  {
+    "Id": 422,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 220,
+    "English": "&Find...",
+    "Chinese": "查找(&F)…"
+  },
+  {
+    "Id": 425,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 242,
+    "English": "A&dd to favorites",
+    "Chinese": "添加到收藏夹(&D)"
+  },
+  {
+    "Id": 428,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 263,
+    "English": "P&roperties",
+    "Chinese": "属性(&R)"
+  },
+  {
+    "Id": 430,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 285,
+    "English": "&Session",
+    "Chinese": "会话(&S)"
+  },
+  {
+    "Id": 431,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 290,
+    "English": "&Connect",
+    "Chinese": "连接(&C)"
+  },
+  {
+    "Id": 433,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 311,
+    "English": "Connect &as...",
+    "Chinese": "使用指定凭据连接(&A)…"
+  },
+  {
+    "Id": 435,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 332,
+    "English": "R&econnect",
+    "Chinese": "重新连接(&E)"
+  },
+  {
+    "Id": 437,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 359,
+    "English": "Send keys",
+    "Chinese": "发送按键"
+  },
+  {
+    "Id": 438,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 380,
+    "English": "Remote actions",
+    "Chinese": "远程操作"
+  },
+  {
+    "Id": 440,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 408,
+    "English": "&Disconnect",
+    "Chinese": "断开连接(&D)"
+  },
+  {
+    "Id": 442,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 433,
+    "English": "Log off",
+    "Chinese": "注销"
+  },
+  {
+    "Id": 443,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 453,
+    "English": "&List sessions",
+    "Chinese": "列出会话(&L)"
+  },
+  {
+    "Id": 445,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 478,
+    "English": "&Full screen",
+    "Chinese": "全屏(&F)"
+  },
+  {
+    "Id": 446,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 498,
+    "English": "&Undock",
+    "Chinese": "独立窗口(&U)"
+  },
+  {
+    "Id": 447,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 518,
+    "English": "Undoc&k and connect",
+    "Chinese": "独立窗口并连接(&K)"
+  },
+  {
+    "Id": 448,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 538,
+    "English": "&Dock",
+    "Chinese": "停靠(&D)"
+  },
+  {
+    "Id": 450,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 564,
+    "English": "Connect to...",
+    "Chinese": "临时连接…"
+  },
+  {
+    "Id": 453,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 585,
+    "English": "Screen capture",
+    "Chinese": "屏幕截图"
+  },
+  {
+    "Id": 454,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 606,
+    "English": "&View",
+    "Chinese": "视图(&V)"
+  },
+  {
+    "Id": 455,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 612,
+    "English": "&Sort order",
+    "Chinese": "排序方式(&S)"
+  },
+  {
+    "Id": 456,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 618,
+    "English": "&Groups",
+    "Chinese": "分组(&G)"
+  },
+  {
+    "Id": 457,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 624,
+    "English": "&Name",
+    "Chinese": "名称(&N)"
+  },
+  {
+    "Id": 458,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 631,
+    "English": "N&o sorting",
+    "Chinese": "不排序(&O)"
+  },
+  {
+    "Id": 459,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 638,
+    "English": "&Servers",
+    "Chinese": "服务器(&S)"
+  },
+  {
+    "Id": 460,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 644,
+    "English": "&Status.Name",
+    "Chinese": "状态、名称(&S)"
+  },
+  {
+    "Id": 461,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 651,
+    "English": "&Name",
+    "Chinese": "名称(&N)"
+  },
+  {
+    "Id": 462,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 658,
+    "English": "N&o sorting",
+    "Chinese": "不排序(&O)"
+  },
+  {
+    "Id": 463,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 665,
+    "English": "Server tree location",
+    "Chinese": "服务器树位置"
+  },
+  {
+    "Id": 464,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 671,
+    "English": "&Left",
+    "Chinese": "左侧(&L)"
+  },
+  {
+    "Id": 465,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 678,
+    "English": "&Right",
+    "Chinese": "右侧(&R)"
+  },
+  {
+    "Id": 466,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 685,
+    "English": "Server tree visibility",
+    "Chinese": "服务器树显示方式"
+  },
+  {
+    "Id": 467,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 691,
+    "English": "&Dock",
+    "Chinese": "停靠(&D)"
+  },
+  {
+    "Id": 468,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 698,
+    "English": "&Auto hide",
+    "Chinese": "自动隐藏(&A)"
+  },
+  {
+    "Id": 469,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 705,
+    "English": "&Hide",
+    "Chinese": "隐藏(&H)"
+  },
+  {
+    "Id": 471,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 717,
+    "English": "Built-in groups",
+    "Chinese": "内置分组"
+  },
+  {
+    "Id": 473,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 753,
+    "English": "&Lock window size",
+    "Chinese": "锁定窗口大小(&L)"
+  },
+  {
+    "Id": 474,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 770,
+    "English": "&Client size",
+    "Chinese": "显示区域大小(&C)"
+  },
+  {
+    "Id": 475,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 803,
+    "English": "&Custom",
+    "Chinese": "自定义(&C)"
+  },
+  {
+    "Id": 476,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 809,
+    "English": "From remote desktop size",
+    "Chinese": "使用远程桌面尺寸"
+  },
+  {
+    "Id": 477,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 832,
+    "English": "&Tools",
+    "Chinese": "工具(&T)"
+  },
+  {
+    "Id": 478,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 838,
+    "English": "&Options",
+    "Chinese": "选项(&O)"
+  },
+  {
+    "Id": 479,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 854,
+    "English": "&Help",
+    "Chinese": "帮助(&H)"
+  },
+  {
+    "Id": 480,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 860,
+    "English": "&Usage",
+    "Chinese": "使用说明(&U)"
+  },
+  {
+    "Id": 482,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::CreateMainMenu()",
+    "Index": 881,
+    "English": "&About...",
+    "Chinese": "关于(&A)…"
+  },
+  {
+    "Id": 483,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Boolean RdcMan.MainForm::AnyActive()",
+    "Index": 5,
+    "English": "There are active connections. Are you sure?",
+    "Chinese": "仍有活动连接。是否继续？"
+  },
+  {
+    "Id": 485,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 22,
+    "English": "&Save",
+    "Chinese": "保存(&S)"
+  },
+  {
+    "Id": 486,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 30,
+    "English": "Save &as...",
+    "Chinese": "另存为(&A)…"
+  },
+  {
+    "Id": 487,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 38,
+    "English": "&Close",
+    "Chinese": "关闭(&C)"
+  },
+  {
+    "Id": 488,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 47,
+    "English": "&Save ",
+    "Chinese": "保存(&S) "
+  },
+  {
+    "Id": 489,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 58,
+    "English": "Save ",
+    "Chinese": "将 "
+  },
+  {
+    "Id": 490,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 61,
+    "English": " &as...",
+    "Chinese": " 另存为(&A)…"
+  },
+  {
+    "Id": 491,
+    "Type": "RdcMan.MainForm",
+    "Method": "System.Void RdcMan.MainForm::UpdateMainMenu()",
+    "Index": 70,
+    "English": "&Close ",
+    "Chinese": "关闭(&C) "
+  },
+  {
+    "Id": 492,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 9,
+    "English": "&Connect server",
+    "Chinese": "连接服务器(&C)"
+  },
+  {
+    "Id": 493,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 28,
+    "English": "Connect server &as...",
+    "Chinese": "使用指定凭据连接服务器(&A)…"
+  },
+  {
+    "Id": 494,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 46,
+    "English": "R&econnect server",
+    "Chinese": "重新连接服务器(&E)"
+  },
+  {
+    "Id": 496,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 70,
+    "English": "Send keys",
+    "Chinese": "发送按键"
+  },
+  {
+    "Id": 497,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 86,
+    "English": "Remote actions",
+    "Chinese": "远程操作"
+  },
+  {
+    "Id": 499,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 103,
+    "English": "&Disconnect server",
+    "Chinese": "断开服务器连接(&D)"
+  },
+  {
+    "Id": 501,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 125,
+    "English": "Log off server",
+    "Chinese": "注销服务器会话"
+  },
+  {
+    "Id": 502,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSessionMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 148,
+    "English": "&List sessions",
+    "Chinese": "列出会话(&L)"
+  },
+  {
+    "Id": 503,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSendKeysMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 9,
+    "English": "Security dialog",
+    "Chinese": "Windows 安全界面"
+  },
+  {
+    "Id": 504,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSendKeysMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 19,
+    "English": "Window menu",
+    "Chinese": "窗口菜单"
+  },
+  {
+    "Id": 505,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSendKeysMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 34,
+    "English": "Task manager",
+    "Chinese": "任务管理器"
+  },
+  {
+    "Id": 506,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddSendKeysMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 44,
+    "English": "Start menu",
+    "Chinese": "开始菜单"
+  },
+  {
+    "Id": 507,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddRemoteActionsMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 9,
+    "English": "App commands",
+    "Chinese": "应用命令"
+  },
+  {
+    "Id": 508,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddRemoteActionsMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 18,
+    "English": "Charms",
+    "Chinese": "超级按钮栏"
+  },
+  {
+    "Id": 509,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddRemoteActionsMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 27,
+    "English": "Snap",
+    "Chinese": "贴靠窗口"
+  },
+  {
+    "Id": 510,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddRemoteActionsMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 36,
+    "English": "Switch apps",
+    "Chinese": "切换应用"
+  },
+  {
+    "Id": 511,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddRemoteActionsMenuItems(System.Windows.Forms.ToolStripMenuItem,System.Func`1<RdcMan.ServerBase>)",
+    "Index": 45,
+    "English": "Start",
+    "Chinese": "开始"
+  },
+  {
+    "Id": 512,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddDockingMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 13,
+    "English": "&Full screen",
+    "Chinese": "全屏(&F)"
+  },
+  {
+    "Id": 513,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddDockingMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 34,
+    "English": "&Undock",
+    "Chinese": "独立窗口(&U)"
+  },
+  {
+    "Id": 514,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddDockingMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 59,
+    "English": "Undoc&k and connect",
+    "Chinese": "独立窗口并连接(&K)"
+  },
+  {
+    "Id": 515,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddDockingMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 84,
+    "English": "D&ock",
+    "Chinese": "停靠(&O)"
+  },
+  {
+    "Id": 516,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddMaintenanceMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 5,
+    "English": "Remo&ve server",
+    "Chinese": "移除服务器(&V)"
+  },
+  {
+    "Id": 518,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddMaintenanceMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 28,
+    "English": "Add to favorites",
+    "Chinese": "添加到收藏夹"
+  },
+  {
+    "Id": 520,
+    "Type": "RdcMan.MenuHelper",
+    "Method": "System.Void RdcMan.MenuHelper::AddMaintenanceMenuItems(System.Windows.Forms.ContextMenuStrip,RdcMan.ServerBase)",
+    "Index": 51,
+    "English": "P&roperties",
+    "Chinese": "属性(&R)"
+  },
+  {
+    "Id": 522,
+    "Type": "RdcMan.BuiltInVirtualGroup`1",
+    "Method": "System.Boolean RdcMan.BuiltInVirtualGroup`1::ConfirmRemove(System.Boolean)",
+    "Index": 0,
+    "English": "Use the View menu to hide the ",
+    "Chinese": "请使用“视图”菜单隐藏“"
+  },
+  {
+    "Id": 523,
+    "Type": "RdcMan.BuiltInVirtualGroup`1",
+    "Method": "System.Boolean RdcMan.BuiltInVirtualGroup`1::ConfirmRemove(System.Boolean)",
+    "Index": 3,
+    "English": " group",
+    "Chinese": "”分组"
+  },
+  {
+    "Id": 525,
+    "Type": "RdcMan.ConnectToGroup",
+    "Method": "System.Void RdcMan.ConnectToGroup::.ctor()",
+    "Index": 3,
+    "English": "Connect To",
+    "Chinese": "临时连接"
+  },
+  {
+    "Id": 527,
+    "Type": "RdcMan.ConnectedGroup",
+    "Method": "System.Void RdcMan.ConnectedGroup::.ctor()",
+    "Index": 3,
+    "English": "Connected",
+    "Chinese": "已连接"
+  },
+  {
+    "Id": 529,
+    "Type": "RdcMan.ConnectedServerRef",
+    "Method": "System.Boolean RdcMan.ConnectedServerRef::ConfirmRemove(System.Boolean)",
+    "Index": 0,
+    "English": "Disconnect the server to remove it from the Connected group",
+    "Chinese": "请先断开服务器连接，再将其从“已连接”分组移除"
+  },
+  {
+    "Id": 531,
+    "Type": "RdcMan.DefaultSettingsGroup",
+    "Method": "System.Void RdcMan.DefaultSettingsGroup::ReadXml(System.Xml.XmlNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 6,
+    "English": "Default settings group malformed",
+    "Chinese": "默认设置分组格式无效"
+  },
+  {
+    "Id": 533,
+    "Type": "RdcMan.FavoritesGroup",
+    "Method": "System.Void RdcMan.FavoritesGroup::.ctor()",
+    "Index": 3,
+    "English": "Favorites",
+    "Chinese": "收藏夹"
+  },
+  {
+    "Id": 536,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Void RdcMan.FileGroup::ReadXml(System.Xml.XmlNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 17,
+    "English": " {RO}",
+    "Chinese": " {只读}"
+  },
+  {
+    "Id": 538,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Boolean RdcMan.FileGroup::ConfirmRemove(System.Boolean)",
+    "Index": 0,
+    "English": "Use the File menu to close the ",
+    "Chinese": "请使用“文件”菜单关闭“"
+  },
+  {
+    "Id": 539,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Boolean RdcMan.FileGroup::ConfirmRemove(System.Boolean)",
+    "Index": 3,
+    "English": " group",
+    "Chinese": "”分组"
+  },
+  {
+    "Id": 540,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Void RdcMan.FileGroup::CheckCredentials()",
+    "Index": 22,
+    "English": "Some credential profiles were not found.",
+    "Chinese": "未找到部分凭据配置。"
+  },
+  {
+    "Id": 541,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Void RdcMan.FileGroup::CheckCredentials()",
+    "Index": 24,
+    "English": "Please add the missing profiles before connecting to servers, edit properties, etc. otherwise the reference will be lost.",
+    "Chinese": "请先补齐缺失的凭据配置，再连接服务器或编辑属性，否则原有引用可能丢失。"
+  },
+  {
+    "Id": 542,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Void RdcMan.FileGroup::CheckCredentials()",
+    "Index": 26,
+    "English": "Click OK to copy the details to the clipboard.",
+    "Chinese": "点击“确定”将详细信息复制到剪贴板。"
+  },
+  {
+    "Id": 543,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Void RdcMan.FileGroup::CheckCredentials()",
+    "Index": 39,
+    "English": "Profile name: ",
+    "Chinese": "配置名称："
+  },
+  {
+    "Id": 544,
+    "Type": "RdcMan.FileGroup",
+    "Method": "System.Void RdcMan.FileGroup::CheckCredentials()",
+    "Index": 46,
+    "English": "Referenced by: ",
+    "Chinese": "引用位置："
+  },
+  {
+    "Id": 547,
+    "Type": "RdcMan.FileGroup/<>c__DisplayClass21_0",
+    "Method": "System.Void RdcMan.FileGroup/<>c__DisplayClass21_0::<CheckCredentials>b__0(RdcMan.RdcTreeNode)",
+    "Index": 5,
+    "English": "Logon Credentials",
+    "Chinese": "登录凭据"
+  },
+  {
+    "Id": 548,
+    "Type": "RdcMan.FileGroup/<>c__DisplayClass21_0",
+    "Method": "System.Void RdcMan.FileGroup/<>c__DisplayClass21_0::<CheckCredentials>b__0(RdcMan.RdcTreeNode)",
+    "Index": 14,
+    "English": "Gateway Settings",
+    "Chinese": "网关设置"
+  },
+  {
+    "Id": 557,
+    "Type": "RdcMan.GroupBase",
+    "Method": "System.Void RdcMan.GroupBase::ConnectAs(RdcMan.LogonCredentials,RdcMan.ConnectionSettings)",
+    "Index": 22,
+    "English": " group contains ",
+    "Chinese": "分组包含 "
+  },
+  {
+    "Id": 558,
+    "Type": "RdcMan.GroupBase",
+    "Method": "System.Void RdcMan.GroupBase::ConnectAs(RdcMan.LogonCredentials,RdcMan.ConnectionSettings)",
+    "Index": 25,
+    "English": " disconnected servers. Are you sure?",
+    "Chinese": " 台未连接的服务器。是否继续？"
+  },
+  {
+    "Id": 559,
+    "Type": "RdcMan.GroupBase",
+    "Method": "System.Boolean RdcMan.GroupBase::ConfirmRemove(System.Boolean)",
+    "Index": 12,
+    "English": "There are active sessions in the ",
+    "Chinese": "以下分组中仍有活动会话："
+  },
+  {
+    "Id": 560,
+    "Type": "RdcMan.GroupBase",
+    "Method": "System.Boolean RdcMan.GroupBase::ConfirmRemove(System.Boolean)",
+    "Index": 15,
+    "English": " group. Disconnect them before removing the group.",
+    "Chinese": "。请先断开这些会话，再移除分组。"
+  },
+  {
+    "Id": 561,
+    "Type": "RdcMan.GroupBase",
+    "Method": "System.Boolean RdcMan.GroupBase::ConfirmRemove(System.Boolean)",
+    "Index": 27,
+    "English": "Remove ",
+    "Chinese": "是否移除“"
+  },
+  {
+    "Id": 562,
+    "Type": "RdcMan.GroupBase",
+    "Method": "System.Boolean RdcMan.GroupBase::ConfirmRemove(System.Boolean)",
+    "Index": 30,
+    "English": " group?",
+    "Chinese": "”分组？"
+  },
+  {
+    "Id": 563,
+    "Type": "RdcMan.RecentlyUsedGroup",
+    "Method": "System.Void RdcMan.RecentlyUsedGroup::.ctor()",
+    "Index": 3,
+    "English": "Recent",
+    "Chinese": "最近使用"
+  },
+  {
+    "Id": 565,
+    "Type": "RdcMan.RecentlyUsedGroup",
+    "Method": "System.Void RdcMan.RecentlyUsedGroup::DoPropertiesDialog(System.Windows.Forms.Form,System.String)",
+    "Index": 0,
+    "English": "Recently Used Group Settings",
+    "Chinese": "最近使用分组设置"
+  },
+  {
+    "Id": 566,
+    "Type": "RdcMan.RecentlyUsedGroup",
+    "Method": "System.Void RdcMan.RecentlyUsedGroup::DoPropertiesDialog(System.Windows.Forms.Form,System.String)",
+    "Index": 1,
+    "English": "OK",
+    "Chinese": "确定"
+  },
+  {
+    "Id": 568,
+    "Type": "RdcMan.RecentlyUsedGroup/RecentlyUsedSettings",
+    "Method": "System.Void RdcMan.RecentlyUsedGroup/RecentlyUsedSettings::.ctor()",
+    "Index": 1,
+    "English": "Properties",
+    "Chinese": "属性"
+  },
+  {
+    "Id": 569,
+    "Type": "RdcMan.RecentlyUsedGroup/RecentlyUsedSettings/RecentlyUsedSettingsTabPage",
+    "Method": "System.Void RdcMan.RecentlyUsedGroup/RecentlyUsedSettings/RecentlyUsedSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RecentlyUsedGroup/RecentlyUsedSettings)",
+    "Index": 8,
+    "English": "Number of entries",
+    "Chinese": "记录数量"
+  },
+  {
+    "Id": 570,
+    "Type": "RdcMan.RecentlyUsedGroup/RecentlyUsedSettings/RecentlyUsedSettingsTabPage",
+    "Method": "System.Void RdcMan.RecentlyUsedGroup/RecentlyUsedSettings/RecentlyUsedSettingsTabPage::.ctor(RdcMan.TabbedSettingsDialog,RdcMan.RecentlyUsedGroup/RecentlyUsedSettings)",
+    "Index": 15,
+    "English": "Number of entries must be 1 to 20",
+    "Chinese": "记录数量必须在 1 到 20 之间"
+  },
+  {
+    "Id": 571,
+    "Type": "RdcMan.ReconnectGroup",
+    "Method": "System.Void RdcMan.ReconnectGroup::.ctor()",
+    "Index": 3,
+    "English": "Reconnect",
+    "Chinese": "待重连"
+  },
+  {
+    "Id": 591,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 55,
+    "English": "DNS name lookup failure",
+    "Chinese": "DNS 名称解析失败"
+  },
+  {
+    "Id": 592,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 61,
+    "English": "Authentication failure",
+    "Chinese": "身份验证失败"
+  },
+  {
+    "Id": 593,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 67,
+    "English": "Connection timed out",
+    "Chinese": "连接超时"
+  },
+  {
+    "Id": 594,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 73,
+    "English": "Unable to establish a connection",
+    "Chinese": "无法建立连接"
+  },
+  {
+    "Id": 595,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 79,
+    "English": "Smart card reader not detected",
+    "Chinese": "未检测到智能卡读卡器"
+  },
+  {
+    "Id": 596,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 85,
+    "English": "Server does not support authentication",
+    "Chinese": "服务器不支持身份验证"
+  },
+  {
+    "Id": 597,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 91,
+    "English": "You already have a console session in progress",
+    "Chinese": "已有一个控制台会话正在进行"
+  },
+  {
+    "Id": 598,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 97,
+    "English": "Bad IP address specified",
+    "Chinese": "指定的 IP 地址无效"
+  },
+  {
+    "Id": 599,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 103,
+    "English": "Login failed",
+    "Chinese": "登录失败"
+  },
+  {
+    "Id": 600,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 109,
+    "English": "Server has no sessions available",
+    "Chinese": "服务器没有可用会话"
+  },
+  {
+    "Id": 601,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 115,
+    "English": "Socket closed",
+    "Chinese": "套接字已关闭"
+  },
+  {
+    "Id": 602,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 121,
+    "English": "The specified user has no account",
+    "Chinese": "指定的用户账户不存在"
+  },
+  {
+    "Id": 603,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 127,
+    "English": "Session connected by other client",
+    "Chinese": "会话已由其他客户端连接"
+  },
+  {
+    "Id": 604,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 133,
+    "English": "Server authentication failure",
+    "Chinese": "服务器身份验证失败"
+  },
+  {
+    "Id": 605,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 139,
+    "English": "The password is expired",
+    "Chinese": "密码已过期"
+  },
+  {
+    "Id": 606,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 145,
+    "English": "The user password must be changed before logging on for the first time",
+    "Chinese": "首次登录前必须更改用户密码"
+  },
+  {
+    "Id": 607,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 151,
+    "English": "An incorrect PIN was presented to the smart card",
+    "Chinese": "智能卡 PIN 不正确"
+  },
+  {
+    "Id": 608,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 157,
+    "English": "No credentials entered",
+    "Chinese": "未输入凭据"
+  },
+  {
+    "Id": 609,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 163,
+    "English": "The smart card is blocked",
+    "Chinese": "智能卡已锁定"
+  },
+  {
+    "Id": 610,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 169,
+    "English": "Gateway authentication failure",
+    "Chinese": "网关身份验证失败"
+  },
+  {
+    "Id": 611,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 175,
+    "English": "Server not found",
+    "Chinese": "未找到服务器"
+  },
+  {
+    "Id": 612,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 181,
+    "English": "Unable to connect to gateway",
+    "Chinese": "无法连接网关"
+  },
+  {
+    "Id": 613,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 187,
+    "English": "Smartcard authentication failure",
+    "Chinese": "智能卡身份验证失败"
+  },
+  {
+    "Id": 614,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 193,
+    "English": "Server not found",
+    "Chinese": "未找到服务器"
+  },
+  {
+    "Id": 615,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 199,
+    "English": "Your user or computer account is not authorized to access the gateway server",
+    "Chinese": "你的用户或计算机账户无权访问网关服务器"
+  },
+  {
+    "Id": 616,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 205,
+    "English": "No gateway credentials entered",
+    "Chinese": "未输入网关凭据"
+  },
+  {
+    "Id": 618,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 217,
+    "English": "No smartcard PIN entered",
+    "Chinese": "未输入智能卡 PIN"
+  },
+  {
+    "Id": 619,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 226,
+    "English": "No additional information is available",
+    "Chinese": "没有更多信息"
+  },
+  {
+    "Id": 622,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 244,
+    "English": "The server has disconnected the client because the client has been idle for a period of time longer than the designated time-out period",
+    "Chinese": "空闲时间超过规定时限，服务器已断开客户端连接"
+  },
+  {
+    "Id": 623,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 250,
+    "English": "The server has disconnected the client because the client has exceeded the period designated for connection",
+    "Chinese": "连接时长超过规定时限，服务器已断开客户端连接"
+  },
+  {
+    "Id": 624,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 256,
+    "English": "The client's connection was replaced by another connection",
+    "Chinese": "此客户端的连接已被其他连接替代"
+  },
+  {
+    "Id": 625,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 262,
+    "English": "No memory is available",
+    "Chinese": "可用内存不足"
+  },
+  {
+    "Id": 626,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 268,
+    "English": "The server denied the connection",
+    "Chinese": "服务器拒绝连接"
+  },
+  {
+    "Id": 627,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 274,
+    "English": "The server denied the connection for security reasons",
+    "Chinese": "服务器因安全原因拒绝连接"
+  },
+  {
+    "Id": 628,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 280,
+    "English": "The user account is not authorized for remote login",
+    "Chinese": "用户账户无权进行远程登录"
+  },
+  {
+    "Id": 629,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 286,
+    "English": "The user account credentials must be reentered",
+    "Chinese": "必须重新输入用户账户凭据"
+  },
+  {
+    "Id": 630,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 292,
+    "English": "The client was remotely disconnected",
+    "Chinese": "客户端已被远程断开"
+  },
+  {
+    "Id": 631,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 298,
+    "English": "The connection was lost",
+    "Chinese": "连接已丢失"
+  },
+  {
+    "Id": 632,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 304,
+    "English": "Internal licensing error",
+    "Chinese": "内部授权许可错误"
+  },
+  {
+    "Id": 633,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 310,
+    "English": "No license server was available",
+    "Chinese": "没有可用的许可证服务器"
+  },
+  {
+    "Id": 634,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 316,
+    "English": "No valid software license was available",
+    "Chinese": "没有有效的软件许可证"
+  },
+  {
+    "Id": 635,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 322,
+    "English": "The remote computer received a licensing message that was not valid",
+    "Chinese": "远程计算机收到的授权许可消息无效"
+  },
+  {
+    "Id": 636,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 328,
+    "English": "The hardware ID does not match the one designated on the software license",
+    "Chinese": "硬件 ID 与软件许可证中的 ID 不匹配"
+  },
+  {
+    "Id": 637,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 334,
+    "English": "Client license error",
+    "Chinese": "客户端许可证错误"
+  },
+  {
+    "Id": 638,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 340,
+    "English": "Network problems occurred during the licensing protocol",
+    "Chinese": "授权许可协议期间发生网络问题"
+  },
+  {
+    "Id": 639,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 346,
+    "English": "The client ended the licensing protocol prematurely",
+    "Chinese": "客户端提前终止了授权许可协议"
+  },
+  {
+    "Id": 640,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 352,
+    "English": "A licensing message was encrypted incorrectly",
+    "Chinese": "授权许可消息加密不正确"
+  },
+  {
+    "Id": 641,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 358,
+    "English": "The local computer's client access license could not be upgraded or renewed",
+    "Chinese": "无法升级或续订本机的客户端访问许可证"
+  },
+  {
+    "Id": 642,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::.cctor()",
+    "Index": 364,
+    "English": "The remote computer is not licensed to accept remote connections",
+    "Chinese": "远程计算机未获得接受远程连接的许可"
+  },
+  {
+    "Id": 645,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_RemoveTypeDescription()",
+    "Index": 0,
+    "English": "server",
+    "Chinese": "服务器"
+  },
+  {
+    "Id": 647,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_ConnectedText()",
+    "Index": 3,
+    "English": "Connected",
+    "Chinese": "已连接"
+  },
+  {
+    "Id": 648,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_ConnectedText()",
+    "Index": 5,
+    "English": "Connected to ",
+    "Chinese": "已连接到 "
+  },
+  {
+    "Id": 649,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_ConnectingText()",
+    "Index": 3,
+    "English": "Connecting",
+    "Chinese": "正在连接"
+  },
+  {
+    "Id": 650,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_ConnectingText()",
+    "Index": 5,
+    "English": "Connecting to ",
+    "Chinese": "正在连接到 "
+  },
+  {
+    "Id": 651,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_DisconnectedText()",
+    "Index": 3,
+    "English": "Disconnected",
+    "Chinese": "已断开"
+  },
+  {
+    "Id": 652,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_DisconnectedText()",
+    "Index": 10,
+    "English": " [error]",
+    "Chinese": " [错误]"
+  },
+  {
+    "Id": 653,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::get_DisconnectedText()",
+    "Index": 14,
+    "English": "Disconnected from ",
+    "Chinese": "已断开连接："
+  },
+  {
+    "Id": 656,
+    "Type": "RdcMan.Server",
+    "Method": "System.String RdcMan.Server::GetConnectionStateText()",
+    "Index": 15,
+    "English": "<GetText error>",
+    "Chinese": "<读取显示文字出错>"
+  },
+  {
+    "Id": 657,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::ScreenCapture()",
+    "Index": 37,
+    "English": "Error capturing session screen: ",
+    "Chinese": "无法截取会话画面："
+  },
+  {
+    "Id": 683,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::ConnectAs(RdcMan.LogonCredentials,RdcMan.ConnectionSettings)",
+    "Index": 594,
+    "English": "Error setting up connection properties",
+    "Chinese": "设置连接属性时出错"
+  },
+  {
+    "Id": 684,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::ConnectAs(RdcMan.LogonCredentials,RdcMan.ConnectionSettings)",
+    "Index": 596,
+    "English": "Error possibly involving '",
+    "Chinese": "错误可能涉及“"
+  },
+  {
+    "Id": 686,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::ConnectAs(RdcMan.LogonCredentials,RdcMan.ConnectionSettings)",
+    "Index": 603,
+    "English": "Error({1}) connecting to {0}",
+    "Chinese": "连接 {0} 时出错（{1}）"
+  },
+  {
+    "Id": 690,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::Disconnect()",
+    "Index": 21,
+    "English": "Error disconnection: {0}",
+    "Chinese": "断开连接时出错：{0}"
+  },
+  {
+    "Id": 692,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffWorkerProc(System.Object)",
+    "Index": 23,
+    "English": "Unable to access remote sessions",
+    "Chinese": "无法访问远程会话"
+  },
+  {
+    "Id": 693,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffWorkerProc(System.Object)",
+    "Index": 35,
+    "English": "Unable to enumerate remote sessions",
+    "Chinese": "无法枚举远程会话"
+  },
+  {
+    "Id": 694,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffWorkerProc(System.Object)",
+    "Index": 87,
+    "English": "Multiple active sessions, couldn't determine which to log off",
+    "Chinese": "存在多个活动会话，无法确定要注销哪一个"
+  },
+  {
+    "Id": 695,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffWorkerProc(System.Object)",
+    "Index": 108,
+    "English": "Log off session API failed",
+    "Chinese": "注销会话的 API 调用失败"
+  },
+  {
+    "Id": 696,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffWorkerProc(System.Object)",
+    "Index": 116,
+    "English": "Internal error",
+    "Chinese": "内部错误"
+  },
+  {
+    "Id": 698,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffResultCallback(System.Boolean,System.String)",
+    "Index": 12,
+    "English": "Unable to log off from ",
+    "Chinese": "无法注销："
+  },
+  {
+    "Id": 699,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::LogOffResultCallback(System.Boolean,System.String)",
+    "Index": 15,
+    "English": "\r\nReason: ",
+    "Chinese": "\n原因："
+  },
+  {
+    "Id": 703,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::OnDisconnected(System.Object,AxMSTSCLib.IMsTscAxEvents_OnDisconnectedEvent)",
+    "Index": 59,
+    "English": "Unknown extended disconnection reason {0}",
+    "Chinese": "未知的扩展断开原因：{0}"
+  },
+  {
+    "Id": 704,
+    "Type": "RdcMan.Server",
+    "Method": "System.Void RdcMan.Server::OnDisconnected(System.Object,AxMSTSCLib.IMsTscAxEvents_OnDisconnectedEvent)",
+    "Index": 80,
+    "English": "Unknown disconnection reason {0}",
+    "Chinese": "未知的断开原因：{0}"
+  },
+  {
+    "Id": 715,
+    "Type": "RdcMan.Server",
+    "Method": "System.Boolean RdcMan.Server::ConfirmRemove(System.Boolean)",
+    "Index": 3,
+    "English": "There is an active session on ",
+    "Chinese": "该服务器存在活动会话："
+  },
+  {
+    "Id": 716,
+    "Type": "RdcMan.Server",
+    "Method": "System.Boolean RdcMan.Server::ConfirmRemove(System.Boolean)",
+    "Index": 6,
+    "English": ". Disconnect it before removing the server.",
+    "Chinese": "。移除服务器前请先断开会话。"
+  },
+  {
+    "Id": 717,
+    "Type": "RdcMan.ServerBox",
+    "Method": "System.Void RdcMan.ServerBox::SetText()",
+    "Index": 10,
+    "English": "{ Undocked }",
+    "Chinese": "{ 独立窗口 }"
+  },
+  {
+    "Id": 718,
+    "Type": "RdcMan.ServerBase",
+    "Method": "System.Boolean RdcMan.ServerBase::ConfirmRemove(System.Boolean)",
+    "Index": 8,
+    "English": "Remove '{0}' {1} from '{2}'?",
+    "Chinese": "是否从“{2}”中移除{1}“{0}”？"
+  },
+  {
+    "Id": 720,
+    "Type": "RdcMan.ServerRef",
+    "Method": "System.String RdcMan.ServerRef::get_RemoveTypeDescription()",
+    "Index": 0,
+    "English": "server reference",
+    "Chinese": "服务器引用"
+  },
+  {
+    "Id": 724,
+    "Type": "RdcMan.SmartServerRef",
+    "Method": "System.Boolean RdcMan.SmartServerRef::ConfirmRemove(System.Boolean)",
+    "Index": 0,
+    "English": "Smart group members are specified by inclusion criteria; manual removal is not allowed",
+    "Chinese": "智能分组成员由筛选规则决定，不能手动移除"
+  },
+  {
+    "Id": 734,
+    "Type": "RdcMan.Preferences",
+    "Method": "RdcMan.Preferences RdcMan.Preferences::Load()",
+    "Index": 190,
+    "English": "The following errors were encountered:",
+    "Chinese": "读取启动配置时遇到以下问题："
+  },
+  {
+    "Id": 735,
+    "Type": "RdcMan.Preferences",
+    "Method": "RdcMan.Preferences RdcMan.Preferences::Load()",
+    "Index": 216,
+    "English": "Your global configuration has not loaded completely. If it is saved it almost certainly means losing information. Continue?",
+    "Chinese": "全局配置未完整加载。若继续并保存，当前版本不支持的设置可能丢失。是否继续启动？"
+  },
+  {
+    "Id": 832,
+    "Type": "RdcMan.Program",
+    "Method": "System.Void RdcMan.Program::Main(System.String[])",
+    "Index": 19,
+    "English": "Error reading RDCMan configuration file: {0} The program may not be unstable and/or not fully functional.",
+    "Chinese": "读取 RDCMan 配置文件时出错：{0}。程序可能不稳定或部分功能不可用。"
+  },
+  {
+    "Id": 840,
+    "Type": "RdcMan.Program",
+    "Method": "System.Void RdcMan.Program::InstantiatePlugins()",
+    "Index": 122,
+    "English": "Error loading '{0}': {1}",
+    "Chinese": "加载“{0}”失败：{1}"
+  },
+  {
+    "Id": 841,
+    "Type": "RdcMan.Program",
+    "Method": "System.Void RdcMan.Program::InstantiatePlugins()",
+    "Index": 166,
+    "English": "'{0}' was previously used but is not loaded now",
+    "Chinese": "“{0}”曾使用过，但当前尚未加载"
+  },
+  {
+    "Id": 842,
+    "Type": "RdcMan.Program",
+    "Method": "System.Void RdcMan.Program::InstantiatePlugins()",
+    "Index": 192,
+    "English": "Click Cancel to exit",
+    "Chinese": "点击“取消”退出"
+  },
+  {
+    "Id": 843,
+    "Type": "RdcMan.Program",
+    "Method": "System.Void RdcMan.Program::InstantiatePlugins()",
+    "Index": 195,
+    "English": "Some plugins have not been loaded. RDCMan may not function as you expect.{0}{0}",
+    "Chinese": "部分插件未加载，RDCMan 的功能可能不完整。{0}{0}"
+  },
+  {
+    "Id": 844,
+    "Type": "RdcMan.Program",
+    "Method": "System.Boolean RdcMan.Program::ConnectNamedServers(System.Collections.Generic.ICollection`1<System.String>,System.Boolean)",
+    "Index": 26,
+    "English": "The following servers were not found and could not be connected:",
+    "Chinese": "未找到以下服务器，无法连接："
+  },
+  {
+    "Id": 865,
+    "Type": "RdcMan.Program/<>c__DisplayClass46_0",
+    "Method": "System.Void RdcMan.Program/<>c__DisplayClass46_0::<CheckForUpdate>b__0()",
+    "Index": 0,
+    "English": "There is a new version of RDCMan available from {0}",
+    "Chinese": "发现 RDCMan 新版本，可从 {0} 获取"
+  },
+  {
+    "Id": 868,
+    "Type": "RdcMan.RemoteDesktopsMenuItem",
+    "Method": "System.Void RdcMan.RemoteDesktopsMenuItem::.ctor()",
+    "Index": 1,
+    "English": "Remote Desktops",
+    "Chinese": "远程桌面"
+  },
+  {
+    "Id": 869,
+    "Type": "RdcMan.RemoteDesktopsMenuItem",
+    "Method": "System.Void RdcMan.RemoteDesktopsMenuItem::PopulateRemoteDesktopsMenuItems(System.Windows.Forms.ToolStripItemCollection,System.Windows.Forms.TreeNode)",
+    "Index": 24,
+    "English": "[All]",
+    "Chinese": "[全部]"
+  },
+  {
+    "Id": 875,
+    "Type": "RdcMan.RdcTreeNode",
+    "Method": "System.Void RdcMan.RdcTreeNode::ReadXml(System.Collections.Generic.Dictionary`2<System.String,RdcMan.Helpers/ReadXmlDelegate>,System.Xml.XmlNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 30,
+    "English": "Exception reading Xml node {0} in '{1}': {2}",
+    "Chinese": "读取“{1}”中的 XML 节点 {0} 时出错：{2}"
+  },
+  {
+    "Id": 876,
+    "Type": "RdcMan.RdcTreeNode",
+    "Method": "System.Void RdcMan.RdcTreeNode::ReadXmlSettingsGroup(System.Xml.XmlNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 23,
+    "English": "Unexpected Xml node {0} in '{1}'",
+    "Chinese": "“{1}”中存在未知的 XML 节点：{0}"
+  },
+  {
+    "Id": 877,
+    "Type": "RdcMan.RdcTreeNode",
+    "Method": "System.Boolean RdcMan.RdcTreeNode::AllowEdit(System.Boolean)",
+    "Index": 7,
+    "English": "{0} '{1}' is read-only and cannot be edited",
+    "Chinese": "{0}“{1}”为只读，无法编辑"
+  },
+  {
+    "Id": 878,
+    "Type": "RdcMan.RdcTreeNode",
+    "Method": "System.Boolean RdcMan.RdcTreeNode::AllowEdit(System.Boolean)",
+    "Index": 15,
+    "English": "Parent group",
+    "Chinese": "父级分组"
+  },
+  {
+    "Id": 879,
+    "Type": "RdcMan.RdcTreeNode",
+    "Method": "System.Boolean RdcMan.RdcTreeNode::AllowEdit(System.Boolean)",
+    "Index": 17,
+    "English": "Group",
+    "Chinese": "分组"
+  },
+  {
+    "Id": 881,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::NewFile()",
+    "Index": 3,
+    "English": "New File",
+    "Chinese": "新建文件"
+  },
+  {
+    "Id": 882,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::NewFile()",
+    "Index": 6,
+    "English": "RDCMan Groups (*.rdg)|*.rdg",
+    "Chinese": "RDCMan 分组文件 (*.rdg)|*.rdg"
+  },
+  {
+    "Id": 883,
+    "Type": "RdcMan.RdgFile",
+    "Method": "System.Void RdcMan.RdgFile::CloseFileGroup(RdcMan.FileGroup)",
+    "Index": 6,
+    "English": "There are active connections from ",
+    "Chinese": "以下文件仍有活动连接："
+  },
+  {
+    "Id": 884,
+    "Type": "RdcMan.RdgFile",
+    "Method": "System.Void RdcMan.RdgFile::CloseFileGroup(RdcMan.FileGroup)",
+    "Index": 9,
+    "English": ". Are you sure you want to close it?",
+    "Chinese": "。是否确定关闭？"
+  },
+  {
+    "Id": 885,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::OpenFile()",
+    "Index": 3,
+    "English": "Open",
+    "Chinese": "打开"
+  },
+  {
+    "Id": 887,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::OpenFile()",
+    "Index": 21,
+    "English": "RDCMan Groups (*.rdg)|*.rdg",
+    "Chinese": "RDCMan 分组文件 (*.rdg)|*.rdg"
+  },
+  {
+    "Id": 889,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::OpenFile(System.String)",
+    "Index": 49,
+    "English": ": File format error",
+    "Chinese": "：文件格式错误"
+  },
+  {
+    "Id": 890,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::OpenFile(System.String)",
+    "Index": 68,
+    "English": "{0} is already open as '{1}'",
+    "Chinese": "{0} 已作为“{1}”打开"
+  },
+  {
+    "Id": 891,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::OpenFile(System.String)",
+    "Index": 107,
+    "English": "The following errors were encountered:",
+    "Chinese": "遇到以下错误："
+  },
+  {
+    "Id": 892,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.FileGroup RdcMan.RdgFile::OpenFile(System.String)",
+    "Index": 134,
+    "English": "The file was not loaded completely. If it is saved it almost certainly means losing information. Continue?",
+    "Chinese": "文件未完整加载。如果保存，很可能丢失信息。是否继续？"
+  },
+  {
+    "Id": 894,
+    "Type": "RdcMan.RdgFile",
+    "Method": "System.Boolean RdcMan.RdgFile::ReadXml(System.Xml.XmlNode,RdcMan.FileGroup,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 11,
+    "English": "unknown",
+    "Chinese": "未知"
+  },
+  {
+    "Id": 897,
+    "Type": "RdcMan.RdgFile",
+    "Method": "System.Boolean RdcMan.RdgFile::ReadXml(System.Xml.XmlNode,RdcMan.FileGroup,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 48,
+    "English": "{0} was written by a newer version of RDCMan ({1}). It may not load properly. If it does and is saved by this version, it will revert to the older file schema possibly losing information. Continue?",
+    "Chinese": "文件“{0}”由较新版本的 RDCMan（{1}）创建，可能无法正确加载。\n\n若使用当前版本保存，文件将转换为旧版格式，可能丢失部分信息。是否继续？"
+  },
+  {
+    "Id": 900,
+    "Type": "RdcMan.RdgFile",
+    "Method": "System.Boolean RdcMan.RdgFile::ReadXml(System.Xml.XmlNode,RdcMan.FileGroup,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 151,
+    "English": "Opening ",
+    "Chinese": "正在打开 "
+  },
+  {
+    "Id": 901,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.SaveResult RdcMan.RdgFile::SaveAs(RdcMan.FileGroup)",
+    "Index": 3,
+    "English": "Save",
+    "Chinese": "另存为"
+  },
+  {
+    "Id": 902,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.SaveResult RdcMan.RdgFile::SaveAs(RdcMan.FileGroup)",
+    "Index": 6,
+    "English": "RDCMan Groups (*.rdg)|*.rdg",
+    "Chinese": "RDCMan 分组文件 (*.rdg)|*.rdg"
+  },
+  {
+    "Id": 907,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.SaveResult RdcMan.RdgFile::SaveFile(RdcMan.FileGroup)",
+    "Index": 101,
+    "English": "\n\nTry again? (Selecting Cancel will preserve the original file)",
+    "Chinese": "\n\n是否重试？（选择“取消”将保留原文件）"
+  },
+  {
+    "Id": 908,
+    "Type": "RdcMan.RdgFile",
+    "Method": "RdcMan.SaveResult RdcMan.RdgFile::ShouldSaveFile(RdcMan.FileGroup)",
+    "Index": 16,
+    "English": "Save changes to ",
+    "Chinese": "保存更改："
+  },
+  {
+    "Id": 910,
+    "Type": "RdcMan.RdgFile/<>c__DisplayClass9_0",
+    "Method": "System.Void RdcMan.RdgFile/<>c__DisplayClass9_0::<ReadXml>b__2()",
+    "Index": 27,
+    "English": "Unexpected Xml node {0} in '{1}'",
+    "Chinese": "“{1}”中存在未知的 XML 节点：{0}"
+  },
+  {
+    "Id": 911,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioRedirectionModeToString(RdcMan.RdpClient/AudioRedirectionMode)",
+    "Index": 3,
+    "English": "Bring to this computer",
+    "Chinese": "在本机播放"
+  },
+  {
+    "Id": 912,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioRedirectionModeToString(RdcMan.RdpClient/AudioRedirectionMode)",
+    "Index": 5,
+    "English": "Leave at remote computer",
+    "Chinese": "在远程计算机播放"
+  },
+  {
+    "Id": 913,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioRedirectionModeToString(RdcMan.RdpClient/AudioRedirectionMode)",
+    "Index": 7,
+    "English": "Do not play",
+    "Chinese": "不播放"
+  },
+  {
+    "Id": 915,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioRedirectionQualityToString(RdcMan.RdpClient/AudioRedirectionQuality)",
+    "Index": 3,
+    "English": "Dynamically adjusted",
+    "Chinese": "动态调整"
+  },
+  {
+    "Id": 916,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioRedirectionQualityToString(RdcMan.RdpClient/AudioRedirectionQuality)",
+    "Index": 5,
+    "English": "High quality",
+    "Chinese": "高质量"
+  },
+  {
+    "Id": 917,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioRedirectionQualityToString(RdcMan.RdpClient/AudioRedirectionQuality)",
+    "Index": 7,
+    "English": "Medium quality",
+    "Chinese": "中等质量"
+  },
+  {
+    "Id": 919,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioCaptureRedirectionModeToString(RdcMan.RdpClient/AudioCaptureRedirectionMode)",
+    "Index": 6,
+    "English": "Do not record",
+    "Chinese": "不录音"
+  },
+  {
+    "Id": 920,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AudioCaptureRedirectionModeToString(RdcMan.RdpClient/AudioCaptureRedirectionMode)",
+    "Index": 8,
+    "English": "Record from this computer",
+    "Chinese": "从本机录音"
+  },
+  {
+    "Id": 922,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::KeyboardHookModeToString(RdcMan.RdpClient/KeyboardHookMode)",
+    "Index": 3,
+    "English": "On the local computer",
+    "Chinese": "应用于本地计算机"
+  },
+  {
+    "Id": 923,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::KeyboardHookModeToString(RdcMan.RdpClient/KeyboardHookMode)",
+    "Index": 5,
+    "English": "On the remote computer",
+    "Chinese": "应用于远程计算机"
+  },
+  {
+    "Id": 924,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::KeyboardHookModeToString(RdcMan.RdpClient/KeyboardHookMode)",
+    "Index": 7,
+    "English": "In full screen mode only",
+    "Chinese": "仅全屏时应用"
+  },
+  {
+    "Id": 926,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::GatewayLogonMethodToString(RdcMan.RdpClient/GatewayLogonMethod)",
+    "Index": 3,
+    "English": "Ask for password (NTLM)",
+    "Chinese": "询问密码（NTLM）"
+  },
+  {
+    "Id": 927,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::GatewayLogonMethodToString(RdcMan.RdpClient/GatewayLogonMethod)",
+    "Index": 5,
+    "English": "Smart card",
+    "Chinese": "智能卡"
+  },
+  {
+    "Id": 928,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::GatewayLogonMethodToString(RdcMan.RdpClient/GatewayLogonMethod)",
+    "Index": 7,
+    "English": "Allow me to select later",
+    "Chinese": "允许稍后选择"
+  },
+  {
+    "Id": 929,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::GatewayUsageMethodToString(RdcMan.RdpClient/GatewayUsageMethod)",
+    "Index": 5,
+    "English": "Automatically detect Gateway",
+    "Chinese": "自动检测网关"
+  },
+  {
+    "Id": 930,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::GatewayUsageMethodToString(RdcMan.RdpClient/GatewayUsageMethod)",
+    "Index": 7,
+    "English": "Do not use a Gateway server",
+    "Chinese": "不使用网关服务器"
+  },
+  {
+    "Id": 932,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AuthenticationLevelToString(RdcMan.RdpClient/AuthenticationLevel)",
+    "Index": 3,
+    "English": "Connect and don't warn if authentication fails",
+    "Chinese": "验证失败时连接且不警告"
+  },
+  {
+    "Id": 933,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AuthenticationLevelToString(RdcMan.RdpClient/AuthenticationLevel)",
+    "Index": 5,
+    "English": "Warn if authentication fails",
+    "Chinese": "验证失败时显示警告"
+  },
+  {
+    "Id": 934,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::AuthenticationLevelToString(RdcMan.RdpClient/AuthenticationLevel)",
+    "Index": 7,
+    "English": "Do not connect if authentication fails",
+    "Chinese": "验证失败时不连接"
+  },
+  {
+    "Id": 936,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::SmartSizeMethodToString(RdcMan.RdpClient/SmartSizeMethod)",
+    "Index": 3,
+    "English": "No scaling",
+    "Chinese": "不缩放"
+  },
+  {
+    "Id": 937,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::SmartSizeMethodToString(RdcMan.RdpClient/SmartSizeMethod)",
+    "Index": 5,
+    "English": "Scale to fit window",
+    "Chinese": "缩放至窗口大小"
+  },
+  {
+    "Id": 938,
+    "Type": "RdcMan.RdpClient",
+    "Method": "System.String RdcMan.RdpClient::SmartSizeMethodToString(RdcMan.RdpClient/SmartSizeMethod)",
+    "Index": 7,
+    "English": "Reconnect with new resolution",
+    "Chinese": "以新分辨率重新连接"
+  },
+  {
+    "Id": 940,
+    "Type": "RdcMan.RemoteSessions",
+    "Method": "System.Collections.Generic.IList`1<RdcMan.RemoteSessionInfo> RdcMan.RemoteSessions::QuerySessions()",
+    "Index": 6,
+    "English": "QuerySessions called before OpenServer succeeded",
+    "Chinese": "尚未成功打开 WTS 服务器，无法查询会话。"
+  },
+  {
+    "Id": 941,
+    "Type": "RdcMan.SelectActiveServerForm",
+    "Method": "System.Void RdcMan.SelectActiveServerForm::.ctor(System.Collections.Generic.IEnumerable`1<RdcMan.ServerBase>)",
+    "Index": 1,
+    "English": "Select server",
+    "Chinese": "选择服务器"
+  },
+  {
+    "Id": 942,
+    "Type": "RdcMan.SelectActiveServerForm",
+    "Method": "System.Void RdcMan.SelectActiveServerForm::.ctor(System.Collections.Generic.IEnumerable`1<RdcMan.ServerBase>)",
+    "Index": 79,
+    "English": "Server Tree",
+    "Chinese": "服务器树"
+  },
+  {
+    "Id": 943,
+    "Type": "RdcMan.SelectActiveServerForm",
+    "Method": "System.Void RdcMan.SelectActiveServerForm::.ctor(System.Collections.Generic.IEnumerable`1<RdcMan.ServerBase>)",
+    "Index": 87,
+    "English": "Minimize RDCMan",
+    "Chinese": "最小化 RDCMan"
+  },
+  {
+    "Id": 953,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 1,
+    "English": "&Connect server",
+    "Chinese": "连接服务器(&C)"
+  },
+  {
+    "Id": 955,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 10,
+    "English": "Connect server &as...",
+    "Chinese": "使用指定凭据连接服务器(&A)…"
+  },
+  {
+    "Id": 957,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 19,
+    "English": "R&econnect server",
+    "Chinese": "重新连接服务器(&E)"
+  },
+  {
+    "Id": 958,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 27,
+    "English": "&Disconnect server",
+    "Chinese": "断开服务器连接(&D)"
+  },
+  {
+    "Id": 959,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 35,
+    "English": "&Full screen",
+    "Chinese": "全屏(&F)"
+  },
+  {
+    "Id": 960,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 42,
+    "English": "Doc&k",
+    "Chinese": "停靠(&K)"
+  },
+  {
+    "Id": 961,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 50,
+    "English": "Screen capture",
+    "Chinese": "屏幕截图"
+  },
+  {
+    "Id": 962,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 57,
+    "English": "P&roperties",
+    "Chinese": "属性(&R)"
+  },
+  {
+    "Id": 964,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 67,
+    "English": "&Session",
+    "Chinese": "会话(&S)"
+  },
+  {
+    "Id": 966,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 97,
+    "English": "Send keys",
+    "Chinese": "发送按键"
+  },
+  {
+    "Id": 967,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 112,
+    "English": "Remote actions",
+    "Chinese": "远程操作"
+  },
+  {
+    "Id": 972,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 172,
+    "English": "&View",
+    "Chinese": "视图(&V)"
+  },
+  {
+    "Id": 973,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 178,
+    "English": "&Client size",
+    "Chinese": "显示区域大小(&C)"
+  },
+  {
+    "Id": 974,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 212,
+    "English": "&Custom",
+    "Chinese": "自定义(&C)"
+  },
+  {
+    "Id": 975,
+    "Type": "RdcMan.ServerForm",
+    "Method": "System.Void RdcMan.ServerForm::CreateMainMenu()",
+    "Index": 218,
+    "English": "From remote desktop size",
+    "Chinese": "使用远程桌面尺寸"
+  },
+  {
+    "Id": 977,
+    "Type": "RdcMan.ServerLabel",
+    "Method": "System.Void RdcMan.ServerLabel::MenuPopup(System.Object,System.ComponentModel.CancelEventArgs)",
+    "Index": 25,
+    "English": "E&xpand",
+    "Chinese": "展开(&X)"
+  },
+  {
+    "Id": 992,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 19,
+    "English": "&Add server...",
+    "Chinese": "添加服务器(&A)…"
+  },
+  {
+    "Id": 993,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 29,
+    "English": "&Import servers...",
+    "Chinese": "导入服务器(&I)…"
+  },
+  {
+    "Id": 995,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 44,
+    "English": "Add &group...",
+    "Chinese": "添加分组(&G)…"
+  },
+  {
+    "Id": 996,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 53,
+    "English": "Please open or create a file",
+    "Chinese": "请先打开或创建文件"
+  },
+  {
+    "Id": 997,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 77,
+    "English": "&Connect group",
+    "Chinese": "连接分组(&C)"
+  },
+  {
+    "Id": 998,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 95,
+    "English": "&Connect group as...",
+    "Chinese": "使用指定凭据连接分组(&A)…"
+  },
+  {
+    "Id": 999,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 112,
+    "English": "R&econnect group",
+    "Chinese": "重新连接分组(&E)"
+  },
+  {
+    "Id": 1001,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 133,
+    "English": "&Disconnect group",
+    "Chinese": "断开分组连接(&D)"
+  },
+  {
+    "Id": 1003,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 154,
+    "English": "Log off group",
+    "Chinese": "注销分组会话"
+  },
+  {
+    "Id": 1005,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 179,
+    "English": "&Add server...",
+    "Chinese": "添加服务器(&A)…"
+  },
+  {
+    "Id": 1006,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 195,
+    "English": "Add &group...",
+    "Chinese": "添加分组(&G)…"
+  },
+  {
+    "Id": 1007,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 211,
+    "English": "Add smart group...",
+    "Chinese": "添加智能分组…"
+  },
+  {
+    "Id": 1009,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 240,
+    "English": "Save ",
+    "Chinese": "保存 "
+  },
+  {
+    "Id": 1010,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 264,
+    "English": "Close ",
+    "Chinese": "关闭 "
+  },
+  {
+    "Id": 1011,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 277,
+    "English": "Remo&ve servers",
+    "Chinese": "移除服务器(&V)"
+  },
+  {
+    "Id": 1012,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 293,
+    "English": "Remove group",
+    "Chinese": "移除分组"
+  },
+  {
+    "Id": 1014,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::PopulateNodeContextMenu(System.Windows.Forms.ContextMenuStrip,RdcMan.RdcTreeNode)",
+    "Index": 316,
+    "English": "P&roperties",
+    "Chinese": "属性(&R)"
+  },
+  {
+    "Id": 1017,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::DoRemoveChildren(RdcMan.RdcTreeNode)",
+    "Index": 8,
+    "English": "Remove all children of the ",
+    "Chinese": "是否移除以下分组中的全部子节点：“"
+  },
+  {
+    "Id": 1018,
+    "Type": "RdcMan.ServerTree",
+    "Method": "System.Void RdcMan.ServerTree::DoRemoveChildren(RdcMan.RdcTreeNode)",
+    "Index": 11,
+    "English": " group?",
+    "Chinese": "”？"
+  },
+  {
+    "Id": 1022,
+    "Type": "RdcMan.ConnectionSettings",
+    "Method": "System.Void RdcMan.ConnectionSettings::.ctor()",
+    "Index": 1,
+    "English": "Connection Settings",
+    "Chinese": "连接设置"
+  },
+  {
+    "Id": 1024,
+    "Type": "RdcMan.CommonDisplaySettings",
+    "Method": "System.Void RdcMan.CommonDisplaySettings::.ctor()",
+    "Index": 1,
+    "English": "Display Settings",
+    "Chinese": "显示设置"
+  },
+  {
+    "Id": 1027,
+    "Type": "RdcMan.EncryptionSettings",
+    "Method": "System.Void RdcMan.EncryptionSettings::.ctor()",
+    "Index": 1,
+    "English": "Encryption Settings",
+    "Chinese": "加密设置"
+  },
+  {
+    "Id": 1029,
+    "Type": "RdcMan.GatewaySettings",
+    "Method": "System.Void RdcMan.GatewaySettings::.ctor()",
+    "Index": 1,
+    "English": "Gateway Settings",
+    "Chinese": "网关设置"
+  },
+  {
+    "Id": 1040,
+    "Type": "RdcMan.LocalResourcesSettings",
+    "Method": "System.Void RdcMan.LocalResourcesSettings::.ctor()",
+    "Index": 1,
+    "English": "Local Resources",
+    "Chinese": "本地资源"
+  },
+  {
+    "Id": 1044,
+    "Type": "RdcMan.LogonCredentials",
+    "Method": "System.Void RdcMan.LogonCredentials::.ctor()",
+    "Index": 1,
+    "English": "Logon Credentials",
+    "Chinese": "登录凭据"
+  },
+  {
+    "Id": 1049,
+    "Type": "RdcMan.ServerSettings",
+    "Method": "System.Void RdcMan.ServerSettings::.ctor()",
+    "Index": 1,
+    "English": "Server Settings",
+    "Chinese": "服务器设置"
+  },
+  {
+    "Id": 1050,
+    "Type": "RdcMan.GroupSettings",
+    "Method": "System.Void RdcMan.GroupSettings::.ctor()",
+    "Index": 1,
+    "English": "Group Settings",
+    "Chinese": "分组设置"
+  },
+  {
+    "Id": 1051,
+    "Type": "RdcMan.FileGroupSettings",
+    "Method": "System.Void RdcMan.FileGroupSettings::.ctor()",
+    "Index": 1,
+    "English": "File Settings",
+    "Chinese": "文件设置"
+  },
+  {
+    "Id": 1052,
+    "Type": "RdcMan.SmartGroupSettings",
+    "Method": "System.Void RdcMan.SmartGroupSettings::.ctor()",
+    "Index": 1,
+    "English": "Smart Group Settings",
+    "Chinese": "智能分组设置"
+  },
+  {
+    "Id": 1054,
+    "Type": "RdcMan.RemoteDesktopSettings",
+    "Method": "System.Void RdcMan.RemoteDesktopSettings::.ctor()",
+    "Index": 1,
+    "English": "Remote Desktop Settings",
+    "Chinese": "远程桌面设置"
+  },
+  {
+    "Id": 1056,
+    "Type": "RdcMan.SecuritySettings",
+    "Method": "System.Void RdcMan.SecuritySettings::.ctor()",
+    "Index": 1,
+    "English": "Security Settings",
+    "Chinese": "安全设置"
+  },
+  {
+    "Id": 1066,
+    "Type": "RdcMan.InheritSettingsType",
+    "Method": "RdcMan.GroupBase RdcMan.InheritSettingsType::GetInheritedSettingsNode(RdcMan.RdcTreeNode)",
+    "Index": 24,
+    "English": "Unexpected inheritance kind",
+    "Chinese": "未知的继承类型"
+  },
+  {
+    "Id": 1069,
+    "Type": "RdcMan.SettingsGroup",
+    "Method": "System.Void RdcMan.SettingsGroup::ReadXml(System.Xml.XmlNode,RdcMan.RdcTreeNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 18,
+    "English": "Unexpected inheritance mode '{0}' in {1}",
+    "Chinese": "{1} 中的继承模式“{0}”无效"
+  },
+  {
+    "Id": 1070,
+    "Type": "RdcMan.SettingsGroup",
+    "Method": "System.Void RdcMan.SettingsGroup::ReadXml(System.Xml.XmlNode,RdcMan.RdcTreeNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 37,
+    "English": "No inheritance mode specified in {0}",
+    "Chinese": "{0} 中未指定继承模式"
+  },
+  {
+    "Id": 1071,
+    "Type": "RdcMan.SettingsGroup",
+    "Method": "System.Void RdcMan.SettingsGroup::ReadXml(System.Xml.XmlNode,RdcMan.RdcTreeNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 96,
+    "English": "Error processing Xml node {0}",
+    "Chinese": "处理 XML 节点 {0} 时出错"
+  },
+  {
+    "Id": 1072,
+    "Type": "RdcMan.SettingsGroup",
+    "Method": "System.Void RdcMan.SettingsGroup::ReadXml(System.Xml.XmlNode,RdcMan.RdcTreeNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 110,
+    "English": "Unexpected Xml node {0}",
+    "Chinese": "无法识别的 XML 配置节点：{0}"
+  },
+  {
+    "Id": 1073,
+    "Type": "RdcMan.SettingsGroup",
+    "Method": "System.Void RdcMan.SettingsGroup::ReadXml(System.Xml.XmlNode,RdcMan.RdcTreeNode,System.Collections.Generic.ICollection`1<System.String>)",
+    "Index": 134,
+    "English": "Unexpected inheritance mode '{0}' in {1}",
+    "Chinese": "{1} 中的继承模式“{0}”无效"
+  },
+  {
+    "Id": 1075,
+    "Type": "RdcMan.StringUtilities/<ExpandPattern>d__2",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandPattern>d__2::MoveNext()",
+    "Index": 33,
+    "English": "Set not closed (missing {0}): {1}",
+    "Chinese": "集合缺少结束符 {0}：{1}"
+  },
+  {
+    "Id": 1076,
+    "Type": "RdcMan.StringUtilities/<ExpandPattern>d__2",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandPattern>d__2::MoveNext()",
+    "Index": 151,
+    "English": "Range not closed (missing {0}): {1}",
+    "Chinese": "范围缺少结束符 {0}：{1}"
+  },
+  {
+    "Id": 1077,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 25,
+    "English": "Range does not contain low and high values (single {0} separator): {1}",
+    "Chinese": "范围必须包含起止值，并以单个 {0} 分隔：{1}"
+  },
+  {
+    "Id": 1078,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 47,
+    "English": "Range is missing a value: {0}",
+    "Chinese": "范围缺少数值：{0}"
+  },
+  {
+    "Id": 1079,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 61,
+    "English": "Range must be homogenous (letter bounds or numeric bounds): {0}",
+    "Chinese": "范围起止值必须同为字母或数字：{0}"
+  },
+  {
+    "Id": 1080,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 75,
+    "English": "Letter range must be single character: {0}",
+    "Chinese": "字母范围的起止值必须是单个字符：{0}"
+  },
+  {
+    "Id": 1081,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 90,
+    "English": "Letter range must be same case: {0}",
+    "Chinese": "字母范围的起止值必须大小写一致：{0}"
+  },
+  {
+    "Id": 1082,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 101,
+    "English": "Range low cannot be greater than high: {0}",
+    "Chinese": "范围起始值不能大于结束值：{0}"
+  },
+  {
+    "Id": 1084,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 163,
+    "English": "Range must be homogenous (letter bounds or numeric bounds): {0}",
+    "Chinese": "范围起止值必须同为字母或数字：{0}"
+  },
+  {
+    "Id": 1085,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 173,
+    "English": "Range low cannot be greater than high: {0}",
+    "Chinese": "范围起始值不能大于结束值：{0}"
+  },
+  {
+    "Id": 1088,
+    "Type": "RdcMan.StringUtilities/<ExpandRange>d__4",
+    "Method": "System.Boolean RdcMan.StringUtilities/<ExpandRange>d__4::MoveNext()",
+    "Index": 237,
+    "English": "Malformed range (must have letter bounds or numeric bounds): {0}",
+    "Chinese": "范围格式错误，起止值必须是字母或数字：{0}"
+  },
+  {
+    "Id": 1089,
+    "Type": "RdcMan.ThumbnailLayout",
+    "Method": "System.String RdcMan.ThumbnailLayout::ToString()",
+    "Index": 0,
+    "English": "{0} ({1} servers)",
+    "Chinese": "{0}（{1} 台服务器）"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "packageVersion": "0.1.4",
+  "targetVersion": "3.22.0.0",
+  "sourceSHA256": "07D5E675CE5C91F5A7859CEA14F7D97797F3644B4222B6BF9E44E4B0FBC5B1BF",
+  "fixedTextOccurrences": 726,
+  "uniqueEnglishTexts": 605,
+  "productName": "RDCMan 3.22 x86 中文学习版（非官方）",
+  "dependency": {
+    "id": "Mono.Cecil",
+    "version": "0.11.6",
+    "url": "https://api.nuget.org/v3-flatcontainer/mono.cecil/0.11.6/mono.cecil.0.11.6.nupkg",
+    "packageSHA256": "D2A23832AAA948BA9A01ACC42B5726E34C5F995958F1B30D45C0E7C70B3A72D5",
+    "net40SHA256": "C41BDB9FFD3C5F6E17D2382C1012D73703E035E3F1100245FDD4E08C8DC6EB5B",
+    "netstandard20SHA256": "831DCA77470D85CB6FFBEA3072DAA7A3DF5B7C9FCFD9C3F43674A9BE99D4BFCF"
+  },
+  "sourceAssemblySHA256": "0732549BDA0F45AF17F84B8DC1F17DA30FE65D384595CCD8F7D412672715B6F3",
+  "unchangedBundledFiles": 261,
+  "pythonMinimumVersion": "3.9",
+  "architecture": "x86",
+  "applicationAssemblyName": "RDCMan-x86.dll",
+  "nativeRuntime": {
+    "version": "14.51.36247.0",
+    "architecture": "x86",
+    "url": "https://download.visualstudio.microsoft.com/download/pr/6ad63323-a427-4c58-8464-9f1f19f62359/F0BAB33A302B3CDB2E11113760D016F54FD3D2632C65BA7834FAC4F0ABD7F1A3/VC_redist.x86.exe",
+    "packageSHA256": "F0BAB33A302B3CDB2E11113760D016F54FD3D2632C65BA7834FAC4F0ABD7F1A3",
+    "files": [
+      {
+        "name": "concrt140.dll",
+        "sha256": "63DE7CC3187265B1B1871B84A11B8A91D8F249018DCFB34E910BF3EB2A193D11"
+      },
+      {
+        "name": "msvcp140.dll",
+        "sha256": "F0CDA2A0CF1FE6FBBF579B9098462329D3AAA7513A207AF2E0F33B01456E388A"
+      },
+      {
+        "name": "msvcp140_1.dll",
+        "sha256": "B08EDD7954AE9954D24EB344A8B0116A980C60179FF1B92D5219639E21028CC2"
+      },
+      {
+        "name": "msvcp140_2.dll",
+        "sha256": "5E3C52721F03D5F546D64DFDFA38302B1FC3EB79DC44A1EC7A3AF69ABB9653FE"
+      },
+      {
+        "name": "msvcp140_atomic_wait.dll",
+        "sha256": "E1142584F337B9B650D6D888652CB24F7B16A7DD93476840A050047BB00F0463"
+      },
+      {
+        "name": "msvcp140_codecvt_ids.dll",
+        "sha256": "D4874DB10C63990323696984EB2E2E799D952A1846437924C92153065B7259E4"
+      },
+      {
+        "name": "vcruntime140.dll",
+        "sha256": "2FA6EFC053203460A23D3A25158F227D895D2DADC63ACC1A372DA97C3A4281C3"
+      }
+    ]
+  }
+}

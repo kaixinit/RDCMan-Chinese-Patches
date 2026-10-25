@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "collectionVersion": "2026.10.25",
+  "translationAuthor": "kaixinit",
+  "modules": [
+    {
+      "directory": "patches/rdcman-2.93",
+      "patchVersion": "0.1.5",
+      "targetVersion": "2.93.1431.0",
+      "sourceSHA256": "D11CF847DF9DAC6EDA1891022986729EFE690B3DB8E6F876BEF4E7A6AFFFC759",
+      "upstream": "RDCMan-2.93-zh-patch"
+    },
+    {
+      "directory": "patches/rdcman-3.22-x64",
+      "patchVersion": "0.1.3",
+      "targetVersion": "3.22.0.0",
+      "sourceSHA256": "FC4536B88B5B85D8ED2E0EF8270F672C066AE78EC64544AAE265A7DF8F877A22",
+      "upstream": "RDCMan-3.22-zh-patch"
+    },
+    {
+      "directory": "patches/rdcman-3.22-x86",
+      "patchVersion": "0.1.4",
+      "targetVersion": "3.22.0.0",
+      "sourceSHA256": "07D5E675CE5C91F5A7859CEA14F7D97797F3644B4222B6BF9E44E4B0FBC5B1BF",
+      "upstream": "RDCMan-3.22-x86-zh-patch"
+    }
+  ],
+  "githubRepository": "kaixinit/RDCMan-Chinese-Patches",
+  "releaseTag": "v2026.10.25"
+}

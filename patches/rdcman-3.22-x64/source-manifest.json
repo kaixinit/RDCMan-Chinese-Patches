@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "C8338712BC67029424ABF48BF33237DE7D359527F2D8A5010184ADC9286DA807",
+      "bytes": 277
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "B4A2F9C26F5AA5002C6B7B02E570B9438FCC0B169C2A5F137C755E6556F55B60",
+      "bytes": 91
+    },
+    {
+      "path": "README.md",
+      "sha256": "DCE57342548D0A9EDCF6E2844AA42AFA4C1613F263FC06C84F52FA9DD33D87E9",
+      "bytes": 3343
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "F029901307C8A056FB9713306A5CB3B004A3273B6C59CCE37655787A94FE1E4D",
+      "bytes": 1498
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "49E9F0ED421A4780F84AD715E5FAC0252CD2306AAA22C9FD0A47A33C68A259B1",
+      "bytes": 1526
+    },
+    {
+      "path": "patch.json",
+      "sha256": "1BA8552507105409843C7C23BA0038305E6B20AD3A40AF84F3777D948C9F9BFC",
+      "bytes": 905
+    },
+    {
+      "path": "Apply-RdcManPatch.ps1",
+      "sha256": "F7A630D84F66CA94BDC26086E2B444151724BBA73F60A8D16A5F4F0D03886F45",
+      "bytes": 6927
+    },
+    {
+      "path": "Prepare-Dependency.ps1",
+      "sha256": "4DCF52ABCD27D8D95A0403C411F8DF1D9E3F9EFABC6AFF33878921E1D0CF5BE3",
+      "bytes": 2940
+    },
+    {
+      "path": "Restore-RdcManPatch.ps1",
+      "sha256": "EE968946E8B92B7EC0CA92A4AAE6FCE58417CDDB229E6195EE26B8B964473B85",
+      "bytes": 2509
+    },
+    {
+      "path": "Test-RdcManPatch.ps1",
+      "sha256": "ACC335A8677471755ED6A32B79EC8854A72B58110017F07D9E12F5CC8D5312E9",
+      "bytes": 1988
+    },
+    {
+      "path": "Update-SourceManifest.ps1",
+      "sha256": "2CBD2D3D8191274E1F0CCFAFF3EA4383608ADC2D917251544E74AD6355E4B5AA",
+      "bytes": 1196
+    },
+    {
+      "path": "Package-Source.ps1",
+      "sha256": "EA825BD41E46ED9126425FB614BD0AA4BF06C573DD4446FCD7731A0296468151",
+      "bytes": 2081
+    },
+    {
+      "path": "patches/translations.json",
+      "sha256": "DADE026E1C8692145FE76251ECD3742955990952E7EEEAABA7FE7ECC1A070B31",
+      "bytes": 204935
+    },
+    {
+      "path": "scripts/Common.ps1",
+      "sha256": "105B7F80FC2F1B817D6224B2F515FEF7F5F93B5587EED97B3E2F1CC9E8122616",
+      "bytes": 4506
+    },
+    {
+      "path": "scripts/Apply-Strings.ps1",
+      "sha256": "8AE57FA9859C847BE1F804CD44AEC184689A6F34327B445E383EAC50EA699E01",
+      "bytes": 6226
+    },
+    {
+      "path": "scripts/Apply-Ui.ps1",
+      "sha256": "717AB05C5B889558F27FB2FDAA228ADF6F4FD666C0A22804A01AB729516D02A5",
+      "bytes": 24656
+    },
+    {
+      "path": "scripts/Bundle.py",
+      "sha256": "48FD748FD5E7E23E879BC573A54D9ACFDE161211AA83E42A0C9F860C75AE44AC",
+      "bytes": 10166
+    },
+    {
+      "path": "tests/Test-Workflow.ps1",
+      "sha256": "05A66232DD6BCBE05EAE2B25AACB9EDA9F883691FAAA5E2674D7BA06D8E60A28",
+      "bytes": 4762
+    },
+    {
+      "path": "docs/中英对照.tsv",
+      "sha256": "92533C9803457EE4B979EB90162DC67607EB34726F98CCA35B793AB80CA95654",
+      "bytes": 58476
+    },
+    {
+      "path": "docs/维护说明.md",
+      "sha256": "F72D9AAAE15634349BECDF405C78CAA76ED9A2FA74CEAAA8DCE8BEFA1B3D89E8",
+      "bytes": 3250
+    },
+    {
+      "path": "docs/依赖说明.md",
+      "sha256": "CE9A48BEC2ADFC1D153EAFD6333482921C158F1073CC2067C6B9251A202E5CAD",
+      "bytes": 1804
+    },
+    {
+      "path": "docs/验证记录.md",
+      "sha256": "DE114DC0AADC372437FC1D74317E0EC6605F71A89717E348DBE152B49609EF9B",
+      "bytes": 5083
+    }
+  ]
+}

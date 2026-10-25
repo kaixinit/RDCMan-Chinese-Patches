@@ -1,0 +1,30 @@
+name: 汉化或构建问题
+description: 报告遗漏文字、排版问题或补丁构建错误
+body:
+  - type: markdown
+    attributes:
+      value: 请只填写复现所需信息，不上传真实 RDG、账号、密码、个人配置或完整日志。
+  - type: dropdown
+    id: module
+    attributes:
+      label: 补丁模块
+      options:
+        - RDCMan 2.93
+        - RDCMan 3.22 x64
+        - RDCMan 3.22 x86
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: 补丁、Windows 与 PowerShell 版本
+      placeholder: 例如：补丁 0.1.5，Windows 11，PowerShell 7
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 问题和复现步骤
+      description: 简述预期结果与实际结果，必要时附已遮盖个人信息的界面截图。
+    validations:
+      required: true

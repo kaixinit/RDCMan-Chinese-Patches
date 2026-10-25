@@ -1,0 +1,741 @@
+﻿模块	原文	中文
+RDCMan.RDCoreCertificateChallenge	The certificate is not issued by a trusted certificate authority.	证书并非由受信任的证书颁发机构签发。
+RDCMan.RDCoreCertificateChallenge	The certificate has been revoked.	证书已被吊销。
+RDCMan.RDCoreCertificateChallenge	The certificate is expired or is not yet valid.	证书已过期或尚未生效。
+RDCMan.RDCoreCertificateChallenge	The certificate is not valid for server authentication.	此证书不能用于服务器身份验证。
+RDCMan.RDCoreCertificateChallenge	The certificate revocation status could not be checked.	无法检查证书吊销状态。
+RDCMan.RDCoreCertificateChallenge	The certificate or certificate chain is invalid.	证书或证书链无效。
+RDCMan.RDCoreCertificateChallenge	The certificate name does not match the remote computer.	证书名称与远程计算机不匹配。
+RDCMan.RDCoreCertificateChallenge	The certificate name could not be validated.	无法验证证书名称。
+RDCMan.RDCoreCertificateChallenge	The certificate could not be validated.	无法验证证书。
+RDCMan.RDCoreCertificateChallenge	The server did not provide readable certificate details.	服务器没有提供可读取的证书详细信息。
+RDCMan.RDCoreCertificateChallenge	Issuer certificate 	颁发机构证书 
+RDCMan.RDCoreCertificateChallenge	Server certificate	服务器证书
+RDCMan.RDCoreCertificateChallenge	Subject: 	使用者：
+RDCMan.RDCoreCertificateChallenge	Issuer: 	颁发者：
+RDCMan.RDCoreCertificateChallenge	Valid from: 	生效时间：
+RDCMan.RDCoreCertificateChallenge	Valid to: 	到期时间：
+RDCMan.RDCoreCertificateChallenge	SHA-256 fingerprint: 	SHA-256 指纹：
+RDCMan.RDCoreSessionState	The RDCore session is no longer active on the reported host. Refresh List sessions before trying again.	RDCore 会话在所报告的主机上已不再处于活动状态。请刷新“列出会话”后重试。
+RDCMan.RDCoreSessionState	The connection changed before logoff could start. No session was logged off.	注销开始前连接已发生变化，未注销任何会话。
+RDCMan.SysTrayForm	E&xit	退出(&X)
+RDCMan.Settings.ConnectionSettings	Connection Settings	连接设置
+RDCMan.Settings.CommonDisplaySettings	Display Settings	显示设置
+RDCMan.Settings.EncryptionSettings	Encryption Settings	加密设置
+RDCMan.Settings.GatewaySettings	Gateway Settings	网关设置
+RDCMan.Settings.LocalResourcesSettings	Local Resources	本地资源
+RDCMan.Settings.LogonCredentials	Logon Credentials	登录凭据
+RDCMan.Settings.ServerSettings	Server Settings	服务器设置
+RDCMan.Settings.GroupSettings	Group Settings	分组设置
+RDCMan.Settings.FileGroupSettings	File Settings	文件设置
+RDCMan.Settings.SmartGroupSettings	Smart Group Settings	智能分组设置
+RDCMan.Settings.RemoteDesktopSettings	Remote Desktop Settings	远程桌面设置
+RDCMan.Settings.SecuritySettings	Security Settings	安全设置
+RDCMan.Settings.InheritSettingsType	Unexpected inheritance kind	未知的继承类型
+RDCMan.Settings.SettingsGroup	Unexpected inheritance mode '{0}' in {1}	无法识别的继承模式“{0}”：{1}
+RDCMan.Settings.SettingsGroup	No inheritance mode specified in {0}	未指定继承模式：{0}
+RDCMan.Settings.SettingsGroup	Error processing Xml node {0}	处理 XML 配置节点时出错：{0}
+RDCMan.Settings.SettingsGroup	Unexpected Xml node {0}	无法识别的 XML 配置节点：{0}
+RDCMan.Settings.SettingsGroup	Unexpected inheritance mode '{0}' in {1}	无法识别的继承模式“{0}”：{1}
+RDCMan.Nodes.BuiltInVirtualGroup`1	Use the View menu to hide the 	请使用“视图”菜单隐藏“
+RDCMan.Nodes.BuiltInVirtualGroup`1	 group	”分组
+RDCMan.Nodes.ConnectedGroup	Connected	已连接
+RDCMan.Nodes.ConnectedServerRef	Disconnect the server to remove it from the Connected group	请先断开服务器连接，再将其从“已连接”分组移除
+RDCMan.Nodes.ConnectToGroup	Connect To	临时连接
+RDCMan.Nodes.DefaultSettingsGroup	Default settings group malformed	默认设置分组格式无效
+RDCMan.Nodes.FavoritesGroup	Favorites	收藏夹
+RDCMan.Nodes.FileGroup	 {RO}	 {只读}
+RDCMan.Nodes.FileGroup	Use the File menu to close the 	请使用“文件”菜单关闭“
+RDCMan.Nodes.FileGroup	 group	”分组
+RDCMan.Nodes.FileGroup	Some credential profiles were not found.	未找到部分凭据配置。
+RDCMan.Nodes.FileGroup	Please add the missing profiles before connecting to servers, edit properties, etc. otherwise the reference will be lost.	请先补齐缺失的凭据配置，再连接服务器或编辑属性，否则原有引用可能丢失。
+RDCMan.Nodes.FileGroup	Click OK to copy the details to the clipboard.	点击“确定”将详细信息复制到剪贴板。
+RDCMan.Nodes.FileGroup	Profile name: 	配置名称：
+RDCMan.Nodes.FileGroup	Referenced by: 	引用位置：
+RDCMan.Nodes.FileGroup/<>c__DisplayClass21_0	Logon Credentials	登录凭据
+RDCMan.Nodes.FileGroup/<>c__DisplayClass21_0	Gateway Settings	网关设置
+RDCMan.Nodes.GroupBase	 group contains 	分组包含 
+RDCMan.Nodes.GroupBase	 disconnected servers. Are you sure?	 台未连接的服务器。是否继续？
+RDCMan.Nodes.GroupBase	Logoff is disabled by policy.	策略已禁用注销操作。
+RDCMan.Nodes.GroupBase	There are active sessions in the 	以下分组中仍有活动会话：
+RDCMan.Nodes.GroupBase	 group. Disconnect them before removing the group.	。请先断开这些会话，再移除分组。
+RDCMan.Nodes.GroupBase	Remove 	是否移除“
+RDCMan.Nodes.GroupBase	 group?	”分组？
+RDCMan.Nodes.RDCoreServer	The actual session host is not available. Connect and complete login; broker/workspace addresses cannot be used for WTS management.	尚未取得实际会话主机。请连接并完成登录；代理或云工作区地址不能用于 WTS 会话管理。
+RDCMan.Nodes.RDCoreServer	RDCore has not supplied a current session ID and host. Wait for login to complete.	RDCore 尚未提供当前会话 ID 和主机。请等待登录完成。
+RDCMan.Nodes.RDCoreServer	Connection settings could not be resolved during RDCore connection for Server '	RDCore 连接时无法解析服务器的连接设置：
+RDCMan.Nodes.RDCoreServer/<LogOff>d__10	The connection changed before logoff could start.	开始注销前连接已发生变化。
+RDCMan.Nodes.RecentlyUsedGroup	Recent	最近使用
+RDCMan.Nodes.RecentlyUsedGroup	Recently Used Group Settings	最近使用分组设置
+RDCMan.Nodes.RecentlyUsedGroup	OK	确定
+RDCMan.Nodes.RecentlyUsedGroup/RecentlyUsedSettings	Properties	属性
+RDCMan.Nodes.RecentlyUsedGroup/RecentlyUsedSettings/RecentlyUsedSettingsTabPage	Number of entries	记录数量
+RDCMan.Nodes.RecentlyUsedGroup/RecentlyUsedSettings/RecentlyUsedSettingsTabPage	Number of entries must be 1 to 20	记录数量必须在 1 到 20 之间
+RDCMan.Nodes.ReconnectGroup	Reconnect	待重连
+RDCMan.Nodes.Server	DNS name lookup failure	DNS 名称解析失败
+RDCMan.Nodes.Server	Authentication failure	身份验证失败
+RDCMan.Nodes.Server	Connection timed out	连接超时
+RDCMan.Nodes.Server	Unable to establish a connection	无法建立连接
+RDCMan.Nodes.Server	Smart card reader not detected	未检测到智能卡读卡器
+RDCMan.Nodes.Server	Server does not support authentication	服务器不支持身份验证
+RDCMan.Nodes.Server	You already have a console session in progress	已有一个控制台会话正在进行
+RDCMan.Nodes.Server	Bad IP address specified	指定的 IP 地址无效
+RDCMan.Nodes.Server	Login failed	登录失败
+RDCMan.Nodes.Server	Server has no sessions available	服务器没有可用会话
+RDCMan.Nodes.Server	Socket closed	套接字已关闭
+RDCMan.Nodes.Server	The specified user has no account	指定的用户账户不存在
+RDCMan.Nodes.Server	Session connected by other client	会话已由其他客户端连接
+RDCMan.Nodes.Server	Server authentication failure	服务器身份验证失败
+RDCMan.Nodes.Server	The password is expired	密码已过期
+RDCMan.Nodes.Server	The user password must be changed before logging on for the first time	首次登录前必须更改用户密码
+RDCMan.Nodes.Server	An incorrect PIN was presented to the smart card	智能卡 PIN 不正确
+RDCMan.Nodes.Server	No credentials entered	未输入凭据
+RDCMan.Nodes.Server	The smart card is blocked	智能卡已锁定
+RDCMan.Nodes.Server	Gateway authentication failure	网关身份验证失败
+RDCMan.Nodes.Server	Server not found	未找到服务器
+RDCMan.Nodes.Server	Unable to connect to gateway	无法连接网关
+RDCMan.Nodes.Server	Smartcard authentication failure	智能卡身份验证失败
+RDCMan.Nodes.Server	Server not found	未找到服务器
+RDCMan.Nodes.Server	Your user or computer account is not authorized to access the gateway server	你的用户或计算机账户无权访问网关服务器
+RDCMan.Nodes.Server	No gateway credentials entered	未输入网关凭据
+RDCMan.Nodes.Server	No smartcard PIN entered	未输入智能卡 PIN
+RDCMan.Nodes.Server	No additional information is available	没有更多信息
+RDCMan.Nodes.Server	The server has disconnected the client because the client has been idle for a period of time longer than the designated time-out period	空闲时间超过规定时限，服务器已断开客户端连接
+RDCMan.Nodes.Server	The server has disconnected the client because the client has exceeded the period designated for connection	连接时长超过规定时限，服务器已断开客户端连接
+RDCMan.Nodes.Server	The client's connection was replaced by another connection	此客户端的连接已被其他连接替代
+RDCMan.Nodes.Server	No memory is available	可用内存不足
+RDCMan.Nodes.Server	The server denied the connection	服务器拒绝连接
+RDCMan.Nodes.Server	The server denied the connection for security reasons	服务器因安全原因拒绝连接
+RDCMan.Nodes.Server	The user account is not authorized for remote login	用户账户无权进行远程登录
+RDCMan.Nodes.Server	The user account credentials must be reentered	必须重新输入用户账户凭据
+RDCMan.Nodes.Server	The client was remotely disconnected	客户端已被远程断开
+RDCMan.Nodes.Server	The connection was lost	连接已丢失
+RDCMan.Nodes.Server	Internal licensing error	内部授权许可错误
+RDCMan.Nodes.Server	No license server was available	没有可用的许可证服务器
+RDCMan.Nodes.Server	No valid software license was available	没有有效的软件许可证
+RDCMan.Nodes.Server	The remote computer received a licensing message that was not valid	远程计算机收到的授权许可消息无效
+RDCMan.Nodes.Server	The hardware ID does not match the one designated on the software license	硬件 ID 与软件许可证中的 ID 不匹配
+RDCMan.Nodes.Server	Client license error	客户端许可证错误
+RDCMan.Nodes.Server	Network problems occurred during the licensing protocol	授权许可协议期间发生网络问题
+RDCMan.Nodes.Server	The client ended the licensing protocol prematurely	客户端提前终止了授权许可协议
+RDCMan.Nodes.Server	A licensing message was encrypted incorrectly	授权许可消息加密不正确
+RDCMan.Nodes.Server	The local computer's client access license could not be upgraded or renewed	无法升级或续订本机的客户端访问许可证
+RDCMan.Nodes.Server	The remote computer is not licensed to accept remote connections	远程计算机未获得接受远程连接的许可
+RDCMan.Nodes.Server	server	服务器
+RDCMan.Nodes.Server	Connected to 	已连接到 
+RDCMan.Nodes.Server	Connected	已连接
+RDCMan.Nodes.Server	Connecting to 	正在连接到 
+RDCMan.Nodes.Server	Connecting	正在连接
+RDCMan.Nodes.Server	Disconnected	已断开
+RDCMan.Nodes.Server	 [error]	 [错误]
+RDCMan.Nodes.Server	Disconnected from 	已断开连接：
+RDCMan.Nodes.Server	<GetText error>	<读取显示文字出错>
+RDCMan.Nodes.Server	Error capturing session screen: 	无法截取会话画面：
+RDCMan.Nodes.Server	Error setting up connection properties	设置连接属性时出错
+RDCMan.Nodes.Server	Error possibly involving '	错误可能涉及“
+RDCMan.Nodes.Server	Error({1}) connecting to {0}	连接 {0} 时出错（{1}）
+RDCMan.Nodes.Server	Error disconnection: {0}	断开连接时出错：{0}
+RDCMan.Nodes.Server	Logoff is disabled by policy.	策略已禁用注销。
+RDCMan.Nodes.Server	Connect and complete login before logging off.	注销前请先连接并完成登录。
+RDCMan.Nodes.Server	Unable to log off from 	无法注销：
+RDCMan.Nodes.Server	"
+Reason: "	"
+原因："
+RDCMan.Nodes.Server	Unknown extended disconnection reason 	未知的扩展断开原因：
+RDCMan.Nodes.Server	Unknown disconnection reason 	未知的断开原因：
+RDCMan.Nodes.Server	There is an active session on 	该服务器存在活动会话：
+RDCMan.Nodes.Server	. Disconnect it before removing the server.	。移除服务器前请先断开会话。
+RDCMan.Nodes.Server/<>c__DisplayClass122_0	The connection changed before logoff could start.	开始注销前连接已发生变化。
+RDCMan.Nodes.Server/<LogOff>d__122	Unable to read the connected MSTSC session identity: 	无法读取已连接的 MSTSC 会话标识：
+RDCMan.Nodes.Server/<RunLogOffAsync>d__123	Logoff failed for {0}: {1}	注销 {0} 失败：{1}
+RDCMan.Nodes.ServerBox	{ Undocked }	{ 独立窗口 }
+RDCMan.Nodes.ServerBase	Remove '{0}' {1} from '{2}'?	是否从“{2}”中移除{1}“{0}”？
+RDCMan.Nodes.ServerCertificateTrustStore	A SHA-256 certificate fingerprint must contain exactly 64 hexadecimal characters.	SHA-256 证书指纹必须恰好包含 64 个十六进制字符。
+RDCMan.Nodes.ServerRef	server reference	服务器引用
+RDCMan.Nodes.SmartServerRef	Smart group members are specified by inclusion criteria; manual removal is not allowed	智能分组成员由筛选规则决定，不能手动移除
+RDCMan.Nodes.WorkspaceFeedGroup	Workspaces (Loading...)	云工作区（正在加载…）
+RDCMan.Nodes.WorkspaceFeedGroup	Workspaces (Refreshing...)	云工作区（正在刷新…）
+RDCMan.Nodes.WorkspaceFeedGroup	Workspaces	云工作区
+RDCMan.Nodes.WorkspaceFeedGroup	Workspace groups cannot be removed. Use -no-feed to suppress feed download.	不能移除工作区分组。可使用 -no-feed 参数禁止下载订阅。
+RDCMan.Nodes.WorkspaceFeedGroup/<>c__DisplayClass21_0	Failed to download workspaces: 	下载云工作区失败：
+RDCMan.Nodes.WorkspaceFeedGroup/<>c__DisplayClass37_0	Failed to refresh workspaces: 	刷新云工作区失败：
+RDCMan.Nodes.WorkspaceFeedPlaceholder	Loading...	正在加载…
+RDCMan.Nodes.WorkspaceGroup	Workspace groups are managed by the feed and cannot be removed manually.	工作区分组由订阅管理，不能手动移除。
+RDCMan.Nodes.WorkspaceServer	Workspace servers are managed by the feed and cannot be removed manually.	工作区服务器由订阅管理，不能手动移除。
+RDCMan.Nodes.WorkspaceServer	unknown	未知
+RDCMan.Dialogs.AddCredentialsDialog	Add Credentials	添加凭据
+RDCMan.Dialogs.AddCredentialsDialog	Save	保存
+RDCMan.Dialogs.AddCredentialsDialog	Profile &name:	配置名称(&N)：
+RDCMan.Dialogs.AddCredentialsDialog	Please enter a profile name	请输入配置名称
+RDCMan.Dialogs.AddCredentialsDialog	'{0}' is a reserved profile name	“{0}”是保留的配置名称
+RDCMan.Dialogs.AddCredentialsDialog	 already exists in 	 已存在于 
+RDCMan.Dialogs.AddCredentialsDialog	Update?	是否更新？
+RDCMan.Dialogs.AddCredentialsDialog	Profile exists	配置已存在
+RDCMan.Dialogs.CertificateTrustDialog	Remote Desktop Certificate Warning	远程桌面证书警告
+RDCMan.Dialogs.CertificateTrustDialog	"The identity of """	无法验证“
+RDCMan.Dialogs.CertificateTrustDialog	""" cannot be verified."	”的身份。
+RDCMan.Dialogs.CertificateTrustDialog	Endpoint: 	连接端点：
+RDCMan.Dialogs.CertificateTrustDialog	Type: 	类型：
+RDCMan.Dialogs.CertificateTrustDialog	Remote computer	远程计算机
+RDCMan.Dialogs.CertificateTrustDialog	Remote Desktop Gateway	远程桌面网关
+RDCMan.Dialogs.CertificateTrustDialog	RDCMan cannot allow this connection because the certificate failure is not overridable.	证书错误不允许忽略，RDCMan 无法允许此连接。
+RDCMan.Dialogs.CertificateTrustDialog	If you do not recognize this certificate, cancel the connection.	如果你不认识此证书，请取消连接。
+RDCMan.Dialogs.CertificateTrustDialog	Trust this certificate for this server	对此服务器信任该证书
+RDCMan.Dialogs.CertificateTrustDialog	Close	关闭
+RDCMan.Dialogs.CertificateTrustDialog	Cancel	取消
+RDCMan.Dialogs.CertificateTrustDialog	Connect anyway	仍然连接
+RDCMan.Dialogs.CertificateTrustDialog	Show certificate details	显示证书详细信息
+RDCMan.Dialogs.CertificateTrustDialog	Show certificate details	显示证书详细信息
+RDCMan.Dialogs.CertificateTrustDialog	Hide certificate details	隐藏证书详细信息
+RDCMan.Dialogs.ConnectToDialog	Connect To	连接到
+RDCMan.Dialogs.ConnectToDialog	Connect	连接
+RDCMan.Dialogs.ConnectAsDialog	Connect 	连接 
+RDCMan.Dialogs.ConnectAsDialog	 As	（指定凭据）
+RDCMan.Dialogs.ConnectAsDialog	Connect	连接
+RDCMan.Dialogs.CustomSizeDialog	Custom Size	自定义尺寸
+RDCMan.Dialogs.CustomSizeDialog	OK	确定
+RDCMan.Dialogs.CustomSizeDialog	&Width:	宽度(&W)：
+RDCMan.Dialogs.CustomSizeDialog	&Height:	高度(&H)：
+RDCMan.Dialogs.CustomSizeDialog	Width must be at least 1 pixel	宽度至少为 1 像素
+RDCMan.Dialogs.CustomSizeDialog	Height must be at least 1 pixel	高度至少为 1 像素
+RDCMan.Dialogs.GlobalOptionsDialog	Options	选项
+RDCMan.Dialogs.GlobalOptionsDialog	OK	确定
+RDCMan.Dialogs.GlobalOptionsDialog	Modem (28.8 Kbps)	调制解调器（28.8 Kbps）
+RDCMan.Dialogs.GlobalOptionsDialog	Modem (56 Kbps)	调制解调器（56 Kbps）
+RDCMan.Dialogs.GlobalOptionsDialog	Broadband (128 Kpbs - 1.5 Mbps)	宽带（128 Kbps - 1.5 Mbps）
+RDCMan.Dialogs.GlobalOptionsDialog	LAN (10 Mbps or higher)	局域网（10 Mbps 或更高）
+RDCMan.Dialogs.GlobalOptionsDialog	Custom	自定义
+RDCMan.Dialogs.GlobalOptionsDialog	Full Screen	全屏
+RDCMan.Dialogs.GlobalOptionsDialog	&Show full screen connection bar	显示全屏连接栏(&S)
+RDCMan.Dialogs.GlobalOptionsDialog	Auto-&hide connection bar	自动隐藏连接栏(&H)
+RDCMan.Dialogs.GlobalOptionsDialog	Full screen window is always on &top	全屏窗口始终置顶(&T)
+RDCMan.Dialogs.GlobalOptionsDialog	Use &multiple monitors when necessary	需要时使用多显示器(&M)
+RDCMan.Dialogs.GlobalOptionsDialog	Use &panning instead of scroll bars	使用平移代替滚动条(&P)
+RDCMan.Dialogs.GlobalOptionsDialog	Panning sp&eed	平移速度(&E)
+RDCMan.Dialogs.GlobalOptionsDialog	Workspaces	云工作区
+RDCMan.Dialogs.GlobalOptionsDialog	Feed &URL:	订阅地址(&U)：
+RDCMan.Dialogs.GlobalOptionsDialog	Cache &directory:	缓存目录(&D)：
+RDCMan.Dialogs.GlobalOptionsDialog	Changes take effect after restart.	更改将在重启后生效。
+RDCMan.Dialogs.GlobalOptionsDialog	Select workspace feed cache directory	选择工作区订阅缓存目录
+RDCMan.Dialogs.GlobalOptionsDialog	Experience	连接体验
+RDCMan.Dialogs.GlobalOptionsDialog	Connection &speed:	连接速度(&S)：
+RDCMan.Dialogs.GlobalOptionsDialog	Allow the following:	启用下列效果：
+RDCMan.Dialogs.GlobalOptionsDialog	&Desktop background	桌面背景(&D)
+RDCMan.Dialogs.GlobalOptionsDialog	&Font smoothing	字体平滑(&F)
+RDCMan.Dialogs.GlobalOptionsDialog	Desktop &composition	桌面合成(&C)
+RDCMan.Dialogs.GlobalOptionsDialog	Sho&w contents of window while dragging	拖动时显示窗口内容(&W)
+RDCMan.Dialogs.GlobalOptionsDialog	Menu and window &animation	菜单和窗口动画(&A)
+RDCMan.Dialogs.GlobalOptionsDialog	&Themes	主题(&T)
+RDCMan.Dialogs.GlobalOptionsDialog	&Persistent Bitmap Caching	持久位图缓存(&P)
+RDCMan.Dialogs.GlobalOptionsDialog	Hot Keys	快捷键
+RDCMan.Dialogs.GlobalOptionsDialog	ALT hot keys (only effective when Windows key combos are not redirected)	ALT 快捷键（仅未重定向 Windows 组合键时有效）
+RDCMan.Dialogs.GlobalOptionsDialog	CTRL+ALT hot keys (always effective)	CTRL+ALT 快捷键（始终有效）
+RDCMan.Dialogs.GlobalOptionsDialog	Full screen	全屏
+RDCMan.Dialogs.GlobalOptionsDialog	Previous session	上一个会话
+RDCMan.Dialogs.GlobalOptionsDialog	Select session	选择会话
+RDCMan.Dialogs.GlobalOptionsDialog	Client Area	显示区域
+RDCMan.Dialogs.GlobalOptionsDialog	Client Area Size	显示区域大小
+RDCMan.Dialogs.GlobalOptionsDialog	&Custom:	自定义(&C)：
+RDCMan.Dialogs.GlobalOptionsDialog	&Lock window size	锁定窗口大小(&L)
+RDCMan.Dialogs.GlobalOptionsDialog	Thumbnail Unit Size	缩略图单元大小
+RDCMan.Dialogs.GlobalOptionsDialog	Pi&xels:	像素(&X)：
+RDCMan.Dialogs.GlobalOptionsDialog	Pe&rcentage:	百分比(&R)：
+RDCMan.Dialogs.GlobalOptionsDialog	Percentage must be between 1 and 100 inclusive	百分比必须在 1 到 100 之间
+RDCMan.Dialogs.GlobalOptionsDialog	Tree	服务器树
+RDCMan.Dialogs.GlobalOptionsDialog	Server Tree	服务器树
+RDCMan.Dialogs.GlobalOptionsDialog	&Click to select gives focus to remote client	单击选择时将焦点交给远程客户端(&C)
+RDCMan.Dialogs.GlobalOptionsDialog	&Dim nodes when tree control is inactive	服务器树未激活时淡化节点(&D)
+RDCMan.Dialogs.GlobalOptionsDialog	&Location:	位置(&L)：
+RDCMan.Dialogs.GlobalOptionsDialog	&Visibility:	显示方式(&V)：
+RDCMan.Dialogs.GlobalOptionsDialog	&Pop up delay:	弹出延迟(&P)：
+RDCMan.Dialogs.GlobalOptionsDialog	Auto hide pop-up delay must be 0 to 1000 milliseconds	自动隐藏弹出延迟必须在 0 到 1000 毫秒之间
+RDCMan.Dialogs.GlobalOptionsDialog	millisecond(s)	毫秒
+RDCMan.Dialogs.GlobalOptionsDialog	&Virtual Groups	内置分组(&V)
+RDCMan.Dialogs.GlobalOptionsDialog	&Group sort order:	分组排序(&G)：
+RDCMan.Dialogs.GlobalOptionsDialog	&Server sort order:	服务器排序(&S)：
+RDCMan.Dialogs.GlobalOptionsDialog	Sort Order	排序方式
+RDCMan.Dialogs.GlobalOptionsDialog	General	常规
+RDCMan.Dialogs.GlobalOptionsDialog	Hide main &menu until ALT pressed	按 ALT 后再显示主菜单(&M)
+RDCMan.Dialogs.GlobalOptionsDialog	Auto save &interval:	自动保存间隔(&I)：
+RDCMan.Dialogs.GlobalOptionsDialog	Auto save interval must 0 to 60 minutes inclusive	自动保存间隔必须在 0 到 60 分钟之间
+RDCMan.Dialogs.GlobalOptionsDialog	mi&nute(s)	分钟(&N)
+RDCMan.Dialogs.GlobalOptionsDialog	Prompt to &reconnect connected servers on startup	启动时询问是否恢复上次连接(&R)
+RDCMan.Dialogs.GlobalOptionsDialog	Default group &settings...	默认分组设置(&S)…
+RDCMan.Dialogs.GlobalOptionsDialog/<>c	Custom	自定义
+RDCMan.Dialogs.GroupBasePropertiesTabPage`1	&Group name:	分组名称(&G)：
+RDCMan.Dialogs.GroupBasePropertiesTabPage`1	Please enter a group name	请输入分组名称
+RDCMan.Dialogs.GroupBasePropertiesTabPage`1	"Group name may not contain the path separator """	分组名称不能包含路径分隔符“
+RDCMan.Dialogs.GroupBasePropertiesDialog	Profile Management	凭据配置管理
+RDCMan.Dialogs.GroupBasePropertiesDialog	Profiles	凭据配置
+RDCMan.Dialogs.GroupBasePropertiesDialog	&Add	添加(&A)
+RDCMan.Dialogs.GroupBasePropertiesDialog	&Edit	编辑(&E)
+RDCMan.Dialogs.GroupBasePropertiesDialog	&Delete	删除(&D)
+RDCMan.Dialogs.GroupBasePropertiesDialog	 is in use in these nodes:	 正被以下节点使用：
+RDCMan.Dialogs.GroupBasePropertiesDialog	Are you sure you want to delete it?	是否确定删除？
+RDCMan.Dialogs.GroupBasePropertiesDialog/<>c__DisplayClass14_0	Logon Credentials	登录凭据
+RDCMan.Dialogs.GroupBasePropertiesDialog/<>c__DisplayClass14_0	Gateway Settings	网关设置
+RDCMan.Dialogs.DefaultGroupPropertiesDialog	Default Settings Group Properties	默认分组属性
+RDCMan.Dialogs.DefaultGroupPropertiesDialog	OK	确定
+RDCMan.Dialogs.GroupPropertiesDialog	Add Group	添加分组
+RDCMan.Dialogs.GroupPropertiesDialog	Add	添加
+RDCMan.Dialogs.GroupPropertiesDialog	 Group Properties	 分组属性
+RDCMan.Dialogs.GroupPropertiesDialog	OK	确定
+RDCMan.Dialogs.FileGroupPropertiesTabPage	Path name:	文件路径：
+RDCMan.Dialogs.FileGroupPropertiesDialog	 File Properties	 文件属性
+RDCMan.Dialogs.FileGroupPropertiesDialog	OK	确定
+RDCMan.Dialogs.LogonSettingsDialog	Edit Credentials	编辑凭据
+RDCMan.Dialogs.LogonSettingsDialog	Save	保存
+RDCMan.Dialogs.RdcDialog	Cancel	取消
+RDCMan.Dialogs.RDCoreCredentialsDialog	remote computer	远程计算机
+RDCMan.Dialogs.RDCoreCredentialsDialog	Remote Desktop gateway	远程桌面网关
+RDCMan.Dialogs.RDCoreCredentialsDialog	Remote Computer Credentials	远程计算机凭据
+RDCMan.Dialogs.RDCoreCredentialsDialog	Remote Desktop Gateway Credentials	远程桌面网关凭据
+RDCMan.Dialogs.RDCoreCredentialsDialog	The credentials supplied for the 	为以下端点提供的凭据被拒绝：
+RDCMan.Dialogs.RDCoreCredentialsDialog	 were rejected.	。
+RDCMan.Dialogs.RDCoreCredentialsDialog	The 	以下端点 
+RDCMan.Dialogs.RDCoreCredentialsDialog	 requires fresh credentials.	 需要重新输入凭据。
+RDCMan.Dialogs.RDCoreCredentialsDialog	Enter credentials for the 	请输入以下端点的凭据：
+RDCMan.Dialogs.RDCoreCredentialsDialog	Endpoint: 	连接端点：
+RDCMan.Dialogs.RDCoreCredentialsDialog	&User name:	用户名(&U)：
+RDCMan.Dialogs.RDCoreCredentialsDialog	&Password:	密码(&P)：
+RDCMan.Dialogs.RDCoreCredentialsDialog	Cancel	取消
+RDCMan.Dialogs.RDCoreCredentialsDialog	Connect	连接
+RDCMan.Dialogs.SaveCredentialsDialog	Save profile for 	保存凭据配置：
+RDCMan.Dialogs.SaveCredentialsDialog	Save	保存
+RDCMan.Dialogs.SaveCredentialsDialog	Profile &name	配置名称(&N)
+RDCMan.Dialogs.SaveCredentialsDialog	&Location	保存位置(&L)
+RDCMan.Dialogs.SaveCredentialsDialog	Global	全局
+RDCMan.Dialogs.SaveCredentialsDialog	Please enter a profile name	请输入配置名称
+RDCMan.Dialogs.SaveCredentialsDialog	'{0}' is a reserved profile name	“{0}”是保留的配置名称
+RDCMan.Dialogs.SaveCredentialsDialog	 already exists in 	 已存在于 
+RDCMan.Dialogs.SaveCredentialsDialog	Update?	是否更新？
+RDCMan.Dialogs.SaveCredentialsDialog	Profile exists	配置已存在
+RDCMan.Dialogs.SelectServersDialogBase	Server	服务器
+RDCMan.Dialogs.SelectServersDialogBase	Group	分组
+RDCMan.Dialogs.SelectServersDialogBase	Select &all	全选(&A)
+RDCMan.Dialogs.FindServersDialog	Find Servers	查找服务器
+RDCMan.Dialogs.FindServersDialog	Select	选择
+RDCMan.Dialogs.FindServersDialog	Type to filter servers	输入文字以筛选服务器
+RDCMan.Dialogs.FindServersDialog	&Connect	连接(&C)
+RDCMan.Dialogs.FindServersDialog	R&econnect	重新连接(&E)
+RDCMan.Dialogs.FindServersDialog	&Disconnect	断开连接(&D)
+RDCMan.Dialogs.FindServersDialog	Log off	注销
+RDCMan.Dialogs.FindServersDialog	Remo&ve	移除(&V)
+RDCMan.Dialogs.FindServersDialog	Add to favorites	添加到收藏夹
+RDCMan.Dialogs.FindServersDialog/<>c__DisplayClass5_0	There are active sessions. Are you sure?	仍有活动会话。是否继续？
+RDCMan.Dialogs.ConnectServersDialog	Connect Servers	连接服务器
+RDCMan.Dialogs.ConnectServersDialog	&Connect	连接(&C)
+RDCMan.Dialogs.ConnectServersDialog	Select servers to be connected	请选择要连接的服务器
+RDCMan.Dialogs.ServerPropertiesTabPage	Server Settings	服务器设置
+RDCMan.Dialogs.ServerPropertiesTabPage	&Server name:	服务器名称(&S)：
+RDCMan.Dialogs.ServerPropertiesTabPage	&VM console connect	连接虚拟机控制台(&V)
+RDCMan.Dialogs.ServerPropertiesTabPage	&id:	ID(&I)：
+RDCMan.Dialogs.ServerPropertiesTabPage	&Display name:	显示名称(&D)：
+RDCMan.Dialogs.ServerPropertiesTabPage	Please enter a server name	请输入服务器名称
+RDCMan.Dialogs.ServerPropertiesTabPage	Spaces are not permitted in a server name	服务器名称不能包含空格
+RDCMan.Dialogs.ServerPropertiesTabPage	Slashes are not permitted in a server name	服务器名称不能包含斜杠
+RDCMan.Dialogs.ServerPropertiesTabPage	Expansion results in 	展开后将得到 
+RDCMan.Dialogs.ServerPropertiesTabPage	 servers. Are you sure?	 台服务器。是否继续？
+RDCMan.Dialogs.ServerPropertiesTabPage	Expansion too large	展开数量过多
+RDCMan.Dialogs.ServerPropertiesTabPage	Please enter a display name	请输入显示名称
+RDCMan.Dialogs.ServerPropertiesTabPage	VM Console Connect controls are unavailable.	虚拟机控制台连接控件不可用。
+RDCMan.Dialogs.ServerPropertiesTabPage	for virtual machine console connect	（用于连接虚拟机控制台）
+RDCMan.Dialogs.ServerPropertiesTabPage	Local Resources	本地资源
+RDCMan.Dialogs.ServerPropertiesTabPage	Remote Desktop Settings	远程桌面设置
+RDCMan.Dialogs.ServerPropertiesTabPage	Security Settings	安全设置
+RDCMan.Dialogs.ServerPropertiesTabPage	Connection Settings	连接设置
+RDCMan.Dialogs.ImportServersPropertiesPage	Server Settings	服务器设置
+RDCMan.Dialogs.ImportServersPropertiesPage	Select a file with server info or enter info in the textbox below. Server names are delimited by commas and newlines. Expansions are permitted.	选择文件，或在下方输入服务器名称；用逗号或换行分隔，支持范围展开。
+RDCMan.Dialogs.ImportServersPropertiesPage	&Browse	浏览(&B)
+RDCMan.Dialogs.ImportServersPropertiesPage	&File name:	文件名(&F)：
+RDCMan.Dialogs.ImportServersPropertiesPage	Please enter a file name	请输入文件名
+RDCMan.Dialogs.ImportServersPropertiesPage	Import	导入
+RDCMan.Dialogs.ImportServersPropertiesPage	Text files (*.txt)|*.txt|All files (*.*)|*.*	文本文件 (*.txt)|*.txt|所有文件 (*.*)|*.*
+RDCMan.Dialogs.ServerPropertiesDialog	Add Server	添加服务器
+RDCMan.Dialogs.ServerPropertiesDialog	Add	添加
+RDCMan.Dialogs.ServerPropertiesDialog	Import Servers	导入服务器
+RDCMan.Dialogs.ServerPropertiesDialog	Import	导入
+RDCMan.Dialogs.ServerPropertiesDialog	 Server Properties	 服务器属性
+RDCMan.Dialogs.ServerPropertiesDialog	OK	确定
+RDCMan.Dialogs.SmartGroupPropertiesTabPage	Servers which match	筛选满足
+RDCMan.Dialogs.SmartGroupPropertiesTabPage	of the following rules	规则的服务器
+RDCMan.Dialogs.SmartGroupPropertiesTabPage	Please enter a pattern	请输入匹配规则
+RDCMan.Dialogs.SmartGroupPropertiesDialog	Add Smart Group	添加智能分组
+RDCMan.Dialogs.SmartGroupPropertiesDialog	Add	添加
+RDCMan.Dialogs.SmartGroupPropertiesDialog	 Smart Group Properties	 智能分组属性
+RDCMan.Dialogs.SmartGroupPropertiesDialog	OK	确定
+RDCMan.Dialogs.TabPages.ConnectionSettingsTabPage	&Connect to console	连接到控制台(&C)
+RDCMan.Dialogs.TabPages.ConnectionSettingsTabPage	&Start program:	启动程序(&S)：
+RDCMan.Dialogs.TabPages.ConnectionSettingsTabPage	&Working dir:	工作目录(&W)：
+RDCMan.Dialogs.TabPages.ConnectionSettingsTabPage	&Port:	端口(&P)：
+RDCMan.Dialogs.TabPages.ConnectionSettingsTabPage	&Load balance config:	负载均衡配置(&L)：
+RDCMan.Dialogs.TabPages.ConnectionSettingsTabPage	(default)	（默认）
+RDCMan.Dialogs.TabPages.QuickConnectTabPage	&Server name:	服务器名称(&S)：
+RDCMan.Dialogs.TabPages.DisplaySettingsTabPage`1	&Thumbnail scale:	缩略图比例(&T)：
+RDCMan.Dialogs.TabPages.DisplaySettingsTabPage`1	&Docked RD resizing:	停靠时调整大小(&D)：
+RDCMan.Dialogs.TabPages.DisplaySettingsTabPage`1	&Undocked RD resizing:	独立窗口调整大小(&U)：
+RDCMan.Dialogs.TabPages.DisplaySettingsTabPage`1	D&PI scaling:	DPI 缩放(&P)：
+RDCMan.Dialogs.TabPages.GroupDisplaySettingsTabPage	Preview &session in thumbnail	缩略图预览会话(&S)
+RDCMan.Dialogs.TabPages.GroupDisplaySettingsTabPage	&Allow thumbnail session interaction	允许操作缩略图中的会话(&A)
+RDCMan.Dialogs.TabPages.GroupDisplaySettingsTabPage	Show dis&connected thumbnails	显示已断开连接的缩略图(&C)
+RDCMan.Dialogs.TabPages.EncryptionSettingsTabPage	&Password encryption:	密码加密(&P)：
+RDCMan.Dialogs.TabPages.EncryptionSettingsTabPage	&User name:	用户名(&U)：
+RDCMan.Dialogs.TabPages.EncryptionSettingsTabPage	Unexpected encryption method '{0}'	未知的加密方式“{0}”
+RDCMan.Dialogs.TabPages.EncryptionSettingsTabPage	Certificate:	证书：
+RDCMan.Dialogs.TabPages.EncryptionSettingsTabPage	Valid from {0} to {1}	有效期：{0} 至 {1}
+RDCMan.Dialogs.TabPages.GatewaySettingsTabPage	Use a TS &Gateway server	使用远程桌面网关(&G)
+RDCMan.Dialogs.TabPages.GatewaySettingsTabPage	&Server name:	服务器名称(&S)：
+RDCMan.Dialogs.TabPages.GatewaySettingsTabPage	&Bypass for local addresses	本地地址绕过网关(&B)
+RDCMan.Dialogs.TabPages.GatewaySettingsTabPage	&Logon method:	登录方式(&L)：
+RDCMan.Dialogs.TabPages.GatewaySettingsTabPage	Share Gateway &credentials with remote computer	与远程计算机共用网关凭据(&C)
+RDCMan.Dialogs.TabPages.GatewaySettingsTabPage	Please enter a server name	请输入服务器名称
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Remote &sound:	远程声音(&S)：
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Sound &quality:	声音质量(&Q)：
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Remote &recording:	录音(&R)：
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Windows &key combos:	Windows 组合键(&K)：
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Re&direct options:	重定向选项(&D)：
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Clipboard	剪贴板
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Smart cards or Windows Hello for Business	智能卡或 Windows Hello 企业版
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	WebAuthn (Windows Hello or security keys)	WebAuthn（Windows Hello 或安全密钥）
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Ports	端口
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Location	位置
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Printers	打印机
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	Drives	磁盘驱动器
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	PnP devices	即插即用设备
+RDCMan.Dialogs.TabPages.LocalResourcesTabPage	PnP devices	即插即用设备
+RDCMan.Dialogs.TabPages.NodePropertiesPage`1	&Parent:	父级分组(&P)：
+RDCMan.Dialogs.TabPages.NodePropertiesPage`1	&Comment:	备注(&C)：
+RDCMan.Dialogs.TabPages.RemoteDesktopTabPage	Color &Depth:	颜色深度(&D)：
+RDCMan.Dialogs.TabPages.RemoteDesktopTabPage	&Same as client area	与显示区域相同(&S)
+RDCMan.Dialogs.TabPages.RemoteDesktopTabPage	&Full screen	全屏(&F)
+RDCMan.Dialogs.TabPages.RemoteDesktopTabPage	&Custom:	自定义(&C)：
+RDCMan.Dialogs.TabPages.RemoteDesktopTabPage	Remote Desktop Size	远程桌面尺寸
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	&Authentication:	身份验证(&A)：
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	&Enable CredSSP support	启用 CredSSP 支持(&E)
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Use a &web account	使用 Web 账号(&W)
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Redirect protection:	重定向保护：
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	&Restricted Admin	受限管理模式(&R)
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Remote Credential &Guard	远程凭据保护(&G)
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	"For servers that don't require Network Level Authentication.
+enablecredsspsupport:i:<0|1>"	"用于无需网络级别身份验证的服务器。
+enablecredsspsupport:i:<0|1>"
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Will use Microsoft Entra ID to authenticate to the remote PC.	使用 Microsoft Entra ID 验证远程电脑的身份。
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Activates RestrictedLogon and DisableCredentialsDelegation.	启用 RestrictedLogon 和 DisableCredentialsDelegation。
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Activates RedirectedAuthentication and DisableCredentialsDelegation.	启用 RedirectedAuthentication 和 DisableCredentialsDelegation。
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Trusted certificates for this server:	此服务器信任的证书：
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Trusted certificates in this file:	此文件信任的证书：
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Certificate approvals are stored per server and are not inherited.	证书信任按服务器分别保存，不从父级继承。
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Server	服务器
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Type	类型
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Endpoint	连接端点
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	SHA-256 fingerprint	SHA-256 指纹
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Type	类型
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Endpoint	连接端点
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	SHA-256 fingerprint	SHA-256 指纹
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Delete selected	删除所选项
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Delete all	全部删除
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Session host	会话主机
+RDCMan.Dialogs.TabPages.SecuritySettingsTabPage	Gateway	网关
+RdcMan.About	{0} v{1}	{0}  版本 {1}
+RdcMan.About	Copyright © 2026 Microsoft. By Julian Burger	版权所有 © 2026 Microsoft · 作者 Julian Burger
+RdcMan.About	OK	确定
+RdcMan.About	About Remote Desktop Connection Manager	关于远程桌面连接管理器 3.22
+RdcMan.AddNodeDialogHelper	RDCMan does not allow mixing of servers and groups. If you add a server to a top-level file group you will not be able to add any groups to that file. Continue?	RDCMan 不允许在同一分组中混放服务器和子分组。向顶层文件分组添加服务器后，该文件中将不能再添加子分组。是否继续？
+RdcMan.AddNodeDialogHelper	RDCMan does not allow mixing of servers and groups. In order to add a group to this file you must first remove the servers.	RDCMan 不允许混放服务器和子分组。请先移除此文件中的服务器，再添加子分组。
+RdcMan.AddNodeDialogHelper	The import servers dialog did not produce the expected result.	导入服务器对话框没有返回预期结果。
+RdcMan.AddNodeDialogHelper	RDCMan does not allow mixing of servers and groups. In order to add a group to this file you must first remove the servers.	RDCMan 不允许混放服务器和子分组。请先移除此文件中的服务器，再添加子分组。
+RdcMan.AddNodeDialogHelper	RDCMan does not allow mixing of servers and groups. In order to add a group to this file you must first remove the servers.	RDCMan 不允许混放服务器和子分组。请先移除此文件中的服务器，再添加子分组。
+RdcMan.AddNodeDialogHelper	Please open an existing non-read-only file (File.Open) or create a new one (File.New) before adding servers/groups	添加服务器或分组前，请先打开可写文件（文件→打开），或创建新文件（文件→新建）。
+RdcMan.ArgumentParser	Unexpected switch: 	未知的命令行参数：
+RdcMan.ArgumentParser	Switch 	参数 
+RdcMan.ArgumentParser	 requires an argument	 需要指定值
+RdcMan.InheritanceControl	In&herit from parent	继承父级设置(&H)
+RdcMan.InheritanceControl	Source: ...	来源：…
+RdcMan.InheritanceControl	Source: 	来源：
+RdcMan.InheritanceControl	These settings are unavailable {0}	这些设置不可用：{0}
+RdcMan.InheritanceControl	Source: 	来源：
+RdcMan.InheritanceControl	Source: Default settings group	来源：默认分组
+RdcMan.HotKeyBox	 (num pad)	（数字小键盘）
+RdcMan.SizeHelper	Bad Size string '{0}'	无效的尺寸字符串：'{0}'
+RdcMan.PointHelper	Bad Point string '{0}'	无效的位置字符串：'{0}'
+RdcMan.CredentialsUi	Profil&e:	凭据配置(&E)：
+RdcMan.CredentialsUi	Save	保存
+RdcMan.CredentialsUi	&User name:	用户名(&U)：
+RdcMan.CredentialsUi	&Password:	密码(&P)：
+RdcMan.CredentialsUi	&Domain:	域(&D)：
+RdcMan.Encryption	There were problems decrypting some credentials.	部分凭据解密失败。
+RdcMan.Encryption	Click OK to copy the details to the clipboard.	点击“确定”将详细信息复制到剪贴板。
+RdcMan.Encryption	Default settings group	默认分组
+RdcMan.Encryption	Logged on user's credentials	当前登录用户的凭据
+RdcMan.Encryption	Select Certificate	选择证书
+RdcMan.Encryption	Select a certificate for secure password storage	选择用于安全保存密码的证书
+RdcMan.Encryption	A certificate thumbprint is required for certificate encryption.	使用证书加密时必须指定证书指纹。
+RdcMan.Encryption	Certificate with thumbprint '	未找到指纹为“
+RdcMan.Encryption	' was not found.	”的证书。
+RdcMan.Encryption	Unexpected encryption method '{0}'	未知的加密方式：'{0}'
+RdcMan.Encryption	The encryption certificate does not have an RSA public key.	加密证书不包含 RSA 公钥。
+RdcMan.Encryption	Certificate '{0}' with thumbprint '{1}' not found	未找到证书“{0}”（指纹：{1}）
+RdcMan.Encryption	Unexpected encryption method '{0}'	未知的加密方式：'{0}'
+RdcMan.Encryption/<>c__DisplayClass2_0	Credentials profiles:	凭据配置：
+RdcMan.Encryption/<>c__DisplayClass2_0	Custom passwords:	自定义密码：
+RdcMan.FormTools	RDCMan Error	RDCMan 错误
+RdcMan.FormTools	RDCMan	RDCMan 提示
+RdcMan.FormTools	RDCMan	RDCMan 提示
+RdcMan.FormTools	RDCMan	RDCMan 提示
+RdcMan.FormTools	RDCMan	RDCMan 提示
+RdcMan.FullScreenCommandBarControl	Pin connection bar	固定连接栏
+RdcMan.FullScreenCommandBarControl	Minimize	最小化
+RdcMan.FullScreenCommandBarControl	Restore	还原
+RdcMan.FullScreenCommandBarControl	Disconnect	断开连接
+RdcMan.FullScreenCommandBarControl	Leave full screen without disconnecting.	退出全屏并保持连接。
+RdcMan.FullScreenCommandBarControl	Disconnect this remote session.	断开此远程会话。
+RdcMan.FullScreenCommandBarControl	Button	按钮
+RdcMan.FullScreenCommandBarControl	Unpin connection bar	取消固定连接栏
+RdcMan.FullScreenCommandBarControl	Pin connection bar	固定连接栏
+RdcMan.FullScreenCommandBarControl/CommandGlyphButton/PinButtonAccessibleObject	Press	按下
+RdcMan.Helpers	Name	名称
+RdcMan.Helpers	Status.Name	状态、名称
+RdcMan.Helpers	No sorting	不排序
+RdcMan.Helpers	hour	小时
+RdcMan.Helpers	minute	分钟
+RdcMan.Helpers	second	秒
+RdcMan.Helpers	s	
+RdcMan.ListSessionsForm	 Sessions	 会话
+RdcMan.ListSessionsForm	Logoff is disabled by policy.	策略已禁用注销操作。
+RdcMan.ListSessionsForm	&Disconnect	断开连接(&D)
+RdcMan.ListSessionsForm	&Log off	注销(&L)
+RdcMan.ListSessionsForm	Querying sessions...	正在查询会话…
+RdcMan.ListSessionsForm	Id	ID
+RdcMan.ListSessionsForm	State	状态
+RdcMan.ListSessionsForm	User	用户
+RdcMan.ListSessionsForm	Client	客户端
+RdcMan.ListSessionsForm	Refresh	刷新
+RdcMan.ListSessionsForm/<RunOperationAsync>d__14	Updating session...	正在更新会话…
+RdcMan.ListSessionsForm/<RunOperationAsync>d__14	Refreshing...	正在刷新…
+RdcMan.ListSessionsForm/<RunOperationAsync>d__14	 session	 会话
+RdcMan.MainForm	RDCMan encountered an error during initialization. There are two likely causes for this: an incompatible version of mstscax.dll is registered or it is not registered at all. Please see the help file for details.	RDCMan 初始化失败。可能是 mstscax.dll 版本不兼容，或该组件尚未注册。详情请参阅帮助。
+RdcMan.MainForm	 - Sysinternals: www.sysinternals.com	 - 基于 Sysinternals RDCMan 3.22
+RdcMan.MainForm	&File	文件(&F)
+RdcMan.MainForm	&New...	新建(&N)…
+RdcMan.MainForm	&Open...	打开(&O)…
+RdcMan.MainForm	Save A&ll	全部保存(&L)
+RdcMan.MainForm	E&xit	退出(&X)
+RdcMan.MainForm	&Edit	编辑(&E)
+RdcMan.MainForm	&Add server...	添加服务器(&A)…
+RdcMan.MainForm	&Import servers...	导入服务器(&I)…
+RdcMan.MainForm	Add &group...	添加分组(&G)…
+RdcMan.MainForm	Add s&mart group...	添加智能分组(&M)…
+RdcMan.MainForm	Remo&ve server/group...	移除服务器/分组(&V)…
+RdcMan.MainForm	&Find...	查找(&F)…
+RdcMan.MainForm	A&dd to favorites	添加到收藏夹(&D)
+RdcMan.MainForm	P&roperties	属性(&R)
+RdcMan.MainForm	&Session	会话(&S)
+RdcMan.MainForm	&Connect	连接(&C)
+RdcMan.MainForm	Connect &as...	使用指定凭据连接(&A)…
+RdcMan.MainForm	R&econnect	重新连接(&E)
+RdcMan.MainForm	Send keys	发送按键
+RdcMan.MainForm	Remote actions	远程操作
+RdcMan.MainForm	&Disconnect	断开连接(&D)
+RdcMan.MainForm	Log off	注销
+RdcMan.MainForm	&List sessions	列出会话(&L)
+RdcMan.MainForm	&Full screen	全屏(&F)
+RdcMan.MainForm	&Undock	独立窗口(&U)
+RdcMan.MainForm	Undoc&k and connect	独立窗口并连接(&K)
+RdcMan.MainForm	&Dock	停靠(&D)
+RdcMan.MainForm	Connect to...	临时连接…
+RdcMan.MainForm	Screen capture	屏幕截图
+RdcMan.MainForm	&View	视图(&V)
+RdcMan.MainForm	&Sort order	排序方式(&S)
+RdcMan.MainForm	&Groups	分组(&G)
+RdcMan.MainForm	&Name	名称(&N)
+RdcMan.MainForm	N&o sorting	不排序(&O)
+RdcMan.MainForm	&Servers	服务器(&S)
+RdcMan.MainForm	&Status.Name	状态、名称(&S)
+RdcMan.MainForm	&Name	名称(&N)
+RdcMan.MainForm	N&o sorting	不排序(&O)
+RdcMan.MainForm	Server tree location	服务器树位置
+RdcMan.MainForm	&Left	左侧(&L)
+RdcMan.MainForm	&Right	右侧(&R)
+RdcMan.MainForm	Server tree visibility	服务器树显示方式
+RdcMan.MainForm	&Dock	停靠(&D)
+RdcMan.MainForm	&Auto hide	自动隐藏(&A)
+RdcMan.MainForm	&Hide	隐藏(&H)
+RdcMan.MainForm	Built-in groups	内置分组
+RdcMan.MainForm	Workspaces	云工作区
+RdcMan.MainForm	&Lock window size	锁定窗口大小(&L)
+RdcMan.MainForm	&Client size	显示区域大小(&C)
+RdcMan.MainForm	&Custom	自定义(&C)
+RdcMan.MainForm	From remote desktop size	使用远程桌面尺寸
+RdcMan.MainForm	&Tools	工具(&T)
+RdcMan.MainForm	&Options	选项(&O)
+RdcMan.MainForm	&Help	帮助(&H)
+RdcMan.MainForm	&Usage	使用说明(&U)
+RdcMan.MainForm	&About...	关于(&A)…
+RdcMan.MainForm	There are active connections. Are you sure?	仍有活动连接。是否继续？
+RdcMan.MainForm	&Save	保存(&S)
+RdcMan.MainForm	Save &as...	另存为(&A)…
+RdcMan.MainForm	&Close	关闭(&C)
+RdcMan.MainForm	&Save 	保存(&S) 
+RdcMan.MainForm	Save 	将 
+RdcMan.MainForm	 &as...	 另存为(&A)…
+RdcMan.MainForm	&Close 	关闭(&C) 
+RdcMan.MenuHelper	&Connect server	连接服务器(&C)
+RdcMan.MenuHelper	Connect server &as...	使用指定凭据连接服务器(&A)…
+RdcMan.MenuHelper	R&econnect server	重新连接服务器(&E)
+RdcMan.MenuHelper	Send keys	发送按键
+RdcMan.MenuHelper	Remote actions	远程操作
+RdcMan.MenuHelper	&Disconnect server	断开服务器连接(&D)
+RdcMan.MenuHelper	Log off server	注销服务器会话
+RdcMan.MenuHelper	&List sessions	列出会话(&L)
+RdcMan.MenuHelper	Security dialog	Windows 安全界面
+RdcMan.MenuHelper	Window menu	窗口菜单
+RdcMan.MenuHelper	Task manager	任务管理器
+RdcMan.MenuHelper	Start menu	开始菜单
+RdcMan.MenuHelper	App commands	应用命令
+RdcMan.MenuHelper	Charms	超级按钮栏
+RdcMan.MenuHelper	Snap	贴靠窗口
+RdcMan.MenuHelper	Switch apps	切换应用
+RdcMan.MenuHelper	Start	开始
+RdcMan.MenuHelper	&Full screen	全屏(&F)
+RdcMan.MenuHelper	&Undock	独立窗口(&U)
+RdcMan.MenuHelper	Undoc&k and connect	独立窗口并连接(&K)
+RdcMan.MenuHelper	D&ock	停靠(&O)
+RdcMan.MenuHelper	Remo&ve server	移除服务器(&V)
+RdcMan.MenuHelper	Add to favorites	添加到收藏夹
+RdcMan.MenuHelper	P&roperties	属性(&R)
+RdcMan.Preferences	The following errors were encountered:	读取启动配置时遇到以下问题：
+RdcMan.Preferences	Your global configuration has not loaded completely. If it is saved it almost certainly means losing information. Continue?	全局配置未完整加载。若继续并保存，当前版本不支持的设置可能丢失。是否继续启动？
+RdcMan.Program	Error reading RDCMan configuration file: {0} The program may not be unstable and/or not fully functional.	读取 RDCMan 配置文件时出错：{0}。程序可能不稳定或部分功能不可用。
+RdcMan.Program	Error initializing the RDCore engine: {0}	初始化 RDCore 引擎时出错：{0}
+RdcMan.Program	"Error initializing the engine.
+
+Either install or repair the Microsoft Visual C++ v14 Redistributable matching this RDCMan build's architecture, then restart RDCMan, or start RDCMan with the ""-mstsc"" flag."	"初始化引擎时出错。
+
+请安装或修复与本程序架构匹配的 Microsoft Visual C++ v14 运行库，然后重新启动 RDCMan；也可使用“-mstsc”参数启动。"
+RdcMan.Program	Error loading '{0}': {1}	加载“{0}”失败：{1}
+RdcMan.Program	'{0}' was previously used but is not loaded now	“{0}”曾使用过，但当前尚未加载
+RdcMan.Program	Click Cancel to exit	点击“取消”退出
+RdcMan.Program	Some plugins have not been loaded. RDCMan may not function as you expect.{0}{0}	部分插件未加载，RDCMan 的功能可能不完整。{0}{0}
+RdcMan.Program	The following servers were not found and could not be connected:	未找到以下服务器，无法连接：
+RdcMan.Program/<>c__DisplayClass74_0	There is a new version of RDCMan available from {0}	发现 RDCMan 新版本，可从 {0} 获取
+RdcMan.RemoteDesktopsMenuItem	Remote Desktops	远程桌面
+RdcMan.RemoteDesktopsMenuItem	[All]	[全部]
+RdcMan.RdcTreeNode	Exception reading Xml node {0} in '{1}': {2}	读取“{1}”中的 XML 节点 {0} 时出错：{2}
+RdcMan.RdcTreeNode	Unexpected Xml node {0} in '{1}'	“{1}”中存在未知的 XML 节点：{0}
+RdcMan.RdcTreeNode	{0} '{1}' is read-only and cannot be edited	{0}“{1}”为只读，无法编辑
+RdcMan.RdcTreeNode	Parent group	父级分组
+RdcMan.RdcTreeNode	Group	分组
+RdcMan.RdgFile	New File	新建文件
+RdcMan.RdgFile	RDCMan Groups (*.rdg)|*.rdg	RDCMan 分组文件 (*.rdg)|*.rdg
+RdcMan.RdgFile	There are active connections from 	以下文件仍有活动连接：
+RdcMan.RdgFile	. Are you sure you want to close it?	。是否确定关闭？
+RdcMan.RdgFile	Open	打开
+RdcMan.RdgFile	RDCMan Groups (*.rdg)|*.rdg	RDCMan 分组文件 (*.rdg)|*.rdg
+RdcMan.RdgFile	: File format error	：文件格式错误
+RdcMan.RdgFile	{0} is already open as '{1}'	{0} 已作为“{1}”打开
+RdcMan.RdgFile	The following errors were encountered:	遇到以下错误：
+RdcMan.RdgFile	The file was not loaded completely. If it is saved it almost certainly means losing information. Continue?	文件未完整加载。如果保存，很可能丢失信息。是否继续？
+RdcMan.RdgFile	unknown	未知
+RdcMan.RdgFile	{0} was written by a newer version of RDCMan ({1}). It may not load properly. If it does and is saved by this version, it will revert to the older file schema possibly losing information. Continue?	"文件“{0}”由较新版本的 RDCMan（{1}）创建，可能无法正确加载。
+
+若使用当前版本保存，文件将转换为旧版格式，可能丢失部分信息。是否继续？"
+RdcMan.RdgFile	Opening 	正在打开 
+RdcMan.RdgFile	Save	另存为
+RdcMan.RdgFile	RDCMan Groups (*.rdg)|*.rdg	RDCMan 分组文件 (*.rdg)|*.rdg
+RdcMan.RdgFile	"
+
+Try again? (Selecting Cancel will preserve the original file)"	"
+
+是否重试？（选择“取消”将保留原文件）"
+RdcMan.RdgFile	Save changes to 	保存更改：
+RdcMan.RdgFile/<>c__DisplayClass9_0	Unexpected Xml node {0} in '{1}'	“{1}”中存在未知的 XML 节点：{0}
+RdcMan.RdpClient	Bring to this computer	在本机播放
+RdcMan.RdpClient	Leave at remote computer	在远程计算机播放
+RdcMan.RdpClient	Do not play	不播放
+RdcMan.RdpClient	Dynamically adjusted	动态调整
+RdcMan.RdpClient	High quality	高质量
+RdcMan.RdpClient	Medium quality	中等质量
+RdcMan.RdpClient	Do not record	不录音
+RdcMan.RdpClient	Record from this computer	从本机录音
+RdcMan.RdpClient	On the local computer	应用于本地计算机
+RdcMan.RdpClient	On the remote computer	应用于远程计算机
+RdcMan.RdpClient	In full screen mode only	仅全屏时应用
+RdcMan.RdpClient	Ask for password (NTLM)	询问密码（NTLM）
+RdcMan.RdpClient	Smart card	智能卡
+RdcMan.RdpClient	Allow me to select later	允许稍后选择
+RdcMan.RdpClient	Automatically detect Gateway	自动检测网关
+RdcMan.RdpClient	Do not use a Gateway server	不使用网关服务器
+RdcMan.RdpClient	Connect and don't warn if authentication fails	验证失败时连接且不警告
+RdcMan.RdpClient	Warn if authentication fails	验证失败时显示警告
+RdcMan.RdpClient	Do not connect if authentication fails	验证失败时不连接
+RdcMan.RdpClient	No scaling	不缩放
+RdcMan.RdpClient	Scale to fit window	缩放至窗口大小
+RdcMan.RdpClient	Reconnect with new resolution	以新分辨率重新连接
+RdcMan.RdpClient	As Host	与主机相同
+RdcMan.RemoteSessions	The session host must be a host name or IP address, optionally with an RDP port.	会话主机必须为主机名或 IP 地址，可附带 RDP 端口。
+RdcMan.RemoteSessions	No valid session host is available for WTS management.	没有可用于 WTS 管理的有效会话主机。
+RdcMan.RemoteSessions	The WTS server is already open.	WTS 服务器已打开。
+RdcMan.RemoteSessions	WTS returned an invalid session list.	WTS 返回了无效的会话列表。
+RdcMan.RemoteSessions	, session 	, 会话 
+RdcMan.RemoteSessions	WTS returned no 	WTS 未返回 
+RdcMan.RemoteSessions	 buffer for session 	 缓冲区，会话 
+RdcMan.RemoteSessions	WTSDisconnectSession (session 	WTSDisconnectSession (会话 
+RdcMan.RemoteSessions	WTSLogoffSession (session 	WTSLogoffSession (会话 
+RdcMan.RemoteSessions	The WTS server has not been opened.	尚未打开 WTS 服务器。
+RdcMan.RemoteSessions	 failed on '	 在主机 '
+RdcMan.RemoteSessions	 (error 	 (错误 
+RdcMan.RemoteSessions	WTS uses the Windows account running RDCMan, not saved RDP credentials. Check that account's remote session permissions and direct RPC/network access to the session host.	WTS 使用运行 RDCMan 的 Windows 账户，而非已保存的 RDP 凭据。请检查该账户的远程会话权限，以及到会话主机的直接 RPC 和网络访问。
+RdcMan.RemoteSessions	No matching active session was found. Use List sessions to identify the intended session.	未找到匹配的活动会话。请使用“列出会话”确认目标会话。
+RdcMan.RemoteSessions	Multiple matching active sessions were found. Use List sessions to select the intended session.	找到多个匹配的活动会话。请使用“列出会话”选择目标。
+RdcMan.SelectActiveServerForm	Select server	选择服务器
+RdcMan.SelectActiveServerForm	Server Tree	服务器树
+RdcMan.SelectActiveServerForm	Minimize RDCMan	最小化 RDCMan
+RdcMan.ServerForm	&Connect server	连接服务器(&C)
+RdcMan.ServerForm	Connect server &as...	使用指定凭据连接服务器(&A)…
+RdcMan.ServerForm	R&econnect server	重新连接服务器(&E)
+RdcMan.ServerForm	&Disconnect server	断开服务器连接(&D)
+RdcMan.ServerForm	&Full screen	全屏(&F)
+RdcMan.ServerForm	Doc&k	停靠(&K)
+RdcMan.ServerForm	Screen capture	屏幕截图
+RdcMan.ServerForm	P&roperties	属性(&R)
+RdcMan.ServerForm	&Session	会话(&S)
+RdcMan.ServerForm	Send keys	发送按键
+RdcMan.ServerForm	Remote actions	远程操作
+RdcMan.ServerForm	&View	视图(&V)
+RdcMan.ServerForm	&Client size	显示区域大小(&C)
+RdcMan.ServerForm	&Custom	自定义(&C)
+RdcMan.ServerForm	From remote desktop size	使用远程桌面尺寸
+RdcMan.ServerLabel	E&xpand	展开(&X)
+RdcMan.ServerTree	&Add server...	添加服务器(&A)…
+RdcMan.ServerTree	&Import servers...	导入服务器(&I)…
+RdcMan.ServerTree	Add &group...	添加分组(&G)…
+RdcMan.ServerTree	Please open or create a file	请先打开或创建文件
+RdcMan.ServerTree	&Connect group	连接分组(&C)
+RdcMan.ServerTree	&Connect group as...	使用指定凭据连接分组(&A)…
+RdcMan.ServerTree	R&econnect group	重新连接分组(&E)
+RdcMan.ServerTree	&Disconnect group	断开分组连接(&D)
+RdcMan.ServerTree	Log off group	注销分组会话
+RdcMan.ServerTree	&Add server...	添加服务器(&A)…
+RdcMan.ServerTree	Add &group...	添加分组(&G)…
+RdcMan.ServerTree	Add smart group...	添加智能分组…
+RdcMan.ServerTree	Save 	保存 
+RdcMan.ServerTree	Close 	关闭 
+RdcMan.ServerTree	&Refresh feed	刷新订阅(&R)
+RdcMan.ServerTree	Remo&ve servers	移除服务器(&V)
+RdcMan.ServerTree	Remove group	移除分组
+RdcMan.ServerTree	P&roperties	属性(&R)
+RdcMan.ServerTree	Remove all children of the 	是否移除以下分组中的全部子节点：“
+RdcMan.ServerTree	 group?	”？
+RdcMan.StringUtilities/<ExpandPattern>d__2	Set not closed (missing 	集合未闭合（缺少 
+RdcMan.StringUtilities/<ExpandPattern>d__2	Range not closed (missing 	范围未闭合（缺少 
+RdcMan.StringUtilities/<ExpandRange>d__4	Range does not contain low and high values (single 	范围必须包含起止值（仅一个 
+RdcMan.StringUtilities/<ExpandRange>d__4	 separator): 	 分隔符)：
+RdcMan.StringUtilities/<ExpandRange>d__4	Range is missing a value: 	范围缺少一个值：
+RdcMan.StringUtilities/<ExpandRange>d__4	Range must be homogenous (letter bounds or numeric bounds): 	范围的起止值必须同为字母或同为数字：
+RdcMan.StringUtilities/<ExpandRange>d__4	Letter range must be single character: 	字母范围的起止值必须为单个字符：
+RdcMan.StringUtilities/<ExpandRange>d__4	Letter range must be same case: 	字母范围的起止值必须大小写一致：
+RdcMan.StringUtilities/<ExpandRange>d__4	Range low cannot be greater than high: 	范围的起始值不能大于结束值：
+RdcMan.StringUtilities/<ExpandRange>d__4	Range must be homogenous (letter bounds or numeric bounds): 	范围的起止值必须同为字母或同为数字：
+RdcMan.StringUtilities/<ExpandRange>d__4	Range low cannot be greater than high: 	范围的起始值不能大于结束值：
+RdcMan.StringUtilities/<ExpandRange>d__4	Malformed range (must have letter bounds or numeric bounds): 	范围格式有误（起止值必须同为字母或同为数字）：
+RdcMan.ThumbnailLayout	{0} ({1} servers)	{0}（{1} 台服务器）
