@@ -8,7 +8,7 @@ $sourcePaths=@(
  '.gitignore','.gitattributes','.github/ISSUE_TEMPLATE/bug_report.yml',
  'README.md','NOTICE.md','LICENSE.md','THIRD_PARTY_NOTICES.md','CHANGELOG.md','repository.json',
  'Package-Source.ps1','tools/Test-Source.ps1','tools/Update-SourceManifest.ps1',
- 'docs/USAGE.md','docs/VERSIONS.md','docs/GITHUB.md','docs/VALIDATION.md'
+ 'docs/USAGE.md','docs/VERSIONS.md','docs/MAINTENANCE.md','docs/VALIDATION.md'
 )
 foreach($module in $config.modules){
  $moduleRoot=Join-Path $repoRoot $module.directory

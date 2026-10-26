@@ -1,86 +1,54 @@
-# RDCMan 中文补丁与脚本
+# RDCMan 中文补丁
 
-[项目主页](https://github.com/kaixinit/RDCMan-Chinese-Patches) · [仅源码 Release](https://github.com/kaixinit/RDCMan-Chinese-Patches/releases/latest)
+[下载源码](https://github.com/kaixinit/RDCMan-Chinese-Patches/releases/latest) · [使用指南](docs/USAGE.md) · [版本与校验值](docs/VERSIONS.md) · [更新记录](CHANGELOG.md)
 
-为指定版本的 RDCMan 在本地生成中文副本，提供翻译数据、构建脚本、复检和恢复工具。汉化作者：**kaixinit**。
+为 RDCMan 2.93 和 3.22 提供中文界面及常用界面修复。使用者自行准备匹配的微软原版，通过脚本在本地生成中文副本。
 
-本仓库不包含 RDCMan 原版、汉化 EXE、DLL、安装包、依赖二进制或个人连接配置；不下载 RDCMan，也不代表 Microsoft 或 Sysinternals 官方项目。版权范围见 [NOTICE.md](NOTICE.md) 和 [LICENSE.md](LICENSE.md)。
+本项目仅发布补丁源码，不提供原版或汉化成品下载。项目由 **kaixinit** 维护，与 Microsoft、Sysinternals 无隶属关系。
 
 ## 支持版本
 
-| 原版 | 补丁版本 | 补丁目录 | 构建所需环境 |
+| 软件 | 补丁版本 | 模块 | 额外环境 |
 |---|---|---|---|
-| 2.93.1431.0 | 0.1.5 | [rdcman-2.93](patches/rdcman-2.93/README.md) | Windows、PowerShell 5.1/7、.NET Framework 4.8 |
-| 3.22.0.0 x64 | 0.1.3 | [rdcman-3.22-x64](patches/rdcman-3.22-x64/README.md) | Windows、PowerShell 5.1/7、Python 3.9+ |
-| 3.22.0.0 x86 | 0.1.4 | [rdcman-3.22-x86](patches/rdcman-3.22-x86/README.md) | 同上，另需指定版本的 x86 VC++ 依赖 |
+| RDCMan 2.93.1431.0 | 0.1.5 | [2.93](patches/rdcman-2.93/README.md) | .NET Framework 4.8 |
+| RDCMan 3.22.0.0 x64 | 0.1.3 | [3.22 x64](patches/rdcman-3.22-x64/README.md) | Python 3.9+ |
+| RDCMan 3.22.0.0 x86 | 0.1.4 | [3.22 x86](patches/rdcman-3.22-x86/README.md) | Python 3.9+、固定版本的 x86 VC++ 依赖 |
 
-补丁版本与软件版本分开编号。脚本同时校验原版 SHA256；版本号相同、文件哈希不同也会拒绝。原版哈希和已验证的输出哈希见 [版本与校验值](docs/VERSIONS.md)。
+三个模块均在 Windows 下使用，支持 Windows PowerShell 5.1 或 PowerShell 7。脚本校验原版 SHA256；仅版本号相同不足以确认兼容，请先核对[版本表](docs/VERSIONS.md)。
 
-## 包含的调整
+## 主要功能
 
-- 菜单、右键、内置分组、常用提示和部分动态选项的中文显示。
-- 尺寸标签、分辨率按钮及关于窗口的排版调整。
-- 启动配置兼容提示汉化，保留原 XML 路径、字段标识和保存风险说明。
-- 修复无效服务器范围校验失败后误返回成功的问题，保留输入窗口及错误标记。
-- 关于窗口署名统一为“汉化作者：kaixinit”，保留微软版权、原作者和官网链接。
-- 3.22 x86 保留默认 RDCore 启动依赖修复；构建时从经校验的微软运行库包提取依赖，不执行安装器。
+- 菜单、右键、内置分组和常用提示的中文显示。
+- 改善尺寸选项、分辨率按钮及关于窗口的排版。
+- 将启动配置兼容提示译为中文，保留原配置字段和保存风险提醒。
+- 修复无效服务器范围导入时的异常处理，保留输入与错误提示。
+- 为 3.22 x86 补齐默认 RDCore 引擎所需的本地依赖。
 
-系统组件和远端返回的消息可能仍是原语言。未用真实账号进行远程连接测试，未逐档验证所有 DPI。
+## 开始使用
 
-## 快速开始
+1. 下载并完整解压 [Release 源码包](https://github.com/kaixinit/RDCMan-Chinese-Patches/releases/latest)。
+2. 准备有权使用的对应原版，核对 SHA256。
+3. 按[使用指南](docs/USAGE.md)选择模块，预览、生成并复检中文副本。
 
-先完整解压仓库，并自行取得有权使用的对应原版。官方产品页面：[Remote Desktop Connection Manager](https://learn.microsoft.com/en-us/sysinternals/downloads/rdcman)。官方页面可能只提供当前版本；本仓库不提供旧版本镜像。
-
-打开 PowerShell，进入需要的补丁目录。以下以 2.93 为例；所有 `D:` 路径都是示例，须替换为自己的路径。**生成目录放在仓库外，且必须尚不存在。**
+以下以 2.93 为例，在仓库根目录打开 PowerShell。输入原版的完整路径时无需加引号；输出位置为桌面的新文件夹。
 
 ```powershell
 Set-Location .\patches\rdcman-2.93
+$source = Read-Host '原版 RDCMan.exe 的完整路径'
+$output = Join-Path ([Environment]::GetFolderPath('Desktop')) 'RDCMan-2.93-zh'
 
-# 只校验和预览，不联网，也不生成程序
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\2.93\RDCMan.exe' -OutputDirectory 'D:\RDCMan-build\2.93-zh' -WhatIf
-
-# 从固定官方地址获取构建依赖，在本地生成副本
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\2.93\RDCMan.exe' -OutputDirectory 'D:\RDCMan-build\2.93-zh' -DownloadDependency
-
-# 复检刚生成的文件
-.\Test-RdcManPatch.ps1 -OutputDirectory 'D:\RDCMan-build\2.93-zh'
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -WhatIf
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -DownloadDependency
+.\Test-RdcManPatch.ps1 -OutputDirectory $output
 ```
 
-3.22 x64 和 x86 的命令、Python 选择、离线构建、恢复步骤及常见问题，见 [完整使用步骤](docs/USAGE.md)。
+输出目录必须尚不存在。`-DownloadDependency` 用于获取固定构建依赖，不下载 RDCMan。原版输入不会被覆盖；完成后手动打开输出目录中的程序。
 
-构建不会覆盖输入原版、启动 RDCMan、连接服务器或代为接受许可。首次手动启动生成的副本时，程序使用原有汉化版的独立配置目录；目录标识见各版本说明。
+## 使用须知
 
-## 仓库结构
+- 离线构建、Python 路径、恢复英文副本及常见问题见[使用指南](docs/USAGE.md)。
+- 连接文件和个人设置应自行备份；汉化不消除新旧版本之间的配置兼容限制。
+- 系统或远端返回的消息可能仍为原语言。验证范围见[验证说明](docs/VALIDATION.md)。
+- 版权、依赖和许可范围见 [NOTICE.md](NOTICE.md)、[LICENSE.md](LICENSE.md) 和[第三方说明](THIRD_PARTY_NOTICES.md)。
 
-```text
-patches/
-  rdcman-2.93/          2.93 补丁、译表、检查代码及说明
-  rdcman-3.22-x64/      3.22 x64 补丁与单文件包工具
-  rdcman-3.22-x86/      3.22 x86 补丁及运行库准备工具
-docs/                  使用、版本、发布和验证说明
-tools/                 合集源码校验与清单维护
-Package-Source.ps1      只按清单生成源码 ZIP
-source-manifest.json    合集文件字节清单
-```
-
-三个补丁独立运行，不会调用另一个版本的程序或构建目录。`patch.json` 中的原版和依赖哈希均为固定值。
-
-## 上传 GitHub
-
-直接将本文件夹作为仓库根目录；不要上传其上一级工作目录。具体步骤见 [GitHub 上传与源码发布](docs/GITHUB.md)。
-
-上传前，在仓库根目录运行：
-
-```powershell
-.\tools\Test-Source.ps1
-```
-
-重新生成仅源码 ZIP：
-
-```powershell
-.\Package-Source.ps1 -DestinationZip 'D:\Exports\RDCMan-Chinese-Patches-source.zip'
-```
-
-打包采用显式文件清单，忽略本地依赖缓存，不把 Git 历史、原程序、构建结果或个人配置加入 ZIP。校验清单用于发现意外修改，不是数字签名。
-
-验证记录见 [VALIDATION.md](docs/VALIDATION.md)。本项目以补丁资料形式整理，不自动取得微软软件的修改或再分发授权；详细边界见 [版权说明](NOTICE.md)。
+如需修改翻译或重新生成源码包，请阅读[维护指南](docs/MAINTENANCE.md)。反馈问题时请注明模块、补丁版本和复现步骤，不附真实连接配置或凭据。

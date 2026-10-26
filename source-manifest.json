@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "collectionVersion": "2026.10.25",
+  "collectionVersion": "2026.10.26",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,38 +19,38 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "BADC20797A8BD758A00D1228DEBDA61EBD0004504AF9B1401F0B768DFDC493CF",
-      "bytes": 767
+      "sha256": "F47778F06643B9A525260058E5540C3E1C767C77028E5371C2F5F45F60FA8467",
+      "bytes": 823
     },
     {
-      "path": "docs/GITHUB.md",
-      "sha256": "A9FC4244E8C514A704797DA3B43D0D6C8C9FE2B477847D2FF3E9EA93E27F14F3",
-      "bytes": 2960
+      "path": "docs/MAINTENANCE.md",
+      "sha256": "196B54A0C974AEB8E8462A8199E0AC944B6EBF315E953774E543110507DEF158",
+      "bytes": 1876
     },
     {
       "path": "docs/USAGE.md",
-      "sha256": "77744A6FBE82473507549F18426686E0BA2E6CEB45E08B68E210E86C7A47B75E",
-      "bytes": 5895
+      "sha256": "A1B4F682BF1BAD527944FA9E776D946ABF9A00DE646F2702CC092DE3F82CAACA",
+      "bytes": 5134
     },
     {
       "path": "docs/VALIDATION.md",
-      "sha256": "D7E3AF8B65F6A036DF5D81053A3998651A1DC2A7B6AA39B3DB3C6D78203B0C39",
-      "bytes": 3039
+      "sha256": "AC7F4F8516C56CF7148B2F7A201E95C13986B1AE45A1FFBC42832FCBA84A61F6",
+      "bytes": 1159
     },
     {
       "path": "docs/VERSIONS.md",
-      "sha256": "E7C9CC6462C44BBEAFB49AE7EEAB5D8C74E54D83235DAC83CAA3E0C72628D0F7",
-      "bytes": 1592
+      "sha256": "7091AE730D9D91CE420F11C17F85B64A654C1CE8A30BEEFE8CCD7F307F690607",
+      "bytes": 1634
     },
     {
       "path": "LICENSE.md",
-      "sha256": "D111154141D53CCCEF748A930CCE65C75AAE533217387DCEAAFCA576BFABF3EA",
-      "bytes": 1237
+      "sha256": "0A5F9ADF1CA06A855A963724BD6B5F0462A1C23C4297D48C8A911AEE2C94E064",
+      "bytes": 1241
     },
     {
       "path": "NOTICE.md",
-      "sha256": "183CD041564E40BEF07019B0608A735DEE47008E2E92057C15F96DD7C3036184",
-      "bytes": 2225
+      "sha256": "AE3D5D78F6814648E01A99292C1B0EA41F6E1376056CB83B68439AF0B1991B4E",
+      "bytes": 2252
     },
     {
       "path": "Package-Source.ps1",
@@ -74,23 +74,23 @@
     },
     {
       "path": "patches/rdcman-2.93/CHANGELOG.md",
-      "sha256": "9884949C6CBB03B7118D9AAD93AE4E30C8826BE9ACB507761D963317A786B58E",
-      "bytes": 2782
+      "sha256": "C0C7BA07E79258C5A40568BFD3871C9B3055F154B9CAAF79E6AFE50D20685658",
+      "bytes": 764
     },
     {
       "path": "patches/rdcman-2.93/docs/维护说明.md",
-      "sha256": "98802FC5DF7FE4C95B38C951CAD4B58371AE4C11E81FFCF4EF687BE10DD98A62",
-      "bytes": 5265
+      "sha256": "93CF784419358AABF2AE5486609E9E2DB9DE29256DB1405108D53A17ACFEDC52",
+      "bytes": 1469
     },
     {
       "path": "patches/rdcman-2.93/docs/验证记录.md",
-      "sha256": "C37354C5D82981CD6A4D5F2B2D87FC34B7EC2A3E9A1DD0993A7B7152A673DC7C",
-      "bytes": 9414
+      "sha256": "052625F70E759F252F8C52F9FA455B945BFE02A90FF0C4DDDE2871213EF78BC4",
+      "bytes": 828
     },
     {
       "path": "patches/rdcman-2.93/docs/依赖说明.md",
-      "sha256": "DB6D5C94AE7EC9C63F44A0BED9809AB67AF489E5EF149C483F54F7FCAE349145",
-      "bytes": 1265
+      "sha256": "1A8BFC5430C524E0BACBE3BBCE8D61D82FAE9C69F347D1E6CBDB8A9D2E94FCB3",
+      "bytes": 970
     },
     {
       "path": "patches/rdcman-2.93/docs/中英对照.tsv",
@@ -124,8 +124,8 @@
     },
     {
       "path": "patches/rdcman-2.93/README.md",
-      "sha256": "9FEB22D45FDC7D7FE0C916971A480C22348887FF6A7FA3D2F9133DB25E1BD03F",
-      "bytes": 3267
+      "sha256": "80E2DF124F1A7FFDB073001D3F173331E2A7B86B4F0DADEBAB182CD5FD2F520C",
+      "bytes": 1625
     },
     {
       "path": "patches/rdcman-2.93/Restore-RdcManPatch.ps1",
@@ -154,8 +154,8 @@
     },
     {
       "path": "patches/rdcman-2.93/source-manifest.json",
-      "sha256": "E059FE1CCBAD908331B810FF766F0B11B7EDC2C6FF57A9EF1E5DF132C008DE47",
-      "bytes": 3693
+      "sha256": "19E9AA6F61889CE3732ACCEFDFFB85369CA5D7D7B0EA9178804C56287F83EE32",
+      "bytes": 3690
     },
     {
       "path": "patches/rdcman-2.93/Test-RdcManPatch.ps1",
@@ -194,23 +194,23 @@
     },
     {
       "path": "patches/rdcman-3.22-x64/CHANGELOG.md",
-      "sha256": "49E9F0ED421A4780F84AD715E5FAC0252CD2306AAA22C9FD0A47A33C68A259B1",
-      "bytes": 1526
+      "sha256": "5DAF5D2EF5BAF6D609A918AFA27B4AD83DAB7552B4915E9F5149F8B4B86690C7",
+      "bytes": 618
     },
     {
       "path": "patches/rdcman-3.22-x64/docs/维护说明.md",
-      "sha256": "F72D9AAAE15634349BECDF405C78CAA76ED9A2FA74CEAAA8DCE8BEFA1B3D89E8",
-      "bytes": 3250
+      "sha256": "F9062F833ABB3DE86A0F24BA1C9F0188C634949ABE723F988B554567A1A81DA9",
+      "bytes": 1436
     },
     {
       "path": "patches/rdcman-3.22-x64/docs/验证记录.md",
-      "sha256": "DE114DC0AADC372437FC1D74317E0EC6605F71A89717E348DBE152B49609EF9B",
-      "bytes": 5083
+      "sha256": "C72B363BFE22B4AA3B1BBD8DBA04923A543073BFE60D9E0519555682B1919969",
+      "bytes": 811
     },
     {
       "path": "patches/rdcman-3.22-x64/docs/依赖说明.md",
-      "sha256": "CE9A48BEC2ADFC1D153EAFD6333482921C158F1073CC2067C6B9251A202E5CAD",
-      "bytes": 1804
+      "sha256": "0B662518DF09445F0A8D4574D4E63AAEA48233C2E344A48C4F6E9982B8DF2653",
+      "bytes": 940
     },
     {
       "path": "patches/rdcman-3.22-x64/docs/中英对照.tsv",
@@ -244,8 +244,8 @@
     },
     {
       "path": "patches/rdcman-3.22-x64/README.md",
-      "sha256": "DCE57342548D0A9EDCF6E2844AA42AFA4C1613F263FC06C84F52FA9DD33D87E9",
-      "bytes": 3343
+      "sha256": "2431BF2E695C3E68265F433B9D80BBCC7893E0F7EF64F23B6B00AF2991EDCA7C",
+      "bytes": 1623
     },
     {
       "path": "patches/rdcman-3.22-x64/Restore-RdcManPatch.ps1",
@@ -274,8 +274,8 @@
     },
     {
       "path": "patches/rdcman-3.22-x64/source-manifest.json",
-      "sha256": "B8DBB4882FC7D5F96576413F1BDBD92803C3E6D699145435490423F86A54104F",
-      "bytes": 3528
+      "sha256": "BF5ECB444780C13BD1FF7EC022A3CE8C7870447BF99F2CB2618029E4ACF5A29A",
+      "bytes": 3525
     },
     {
       "path": "patches/rdcman-3.22-x64/Test-RdcManPatch.ps1",
@@ -309,23 +309,23 @@
     },
     {
       "path": "patches/rdcman-3.22-x86/CHANGELOG.md",
-      "sha256": "F7ABF682464B77E053BE58B8204BE7A22D8898A551360C03DDDD29C3D5E51582",
-      "bytes": 2586
+      "sha256": "2DF4BE3D020FD1BBA7E18661B65E2A12EDF507E6B164A8A2C826978C4C8E5079",
+      "bytes": 812
     },
     {
       "path": "patches/rdcman-3.22-x86/docs/维护说明.md",
-      "sha256": "7A76270FF62F91F9EAB077E9F9549CB787A29F902D66051DCF0EF626588826E6",
-      "bytes": 4093
+      "sha256": "ED92973D0CC7242AAB2EBAD7D7AA5D15CCC48FE4FD4EFDFF18BA34D7ACD30F3B",
+      "bytes": 1530
     },
     {
       "path": "patches/rdcman-3.22-x86/docs/验证记录.md",
-      "sha256": "8B1235617227709A1A4D3BEC76C1083EDFD94181921E6A660D5B390503F7521B",
-      "bytes": 5992
+      "sha256": "20519677A4C61CC4013CAEDEA1DFC1AAD540A55A464A76505926A224730B814C",
+      "bytes": 872
     },
     {
       "path": "patches/rdcman-3.22-x86/docs/依赖说明.md",
-      "sha256": "B60070DD40C30C135BAA56C9E3F8B4EDA974A8AE68338B7F4FBF6B7EE4C681E6",
-      "bytes": 2981
+      "sha256": "64797F145422FA1F3BC63C1E420C1CECC910B8A84A244E2D882A8C25F7426E02",
+      "bytes": 1502
     },
     {
       "path": "patches/rdcman-3.22-x86/docs/中英对照.tsv",
@@ -364,8 +364,8 @@
     },
     {
       "path": "patches/rdcman-3.22-x86/README.md",
-      "sha256": "989D1A9A75AEC3193188174DB27429B44DD1A100F692174897F733E32ADE6498",
-      "bytes": 3699
+      "sha256": "5AD83D7E6E210886E74A0F73BA68B833A8E7AF2AE65379C4D3B87F46AF015F02",
+      "bytes": 1635
     },
     {
       "path": "patches/rdcman-3.22-x86/Restore-RdcManPatch.ps1",
@@ -399,8 +399,8 @@
     },
     {
       "path": "patches/rdcman-3.22-x86/source-manifest.json",
-      "sha256": "1D1C4EB20D8D5978483DE3E962A44BE9DB9A48E13320449779E7F651AA33E0EE",
-      "bytes": 3846
+      "sha256": "372E581D01AAB3C348F4EDABC05572F175A6C39B3DA991632CD48AE827BB18F3",
+      "bytes": 3844
     },
     {
       "path": "patches/rdcman-3.22-x86/Test-RdcManPatch.ps1",
@@ -419,12 +419,12 @@
     },
     {
       "path": "README.md",
-      "sha256": "D1A01BF2888DCD3D7C780E592E68997E1DA74529F71D5031132F71B06ED63100",
-      "bytes": 4848
+      "sha256": "1AD0ACD5230ECE46D3D872D345306B08A5F5A631BFDBF2B103CA572C98DD1784",
+      "bytes": 3256
     },
     {
       "path": "repository.json",
-      "sha256": "A62002AC761CD15D7BC68A61ACA938C8F9E4227414725CFF2F87F89FDFAA97D2",
+      "sha256": "87A632E5EBC34578508E2DD69F55F7141C2610BA5786C624EEC4FE8C513A0AF3",
       "bytes": 1005
     },
     {
@@ -439,8 +439,8 @@
     },
     {
       "path": "tools/Update-SourceManifest.ps1",
-      "sha256": "9E2081A0095543656FA00F45F34ACA0589F2EB492B0A58BCE68EC847AE1DA640",
-      "bytes": 1807
+      "sha256": "DF669BADFD230461299ED7E49D50E897CE5E0FAC5A55BAAB845738A8C2A652A6",
+      "bytes": 1812
     }
   ]
 }

@@ -1,100 +1,113 @@
-# 使用步骤
+# 使用指南
 
-所有命令在 Windows PowerShell 5.1 或 PowerShell 7 中执行。示例中的 `D:` 路径须按实际情况替换。首次使用前先查看根目录 README、NOTICE 和具体模块的 `patch.json`。
+## 准备
 
-## 1. 准备原版与环境
+- 使用 Windows PowerShell 5.1 或 PowerShell 7。
+- 准备有权使用且 SHA256 匹配的原版，详见[版本与校验值](VERSIONS.md)。[微软官方页面](https://learn.microsoft.com/en-us/sysinternals/downloads/rdcman)可能只提供当前版本，本项目不提供旧版镜像。
+- 2.93 需要 .NET Framework 4.8；3.22 需要 Python 3.9+，无需额外 pip 包。
+- 完整解压源码。原版和生成目录放在仓库外，生成目录必须尚不存在。
 
-1. 自行取得有权使用的受支持原版，不使用已经汉化的 EXE 作为输入。
-2. 用 `Get-FileHash -Algorithm SHA256` 核对 [版本表](VERSIONS.md)。版本号相同但哈希不同也不支持，不应删除校验代码强行运行。
-3. 2.93 需要 .NET Framework 4.8 及其 `csc.exe`；3.22 构建和复检需要 Python 3.9+，不需要额外 pip 包。脚本不安装 Python。
-4. 把原版和将要生成的文件放在仓库外。输出目录必须尚不存在，输入原版不被覆盖。
+## 选择模块
 
-## 2. 选择一个模块
+在仓库根目录打开 PowerShell，按需要选择一组命令。输入原版完整路径时无需加引号；如桌面已有同名输出目录，请修改 `$output` 的文件夹名称。
 
-下方三组命令相互独立。`Set-Location` 命令均从仓库根目录出发；运行另一组前先返回仓库根目录，或直接使用该模块的绝对路径。
-
-### 2.93
+### RDCMan 2.93
 
 ```powershell
 Set-Location .\patches\rdcman-2.93
-
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\2.93\RDCMan.exe' -OutputDirectory 'D:\RDCMan-build\2.93-zh' -WhatIf
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\2.93\RDCMan.exe' -OutputDirectory 'D:\RDCMan-build\2.93-zh' -DownloadDependency
-.\Test-RdcManPatch.ps1 -OutputDirectory 'D:\RDCMan-build\2.93-zh'
+$source = Read-Host '原版 RDCMan.exe 的完整路径'
+$output = Join-Path ([Environment]::GetFolderPath('Desktop')) 'RDCMan-2.93-zh'
 ```
 
-最后手动打开输出目录中的 `RDCMan.exe`。
-
-### 3.22 x64
+### RDCMan 3.22 x64
 
 ```powershell
 Set-Location .\patches\rdcman-3.22-x64
-
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\3.22-x64\RDCMan.exe' -OutputDirectory 'D:\RDCMan-build\3.22-x64-zh' -WhatIf
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\3.22-x64\RDCMan.exe' -OutputDirectory 'D:\RDCMan-build\3.22-x64-zh' -DownloadDependency
-.\Test-RdcManPatch.ps1 -OutputDirectory 'D:\RDCMan-build\3.22-x64-zh'
+$source = Read-Host '原版 x64 RDCMan.exe 的完整路径'
+$output = Join-Path ([Environment]::GetFolderPath('Desktop')) 'RDCMan-3.22-x64-zh'
 ```
 
-最后手动打开输出目录中的 `RDCMan.exe`。未将 Python 加入 PATH 时，给构建和复检命令额外传入 `-PythonPath 'D:\Python311\python.exe'`。
-
-### 3.22 x86
+### RDCMan 3.22 x86
 
 ```powershell
 Set-Location .\patches\rdcman-3.22-x86
-
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\3.22-x86\RDCMan-x86.exe' -OutputDirectory 'D:\RDCMan-build\3.22-x86-zh' -WhatIf
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\3.22-x86\RDCMan-x86.exe' -OutputDirectory 'D:\RDCMan-build\3.22-x86-zh' -DownloadDependency
-.\Test-RdcManPatch.ps1 -OutputDirectory 'D:\RDCMan-build\3.22-x86-zh'
+$source = Read-Host '原版 RDCMan-x86.exe 的完整路径'
+$output = Join-Path ([Environment]::GetFolderPath('Desktop')) 'RDCMan-3.22-x86-zh'
 ```
 
-这里的下载参数会同时准备 Mono.Cecil 和固定版本的微软 x86 VC++ 运行库。运行库包只提取，不执行安装器。
+上面三组命令均从仓库根目录出发，选择一组后继续下方步骤。切换模块时请先返回仓库根目录，或重新打开 PowerShell。
 
-最后直接打开输出目录中的 `RDCMan-x86.exe`，或用 `启动中文版.cmd`；默认使用 RDCore，不需要 `-mstsc` 参数。另有可选的 `启动兼容模式.cmd`，使用程序原有 MSTSC 模式。
+## 生成并复检
 
-## 3. 离线构建
-
-在可联网电脑从官方来源取得固定依赖包，再转移到目标电脑。不要将依赖包加入 Git 仓库。
-
-2.93 和 x64：将上方构建命令的 `-DownloadDependency` 换为：
+在所选模块目录执行：
 
 ```powershell
--CecilPackagePath 'D:\Packages\mono.cecil.0.11.6.nupkg'
+# 检查原版和目标路径，不生成程序
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -WhatIf
+
+# 准备固定依赖并生成中文副本
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -DownloadDependency
+
+# 检查生成结果
+.\Test-RdcManPatch.ps1 -OutputDirectory $output
 ```
 
-此行是追加参数示意，不能单独作为命令执行。x86 的完整离线示例：
+`-DownloadDependency` 显式允许从固定来源获取依赖。x86 会同时准备指定版本的 VC++ 运行库，仅提取文件，不执行安装器。脚本不会下载 RDCMan 或启动远程连接。
+
+生成后，2.93 和 x64 的入口为 `RDCMan.exe`，x86 为 `RDCMan-x86.exe`。x86 默认使用 RDCore；`启动兼容模式.cmd` 是可选的 MSTSC 入口。
+
+3.22 未能自动找到 Python 时，可指定已安装解释器的位置：
 
 ```powershell
-.\Apply-RdcManPatch.ps1 -SourcePath 'D:\RDCMan-original\3.22-x86\RDCMan-x86.exe' -OutputDirectory 'D:\RDCMan-build\3.22-x86-zh' -CecilPackagePath 'D:\Packages\mono.cecil.0.11.6.nupkg' -VCRuntimePackagePath 'D:\Packages\VC_redist.x86.exe'
+$python = Read-Host 'python.exe 的完整路径'
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -DownloadDependency -PythonPath $python
+.\Test-RdcManPatch.ps1 -OutputDirectory $output -PythonPath $python
 ```
 
-依赖的精确版本、包地址和哈希见模块 `patch.json`。同名的新版 VC++ 安装包可能不匹配，不能替换固定依赖。缓存默认在模块的 `.local` 目录，已被 Git 忽略；生成和打包脚本不会把缓存加入源码 ZIP。
+## 离线构建
 
-## 4. 生成结果与复检
+在可联网的电脑从官方来源取得模块要求的固定依赖包，再复制到目标电脑。包名相同不代表版本和哈希相同，精确信息见各模块的 `patch.json` 和[第三方说明](../THIRD_PARTY_NOTICES.md)。
 
-生成目录至少包含汉化 EXE、`backup/RDCMan.original.exe` 和 `patch-report.json`。2.93 的构建和复检会执行 28 项不调用程序入口的运行检查；3.22 复检核对单文件包、261 项原有捆绑文件、宿主和资源，x86 还验证 7 项原生依赖。
-
-这些是本地生成的文件，不能作为源码包提交。修改副本的原版数字签名会失效，输入原版及其备份保持原始字节。
-
-首次启动时可能出现版本配置兼容提醒。汉化只改变提示语言，不删除未知配置或跳过警告。已有用户应先备份连接文件，再决定是否用旧版本保存。
-
-## 5. 恢复独立副本
-
-正常退出对应程序，在同一模块目录中运行，替换示例输出路径：
+2.93 和 x64 在设置好 `$source`、`$output` 后执行：
 
 ```powershell
-.\Restore-RdcManPatch.ps1 -OutputDirectory 'D:\RDCMan-build\2.93-zh' -WhatIf
-.\Restore-RdcManPatch.ps1 -OutputDirectory 'D:\RDCMan-build\2.93-zh'
+$cecilPackage = Read-Host 'mono.cecil.0.11.6.nupkg 的完整路径'
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -CecilPackagePath $cecilPackage
+.\Test-RdcManPatch.ps1 -OutputDirectory $output
 ```
 
-只恢复这个输出目录中的程序；汉化文件另存为 `.bak`，不覆盖最初的输入路径，不改连接文件、密码或偏好设置。备份损坏、目标有额外修改或仍在运行时会拒绝操作。
+x86 还需要固定版本的微软运行库包：
 
-## 6. 常见问题
+```powershell
+$cecilPackage = Read-Host 'mono.cecil.0.11.6.nupkg 的完整路径'
+$runtimePackage = Read-Host '指定版本 VC_redist.x86.exe 的完整路径'
+.\Apply-RdcManPatch.ps1 -SourcePath $source -OutputDirectory $output -CecilPackagePath $cecilPackage -VCRuntimePackagePath $runtimePackage
+.\Test-RdcManPatch.ps1 -OutputDirectory $output
+```
 
-- **禁止运行脚本**：按设备或组织政策处理，先审核脚本。项目不自动改变执行策略、不绕过组织限制、不自动解除下载文件的阻止标记。
-- **原版哈希不匹配**：核对版本、架构与是否误选汉化副本；不要删掉哈希检查。
-- **Python 不可用**：确认安装 3.9+，重新打开 PowerShell，或使用 `-PythonPath`。Microsoft Store 的占位别名不作为解释器执行。
-- **依赖下载失败**：使用离线固定包。包和 DLL 的哈希检查仍会执行。
-- **输出目录已存在**：指定新目录，不把已有原版或旧汉化目录当成输出目标。
-- **启动的还是旧界面**：检查快捷方式是否指向刚生成的目录。
-- **构建中断**：临时 `.rdcman-patch-*` 目录中可能有完整程序和提取文件；不要将它提交到 GitHub。
-- **反馈问题**：提供模块名、补丁版本、PowerShell 版本和简短复现步骤；不要附带真实 `.rdg`、账号、密码或完整个人日志。
+3.22 的离线构建同样需要事先安装 Python。依赖默认缓存在模块的 `.local` 目录。
+
+## 恢复英文副本
+
+先正常退出输出目录中的程序，在对应模块目录执行；若新开了 PowerShell，先重新设置 `$output` 为此前生成的目录。
+
+```powershell
+.\Restore-RdcManPatch.ps1 -OutputDirectory $output -WhatIf
+.\Restore-RdcManPatch.ps1 -OutputDirectory $output
+```
+
+恢复工具使用 `backup/RDCMan.original.exe`，仅恢复指定输出目录中的程序，并另存汉化副本。原始输入路径、连接文件和个人设置不会被修改。不要删除原版备份或手工改写构建报告。
+
+## 常见问题
+
+| 问题 | 处理方式 |
+|---|---|
+| 原版哈希不匹配 | 核对版本、架构及是否误选汉化文件，不跳过校验 |
+| 输出目录已存在 | 为 `$output` 选择一个新目录 |
+| 找不到 Python | 安装 Python 3.9+ 或指定 `-PythonPath` |
+| 下载依赖失败 | 使用匹配版本的离线包，仍需通过哈希校验 |
+| 禁止运行脚本 | 按设备或组织政策处理，先审核脚本；项目不自动修改执行策略 |
+| 仍显示旧界面 | 检查快捷方式是否指向新生成的目录 |
+| 未知 XML 节点或版本兼容提醒 | 先备份配置和连接文件，再决定是否继续保存 |
+
+本地生成的 EXE、原版备份、依赖缓存和个人配置均不属于源码发布内容。修改后的副本不再具有原版有效数字签名。

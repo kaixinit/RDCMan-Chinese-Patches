@@ -22,6 +22,6 @@ RDCMan、Sysinternals、微软运行库及其图标、商标和相关内容的�
 
 ## 许可范围
 
-本次整理没有为整个仓库新增 MIT、GPL 等统一开源许可证，也没有为微软内容授予许可。原创脚本、中文整理与第三方引用的范围见 [LICENSE.md](LICENSE.md)；依赖来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+本仓库未采用覆盖全部内容的 MIT、GPL 等统一开源许可证，也没有为微软内容授予许可。原创脚本、中文整理与第三方引用的范围见 [LICENSE.md](LICENSE.md)；依赖来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 补丁形式减少了直接携带原软件二进制的情形，不构成对版权、许可或其他法律问题的合规保证。

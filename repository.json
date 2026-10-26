@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "collectionVersion": "2026.10.25",
+  "collectionVersion": "2026.10.26",
   "translationAuthor": "kaixinit",
   "modules": [
     {
@@ -26,5 +26,5 @@
     }
   ],
   "githubRepository": "kaixinit/RDCMan-Chinese-Patches",
-  "releaseTag": "v2026.10.25"
+  "releaseTag": "v2026.10.26"
 }
